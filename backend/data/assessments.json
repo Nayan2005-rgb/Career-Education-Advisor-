@@ -1,0 +1,56 @@
+[
+  {
+    "id": "mth9grq7ldpxeck5je",
+    "user": "mth9fz2wc5x0rwlg2ak",
+    "interests": [
+      "technology"
+    ],
+    "strongSubjects": [
+      "computer science"
+    ],
+    "skills": [
+      "problem-solving",
+      "communication",
+      "creativity",
+      "leadership"
+    ],
+    "personality": "leadership",
+    "workStylePreference": "business",
+    "createdAt": "2026-08-31T13:15:21.823Z",
+    "updatedAt": "2026-08-31T13:15:21.823Z"
+  },
+  {
+    "id": "mth9jzxacn4llakgy4",
+    "user": "mth9fz2wc5x0rwlg2ak",
+    "interests": [
+      "technology"
+    ],
+    "strongSubjects": [
+      "computer science"
+    ],
+    "skills": [
+      "creativity"
+    ],
+    "personality": "social",
+    "workStylePreference": "independent",
+    "createdAt": "2026-08-31T13:17:52.414Z",
+    "updatedAt": "2026-08-31T13:17:52.414Z"
+  },
+  {
+    "id": "mtharxlpdgqgvhss3e",
+    "user": "mth9fz2wc5x0rwlg2ak",
+    "interests": [
+      "technology"
+    ],
+    "strongSubjects": [
+      "languages"
+    ],
+    "skills": [
+      "communication"
+    ],
+    "personality": "analytical",
+    "workStylePreference": "team-based",
+    "createdAt": "2026-08-31T13:52:02.269Z",
+    "updatedAt": "2026-08-31T13:52:02.269Z"
+  }
+]

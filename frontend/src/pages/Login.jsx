@@ -1,0 +1,37 @@
+import React, { useState } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
+import { authAPI } from '../services/api';
+
+export default function Login({ onLogin }) {
+  const [form, setForm] = useState({ email: '', password: '' });
+  const [error, setError] = useState('');
+  const navigate = useNavigate();
+
+  const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError('');
+    try {
+      const { data } = await authAPI.login(form);
+      localStorage.setItem('token', data.token);
+      onLogin();
+      navigate('/dashboard');
+    } catch (err) {
+      setError(err.response?.data?.message || 'Login failed');
+    }
+  };
+
+  return (
+    <div className="auth-page">
+      <h2>Login</h2>
+      {error && <p className="error">{error}</p>}
+      <form onSubmit={handleSubmit}>
+        <input type="email" name="email" placeholder="Email" onChange={handleChange} required />
+        <input type="password" name="password" placeholder="Password" onChange={handleChange} required />
+        <button type="submit" className="btn-primary">Login</button>
+      </form>
+      <p>Don't have an account? <Link to="/register">Register</Link></p>
+    </div>
+  );
+}

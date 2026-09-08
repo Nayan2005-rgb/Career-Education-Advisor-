@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Software Engineer",
+    "description": "Designs, builds, and maintains software applications and systems.",
+    "tags": ["technology", "problem-solving", "math", "computer science", "logic"],
+    "recommendedCourses": ["B.Tech Computer Science", "B.Sc Computer Science", "BCA"],
+    "personalityFit": ["analytical", "introverted-friendly"]
+  },
+  {
+    "title": "Data Scientist",
+    "description": "Analyzes large datasets to extract insights and build predictive models.",
+    "tags": ["technology", "math", "statistics", "problem-solving", "research"],
+    "recommendedCourses": ["B.Sc Statistics", "B.Tech Data Science", "B.Sc Mathematics"],
+    "personalityFit": ["analytical"]
+  },
+  {
+    "title": "UX/UI Designer",
+    "description": "Designs intuitive and visually engaging digital experiences for users.",
+    "tags": ["design", "creativity", "technology", "communication"],
+    "recommendedCourses": ["B.Des", "BFA", "B.Sc Human-Computer Interaction"],
+    "personalityFit": ["creative", "social"]
+  },
+  {
+    "title": "Doctor (Physician)",
+    "description": "Diagnoses and treats illnesses, and promotes patient health and wellness.",
+    "tags": ["biology", "chemistry", "healthcare", "helping others", "science"],
+    "recommendedCourses": ["MBBS", "B.Sc Biology (pre-med track)"],
+    "personalityFit": ["social", "analytical"]
+  },
+  {
+    "title": "Mechanical Engineer",
+    "description": "Designs and builds mechanical systems, machines, and tools.",
+    "tags": ["engineering", "math", "physics", "problem-solving"],
+    "recommendedCourses": ["B.Tech Mechanical Engineering", "B.E. Mechanical"],
+    "personalityFit": ["analytical"]
+  },
+  {
+    "title": "Business Analyst",
+    "description": "Bridges business needs and technology solutions through data-driven analysis.",
+    "tags": ["business", "math", "communication", "problem-solving"],
+    "recommendedCourses": ["BBA", "B.Com", "B.Sc Business Analytics"],
+    "personalityFit": ["analytical", "social"]
+  },
+  {
+    "title": "Content Writer / Journalist",
+    "description": "Researches and writes engaging content across media platforms.",
+    "tags": ["writing", "communication", "creativity", "languages", "research"],
+    "recommendedCourses": ["BA English", "BA Journalism & Mass Communication"],
+    "personalityFit": ["creative", "social"]
+  },
+  {
+    "title": "Psychologist",
+    "description": "Studies human behavior and mental processes to help individuals and groups.",
+    "tags": ["psychology", "helping others", "communication", "biology", "research"],
+    "recommendedCourses": ["BA/B.Sc Psychology"],
+    "personalityFit": ["social", "analytical"]
+  },
+  {
+    "title": "Entrepreneur / Startup Founder",
+    "description": "Builds and runs new business ventures, taking on risk to solve market problems.",
+    "tags": ["business", "leadership", "creativity", "problem-solving"],
+    "recommendedCourses": ["BBA", "B.Com", "Any degree + entrepreneurship program"],
+    "personalityFit": ["creative", "leadership", "analytical"]
+  },
+  {
+    "title": "Civil Engineer",
+    "description": "Plans, designs, and oversees construction of infrastructure like roads and buildings.",
+    "tags": ["engineering", "math", "physics", "design"],
+    "recommendedCourses": ["B.Tech Civil Engineering", "B.E. Civil"],
+    "personalityFit": ["analytical"]
+  },
+  {
+    "title": "Graphic Designer",
+    "description": "Creates visual content to communicate ideas through typography, imagery, and layout.",
+    "tags": ["design", "creativity", "art", "technology"],
+    "recommendedCourses": ["BFA", "B.Des Visual Communication"],
+    "personalityFit": ["creative"]
+  },
+  {
+    "title": "Teacher / Educator",
+    "description": "Instructs and mentors students, shaping learning experiences in a subject area.",
+    "tags": ["helping others", "communication", "leadership", "any subject"],
+    "recommendedCourses": ["B.Ed", "Subject degree + B.Ed"],
+    "personalityFit": ["social"]
+  }
+]
