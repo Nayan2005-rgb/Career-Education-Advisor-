@@ -1,0 +1,224 @@
+const GovtResidentialSchool = require('../models/GovtResidentialSchool');
+
+const sampleGovtResidentialSchools = [
+  {
+    id: "jnv-001",
+    name: "Jawahar Navodaya Vidyalaya (Sample District)",
+    category: "Jawahar Navodaya Vidyalaya",
+    location: "Sample District, Sample State",
+    state: "Sample State",
+    district: "Sample District",
+    gender: "Co-educational",
+    eligibility: "Class 6 admission through JNVST test. Students should be studying in Class 5 in a government or government-recognized school.",
+    admissionInfo: "Admission is through Jawahar Navodaya Vidyalaya Selection Test (JNVST) conducted by CBSE. 75% seats reserved for rural students, 25% for urban students.",
+    entranceExam: "JNVST (Jawahar Navodaya Vidyalaya Selection Test)",
+    hostelAvailable: true,
+    hostelInfo: "Free residential facility provided. Hostel facilities include separate dormitories, study halls, and recreational areas.",
+    fees: "Free education and residential facilities for all students. Only nominal fees for certain amenities.",
+    officialInfo: "Managed by Navodaya Vidyalaya Samiti, Ministry of Education, Government of India. Visit navodaya.gov.in for official information.",
+    facilities: ["Library", "Laboratories", "Sports Ground", "Computer Lab", "Dining Hall", "Medical Room"],
+    established: "1986",
+    contact: "contact@sample-jnv.edu"
+  },
+  {
+    id: "jnv-002",
+    name: "Jawahar Navodaya Vidyalaya (Another District)",
+    category: "Jawahar Navodaya Vidyalaya",
+    location: "Another District, Sample State",
+    state: "Sample State",
+    district: "Another District",
+    gender: "Co-educational",
+    eligibility: "Class 6 admission through JNVST test. Students should be studying in Class 5 in a government or government-recognized school.",
+    admissionInfo: "Admission is through Jawahar Navodaya Vidyalaya Selection Test (JNVST) conducted by CBSE. 75% seats reserved for rural students, 25% for urban students.",
+    entranceExam: "JNVST (Jawahar Navodaya Vidyalaya Selection Test)",
+    hostelAvailable: true,
+    hostelInfo: "Free residential facility provided. Hostel facilities include separate dormitories, study halls, and recreational areas.",
+    fees: "Free education and residential facilities for all students. Only nominal fees for certain amenities.",
+    officialInfo: "Managed by Navodaya Vidyalaya Samiti, Ministry of Education, Government of India. Visit navodaya.gov.in for official information.",
+    facilities: ["Library", "Laboratories", "Sports Ground", "Computer Lab", "Dining Hall", "Medical Room"],
+    established: "1987",
+    contact: "contact@another-jnv.edu"
+  },
+  {
+    id: "sainik-001",
+    name: "Sainik School (Sample Location)",
+    category: "Sainik School",
+    location: "Sample District, Sample State",
+    state: "Sample State",
+    district: "Sample District",
+    gender: "Boys Only",
+    eligibility: "Class 6 admission: Age 10-12 years as on March 31 of admission year. Class 9 admission: Age 13-15 years. Should have passed previous class.",
+    admissionInfo: "Admission through All India Sainik Schools Entrance Examination (AISSEE) followed by medical examination and interview.",
+    entranceExam: "AISSEE (All India Sainik Schools Entrance Examination)",
+    hostelAvailable: true,
+    hostelInfo: "Mandatory residential facility. Cadets live in houses/houses with house masters. Military-style discipline and routine.",
+    fees: "Approximately ₹80,000-1,20,000 per year including tuition, boarding, and uniform. Scholarships available for meritorious students.",
+    officialInfo: "Managed by Sainik Schools Society, Ministry of Defence. Visit sainikschoolguide.in for official information.",
+    facilities: ["Parade Ground", "Shooting Range", "Obstacle Course", "Library", "Laboratories", "Sports Complex", "NCC Training"],
+    established: "1961",
+    contact: "admissions@sample-sainik.edu"
+  },
+  {
+    id: "sainik-002",
+    name: "Sainik School (Another Location)",
+    category: "Sainik School",
+    location: "Another District, Another State",
+    state: "Another State",
+    district: "Another District",
+    gender: "Boys Only",
+    eligibility: "Class 6 admission: Age 10-12 years as on March 31 of admission year. Class 9 admission: Age 13-15 years. Should have passed previous class.",
+    admissionInfo: "Admission through All India Sainik Schools Entrance Examination (AISSEE) followed by medical examination and interview.",
+    entranceExam: "AISSEE (All India Sainik Schools Entrance Examination)",
+    hostelAvailable: true,
+    hostelInfo: "Mandatory residential facility. Cadets live in houses/houses with house masters. Military-style discipline and routine.",
+    fees: "Approximately ₹80,000-1,20,000 per year including tuition, boarding, and uniform. Scholarships available for meritorious students.",
+    officialInfo: "Managed by Sainik Schools Society, Ministry of Defence. Visit sainikschoolguide.in for official information.",
+    facilities: ["Parade Ground", "Shooting Range", "Obstacle Course", "Library", "Laboratories", "Sports Complex", "NCC Training"],
+    established: "1963",
+    contact: "admissions@another-sainik.edu"
+  },
+  {
+    id: "emrs-001",
+    name: "Eklavya Model Residential School (Sample District)",
+    category: "Eklavya Model Residential School",
+    location: "Sample District, Sample State",
+    state: "Sample State",
+    district: "Sample District",
+    gender: "Co-educational",
+    eligibility: "Primarily for ST (Scheduled Tribe) students. Class 6 admission through entrance test. Should belong to ST category with valid certificate.",
+    admissionInfo: "Admission through state-level entrance examination. 75% seats for ST students, 25% for other categories as per state norms.",
+    entranceExam: "State-level EMRS Entrance Examination",
+    hostelAvailable: true,
+    hostelInfo: "Free residential facility provided. Separate hostels for boys and girls with wardens. Nutritious meals provided.",
+    fees: "Free education and residential facilities for ST students. Nominal fees for other categories as per state government norms.",
+    officialInfo: "Managed by Ministry of Tribal Affairs, Government of India. Visit tribal.nic.in for official information.",
+    facilities: ["Library", "Computer Lab", "Science Laboratories", "Sports Facilities", "Cultural Activity Room", "Dining Hall"],
+    established: "1997",
+    contact: "info@sample-emrs.edu"
+  },
+  {
+    id: "emrs-002",
+    name: "Eklavya Model Residential School (Another District)",
+    category: "Eklavya Model Residential School",
+    location: "Another District, Another State",
+    state: "Another State",
+    district: "Another District",
+    gender: "Co-educational",
+    eligibility: "Primarily for ST (Scheduled Tribe) students. Class 6 admission through entrance test. Should belong to ST category with valid certificate.",
+    admissionInfo: "Admission through state-level entrance examination. 75% seats for ST students, 25% for other categories as per state norms.",
+    entranceExam: "State-level EMRS Entrance Examination",
+    hostelAvailable: true,
+    hostelInfo: "Free residential facility provided. Separate hostels for boys and girls with wardens. Nutritious meals provided.",
+    fees: "Free education and residential facilities for ST students. Nominal fees for other categories as per state government norms.",
+    officialInfo: "Managed by Ministry of Tribal Affairs, Government of India. Visit tribal.nic.in for official information.",
+    facilities: ["Library", "Computer Lab", "Science Laboratories", "Sports Facilities", "Cultural Activity Room", "Dining Hall"],
+    established: "1998",
+    contact: "info@another-emrs.edu"
+  },
+  {
+    id: "rms-001",
+    name: "Rashtriya Military School (Sample Location)",
+    category: "Rashtriya Military School",
+    location: "Sample City, Sample State",
+    state: "Sample State",
+    district: "Sample District",
+    gender: "Boys Only",
+    eligibility: "Class 6 admission: Age 10-12 years as on July 1 of admission year. Class 9 admission: Age 13-15 years. Should have passed previous class.",
+    admissionInfo: "Admission through Common Entrance Test (CET) conducted by AWES. Medical examination and interview required for selected candidates.",
+    entranceExam: "CET (Common Entrance Test) by AWES",
+    hostelAvailable: true,
+    hostelInfo: "Mandatory residential facility. Military-style boarding with house system. Physical training and discipline integral to daily routine.",
+    fees: "Approximately ₹1,00,000-1,50,000 per year including tuition, boarding, uniform, and other charges. Defence quotas available.",
+    officialInfo: "Managed by Army Welfare Education Society (AWES). Visit awesindia.com for official information.",
+    facilities: ["Parade Ground", "Gymnasium", "Shooting Range", "Obstacle Course", "Library", "Laboratories", "Sports Complex", "NCC"],
+    established: "1945",
+    contact: "admissions@sample-rms.edu"
+  },
+  {
+    id: "rms-002",
+    name: "Rashtriya Military School (Another Location)",
+    category: "Rashtriya Military School",
+    location: "Another City, Another State",
+    state: "Another State",
+    district: "Another District",
+    gender: "Boys Only",
+    eligibility: "Class 6 admission: Age 10-12 years as on July 1 of admission year. Class 9 admission: Age 13-15 years. Should have passed previous class.",
+    admissionInfo: "Admission through Common Entrance Test (CET) conducted by AWES. Medical examination and interview required for selected candidates.",
+    entranceExam: "CET (Common Entrance Test) by AWES",
+    hostelAvailable: true,
+    hostelInfo: "Mandatory residential facility. Military-style boarding with house system. Physical training and discipline integral to daily routine.",
+    fees: "Approximately ₹1,00,000-1,50,000 per year including tuition, boarding, uniform, and other charges. Defence quotas available.",
+    officialInfo: "Managed by Army Welfare Education Society (AWES). Visit awesindia.com for official information.",
+    facilities: ["Parade Ground", "Gymnasium", "Shooting Range", "Obstacle Course", "Library", "Laboratories", "Sports Complex", "NCC"],
+    established: "1946",
+    contact: "admissions@another-rms.edu"
+  },
+  {
+    id: "grs-001",
+    name: "Government Residential School (Sample District)",
+    category: "Government Residential/Ashram School",
+    location: "Sample District, Sample State",
+    state: "Sample State",
+    district: "Sample District",
+    gender: "Co-educational",
+    eligibility: "Based on state government norms. Often priority for economically weaker sections, SC/ST/OBC categories, and rural students.",
+    admissionInfo: "Admission through state government guidelines. Merit-based or need-based as per specific school and state policies.",
+    entranceExam: "Varies by state and school - some have entrance tests, others merit-based",
+    hostelAvailable: true,
+    hostelInfo: "Residential facility provided. Separate dormitories for boys and girls. Basic amenities and meals provided at subsidized rates.",
+    fees: "Highly subsidized or free based on state government policies and student category. Usually nominal charges for maintenance.",
+    officialInfo: "Managed by State Government Education Department. Contact state education department for official information.",
+    facilities: ["Classrooms", "Library", "Basic Science Lab", "Playground", "Dining Hall", "Hostel Buildings"],
+    established: "1985",
+    contact: "info@sample-grs.edu"
+  },
+  {
+    id: "grs-002",
+    name: "Government Ashram School (Tribal Area)",
+    category: "Government Residential/Ashram School",
+    location: "Tribal District, Sample State",
+    state: "Sample State",
+    district: "Tribal District",
+    gender: "Co-educational",
+    eligibility: "Primarily for tribal and marginalized communities. Priority for children from tribal areas and economically disadvantaged families.",
+    admissionInfo: "Admission based on tribal certificates and state government norms. Often no strict entrance examination, focus on access.",
+    entranceExam: "Generally merit-based or need-based, varies by state",
+    hostelAvailable: true,
+    hostelInfo: "Free residential facility provided. Ashram-style living with emphasis on cultural preservation alongside education.",
+    fees: "Free or highly subsidized for eligible tribal students. Some nominal charges for specific items.",
+    officialInfo: "Managed by State Tribal Welfare Department. Contact state tribal welfare department for official information.",
+    facilities: ["Classrooms", "Cultural Activity Center", "Library", "Playground", "Community Kitchen", "Residential Huts"],
+    established: "1990",
+    contact: "info@sample-ashram.edu"
+  }
+];
+
+// Seed the database
+async function seedGovtResidentialSchools() {
+  try {
+    console.log('Seeding government residential schools database...');
+    
+    // Clear existing data
+    const existingSchools = GovtResidentialSchool.findAll();
+    if (existingSchools.length > 0) {
+      console.log(`Found ${existingSchools.length} existing government residential schools. Skipping seed to preserve data.`);
+      return;
+    }
+
+    // Add sample schools
+    for (const school of sampleGovtResidentialSchools) {
+      await GovtResidentialSchool.create(school);
+    }
+
+    console.log(`Successfully seeded ${sampleGovtResidentialSchools.length} government residential schools.`);
+  } catch (error) {
+    console.error('Error seeding government residential schools:', error);
+  }
+}
+
+// Run if executed directly
+if (require.main === module) {
+  seedGovtResidentialSchools();
+}
+
+module.exports = { seedGovtResidentialSchools, sampleGovtResidentialSchools };

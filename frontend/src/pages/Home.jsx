@@ -57,7 +57,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="features-section">
+      <section id="features" className="features-section">
         <h2 className="section-title">Everything You Need in One Place</h2>
         <div className="features-grid">
           <div className="feature-card">

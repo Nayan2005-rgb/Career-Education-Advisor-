@@ -16,9 +16,34 @@ export default function AssessmentForm({ onSubmit, loading }) {
   const [skills, setSkills] = useState([]);
   const [personality, setPersonality] = useState('');
   const [workStylePreference, setWorkStylePreference] = useState('');
+  const [validationError, setValidationError] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setValidationError('');
+    
+    // Basic validation
+    if (interests.length === 0) {
+      setValidationError('Please select at least one interest');
+      return;
+    }
+    if (strongSubjects.length === 0) {
+      setValidationError('Please select at least one strong subject');
+      return;
+    }
+    if (skills.length === 0) {
+      setValidationError('Please select at least one skill');
+      return;
+    }
+    if (!personality) {
+      setValidationError('Please select a personality type');
+      return;
+    }
+    if (!workStylePreference) {
+      setValidationError('Please select a preferred work style');
+      return;
+    }
+    
     onSubmit({ interests, strongSubjects, skills, personality, workStylePreference });
   };
 
@@ -42,6 +67,7 @@ export default function AssessmentForm({ onSubmit, loading }) {
 
   return (
     <form onSubmit={handleSubmit} className="assessment-form">
+      {validationError && <p className="error">{validationError}</p>}
       <CheckboxGroup label="Your Interests" options={INTEREST_OPTIONS} selected={interests} setSelected={setInterests} />
       <CheckboxGroup label="Strong Subjects" options={SUBJECT_OPTIONS} selected={strongSubjects} setSelected={setStrongSubjects} />
       <CheckboxGroup label="Your Skills" options={SKILL_OPTIONS} selected={skills} setSelected={setSkills} />

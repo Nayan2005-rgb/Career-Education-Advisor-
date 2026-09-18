@@ -16,7 +16,7 @@ export default function Profile() {
         setUser(meRes.data);
         setHistory(historyRes.data);
       } catch (err) {
-        setError(err.response?.data?.message || 'Failed to load profile');
+        setError(err.response?.data?.message || 'Unable to load profile. Please try again.');
       }
     };
     load();

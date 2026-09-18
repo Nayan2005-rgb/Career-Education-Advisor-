@@ -52,5 +52,224 @@
     "workStylePreference": "team-based",
     "createdAt": "2026-08-31T13:52:02.269Z",
     "updatedAt": "2026-08-31T13:52:02.269Z"
+  },
+  {
+    "id": "mu3od7o9ca4yjws7ekg",
+    "user": "mu3ocmxw57kwpi2319q",
+    "interests": [
+      "technology"
+    ],
+    "strongSubjects": [
+      "computer science"
+    ],
+    "skills": [
+      "leadership"
+    ],
+    "personality": "leadership",
+    "workStylePreference": "independent",
+    "createdAt": "2026-09-16T05:43:25.977Z",
+    "updatedAt": "2026-09-16T05:43:25.977Z"
+  },
+  {
+    "id": "mu3og7vr5nav1irmo9i",
+    "user": "mu3og06e59nb2x6g7ms",
+    "interests": [
+      "technology",
+      "computer science"
+    ],
+    "strongSubjects": [
+      "math",
+      "computer science"
+    ],
+    "skills": [
+      "problem-solving",
+      "communication"
+    ],
+    "personality": "analytical",
+    "workStylePreference": "independent",
+    "createdAt": "2026-09-16T05:45:46.215Z",
+    "updatedAt": "2026-09-16T05:45:46.215Z"
+  },
+  {
+    "id": "mu3p1egigep3bpc9106",
+    "user": "mu3p17d8xp36s0kxz6",
+    "interests": [
+      "technology"
+    ],
+    "strongSubjects": [
+      "computer science",
+      "math"
+    ],
+    "skills": [
+      "problem-solving",
+      "communication"
+    ],
+    "personality": "analytical",
+    "workStylePreference": "independent",
+    "createdAt": "2026-09-16T06:02:14.514Z",
+    "updatedAt": "2026-09-16T06:02:14.514Z"
+  },
+  {
+    "id": "mu3xk0fva60f80kwbot",
+    "user": "mu3ocmxw57kwpi2319q",
+    "interests": [
+      "technology"
+    ],
+    "strongSubjects": [
+      "computer science"
+    ],
+    "skills": [
+      "communication"
+    ],
+    "personality": "leadership",
+    "workStylePreference": "independent",
+    "skillScores": {},
+    "createdAt": "2026-09-16T10:00:39.739Z",
+    "updatedAt": "2026-09-16T10:00:39.739Z"
+  },
+  {
+    "id": "mu3xk0q7q45awbjs17s",
+    "user": "mu3ocmxw57kwpi2319q",
+    "interests": [
+      "technology"
+    ],
+    "strongSubjects": [
+      "computer science"
+    ],
+    "skills": [
+      "communication"
+    ],
+    "personality": "leadership",
+    "workStylePreference": "independent",
+    "skillScores": {},
+    "createdAt": "2026-09-16T10:00:40.111Z",
+    "updatedAt": "2026-09-16T10:00:40.111Z"
+  },
+  {
+    "id": "mu3xkso7szu6ial074n",
+    "user": "mu3ocmxw57kwpi2319q",
+    "interests": [
+      "engineering"
+    ],
+    "strongSubjects": [
+      "languages"
+    ],
+    "skills": [
+      "leadership"
+    ],
+    "personality": "creative",
+    "workStylePreference": "independent",
+    "skillScores": {},
+    "createdAt": "2026-09-16T10:01:16.327Z",
+    "updatedAt": "2026-09-16T10:01:16.327Z"
+  },
+  {
+    "id": "mu3yq3rhjzm0v2uo43a",
+    "user": "mu3ocmxw57kwpi2319q",
+    "interests": [
+      "technology"
+    ],
+    "strongSubjects": [
+      "computer science"
+    ],
+    "skills": [
+      "communication"
+    ],
+    "personality": "leadership",
+    "workStylePreference": "independent",
+    "skillScores": {},
+    "createdAt": "2026-09-16T10:33:23.597Z",
+    "updatedAt": "2026-09-16T10:33:23.597Z"
+  },
+  {
+    "id": "mu4baj0clm7hbh1zsw",
+    "user": "mu3ocmxw57kwpi2319q",
+    "interests": [
+      "design"
+    ],
+    "strongSubjects": [
+      "biology"
+    ],
+    "skills": [
+      "communication"
+    ],
+    "personality": "social",
+    "workStylePreference": "independent",
+    "skillScores": {},
+    "createdAt": "2026-09-16T16:25:11.868Z",
+    "updatedAt": "2026-09-16T16:25:11.868Z"
+  },
+  {
+    "id": "mu4cd2urjr86msgh3g",
+    "user": "mu3ocmxw57kwpi2319q",
+    "interests": [
+      "technology"
+    ],
+    "strongSubjects": [
+      "computer science"
+    ],
+    "skills": [
+      "communication"
+    ],
+    "personality": "leadership",
+    "workStylePreference": "business",
+    "skillScores": {},
+    "createdAt": "2026-09-16T16:55:10.515Z",
+    "updatedAt": "2026-09-16T16:55:10.516Z"
+  },
+  {
+    "id": "mu4d50bd0c43ljyvqe0s",
+    "user": "mu3ocmxw57kwpi2319q",
+    "interests": [
+      "business"
+    ],
+    "strongSubjects": [
+      "statistics"
+    ],
+    "skills": [
+      "leadership"
+    ],
+    "personality": "leadership",
+    "workStylePreference": "business",
+    "skillScores": {},
+    "createdAt": "2026-09-16T17:16:53.593Z",
+    "updatedAt": "2026-09-16T17:16:53.593Z"
+  },
+  {
+    "id": "mu5t9wzdvu1lkzi1ejj",
+    "user": "mu3ocmxw57kwpi2319q",
+    "interests": [
+      "technology"
+    ],
+    "strongSubjects": [
+      "computer science"
+    ],
+    "skills": [
+      "communication",
+      "problem-solving"
+    ],
+    "personality": "leadership",
+    "workStylePreference": "business",
+    "skillScores": {},
+    "createdAt": "2026-09-17T17:36:22.585Z",
+    "updatedAt": "2026-09-17T17:36:22.585Z"
+  },
+  {
+    "id": "mu5u0nizuiwtvaqmtg",
+    "user": "mu3ocmxw57kwpi2319q",
+    "interests": [
+      "writing"
+    ],
+    "strongSubjects": [
+      "computer science"
+    ],
+    "skills": [
+      "creativity"
+    ],
+    "personality": "creative",
+    "workStylePreference": "independent",
+    "skillScores": {},
+    "createdAt": "2026-09-17T17:57:10.043Z",
+    "updatedAt": "2026-09-17T17:57:10.043Z"
   }
 ]

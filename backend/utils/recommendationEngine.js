@@ -63,9 +63,7 @@ function getRecommendations(answers, topN = 5) {
     const matchPercent = Math.round((score / maxPossibleScore) * 100);
 
     return {
-      title: career.title,
-      description: career.description,
-      recommendedCourses: career.recommendedCourses,
+      ...career,
       matchScore: matchPercent,
     };
   });

@@ -6,6 +6,12 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import Profile from './pages/Profile';
+import CareerDetail from './pages/CareerDetail';
+import SchoolFinderPage from './pages/SchoolFinder';
+import GovtResidentialSchoolFinderPage from './pages/GovtResidentialSchoolFinder';
+import CollegeFinderPage from './pages/CollegeFinder';
+import CourseFinderPage from './pages/CourseFinder';
+import EntranceExamFinderPage from './pages/EntranceExamFinder';
 
 function AppContent() {
   const [isAuthenticated, setIsAuthenticated] = useState(!!localStorage.getItem('token'));
@@ -25,7 +31,9 @@ function AppContent() {
 
   return (
     <>
-      <Navbar isAuthenticated={isAuthenticated} onLogout={handleLogout} />
+      {location.pathname !== '/login' && location.pathname !== '/register' && (
+        <Navbar isAuthenticated={isAuthenticated} onLogout={handleLogout} />
+      )}
       <main className={location.pathname === '/' ? 'container landing-container' : 'container'}>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -47,6 +55,19 @@ function AppContent() {
               </PrivateRoute>
             }
           />
+          <Route
+            path="/career/:careerTitle"
+            element={
+              <PrivateRoute>
+                <CareerDetail />
+              </PrivateRoute>
+            }
+          />
+          <Route path="/school-finder" element={<SchoolFinderPage />} />
+          <Route path="/govt-residential-school-finder" element={<GovtResidentialSchoolFinderPage />} />
+          <Route path="/college-finder" element={<CollegeFinderPage />} />
+          <Route path="/course-finder" element={<CourseFinderPage />} />
+          <Route path="/entrance-exam-finder" element={<EntranceExamFinderPage />} />
         </Routes>
       </main>
     </>

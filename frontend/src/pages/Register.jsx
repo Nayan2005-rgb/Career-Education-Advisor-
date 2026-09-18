@@ -18,7 +18,7 @@ export default function Register({ onRegister }) {
       onRegister();
       navigate('/dashboard');
     } catch (err) {
-      setError(err.response?.data?.message || 'Registration failed');
+      setError(err.response?.data?.message || 'Unable to create account. Please try again.');
     }
   };
 

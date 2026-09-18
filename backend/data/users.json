@@ -7,5 +7,32 @@
     "grade": "undergrad",
     "createdAt": "2026-08-31T13:14:44.696Z",
     "updatedAt": "2026-08-31T13:14:44.696Z"
+  },
+  {
+    "id": "mu3ocmxw57kwpi2319q",
+    "name": "Samyak Bhandari",
+    "email": "samyak@gmail.com",
+    "password": "$2a$10$GISyF9iuH7SNj9FluctVzOKZK/j7C80N4FkR7x4hIuMItMnwKGRV6",
+    "grade": "undergrad",
+    "createdAt": "2026-09-16T05:42:59.110Z",
+    "updatedAt": "2026-09-16T05:42:59.110Z"
+  },
+  {
+    "id": "mu3og06e59nb2x6g7ms",
+    "name": "Test User",
+    "email": "test@example.com",
+    "password": "$2a$10$XY3Ffunegj5LNaaDCA0nn.G0x0Lnrk8ud9DWGlurK9d24LxSYS47q",
+    "grade": "12th",
+    "createdAt": "2026-09-16T05:45:36.230Z",
+    "updatedAt": "2026-09-16T05:45:36.230Z"
+  },
+  {
+    "id": "mu3p17d8xp36s0kxz6",
+    "name": "Skill Test User",
+    "email": "skilltest@example.com",
+    "password": "$2a$10$1CCktPS5rjbpPYQuvIbkI.V473zgJMaIx.T6vir5DPpY9r9H64L3W",
+    "grade": "12th",
+    "createdAt": "2026-09-16T06:02:05.324Z",
+    "updatedAt": "2026-09-16T06:02:05.324Z"
   }
 ]

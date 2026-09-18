@@ -4,83 +4,167 @@
     "description": "Designs, builds, and maintains software applications and systems.",
     "tags": ["technology", "problem-solving", "math", "computer science", "logic"],
     "recommendedCourses": ["B.Tech Computer Science", "B.Sc Computer Science", "BCA"],
-    "personalityFit": ["analytical", "introverted-friendly"]
+    "personalityFit": ["analytical", "introverted-friendly"],
+    "requiredEducation": "Bachelor's degree in Computer Science, Software Engineering, or related field. Master's degree preferred for specialized roles.",
+    "requiredSkills": ["Programming (Python, Java, JavaScript, C++)", "Data Structures & Algorithms", "Database Management (SQL, NoSQL)", "Version Control (Git)", "System Design", "Testing & Debugging"],
+    "softSkills": ["Problem-solving", "Logical thinking", "Attention to detail", "Continuous learning", "Communication"],
+    "relatedEntranceExams": ["JEE Main", "JEE Advanced", "BITSAT", "VITEEE", "SRMJEEE"],
+    "careerOpportunities": "High demand across tech companies, startups, finance, healthcare, and government sectors. Remote work opportunities abundant.",
+    "possibleJobRoles": ["Software Developer", "Full Stack Engineer", "Backend Developer", "Frontend Developer", "DevOps Engineer", "Software Architect"],
+    "nextSteps": ["Start with foundational programming courses", "Build personal projects on GitHub", "Contribute to open-source projects", "Prepare for technical interviews", "Consider internships at tech companies"]
   },
   {
     "title": "Data Scientist",
     "description": "Analyzes large datasets to extract insights and build predictive models.",
     "tags": ["technology", "math", "statistics", "problem-solving", "research"],
     "recommendedCourses": ["B.Sc Statistics", "B.Tech Data Science", "B.Sc Mathematics"],
-    "personalityFit": ["analytical"]
+    "personalityFit": ["analytical"],
+    "requiredEducation": "Bachelor's or Master's degree in Data Science, Statistics, Mathematics, Computer Science, or related quantitative field.",
+    "requiredSkills": ["Python/R Programming", "Machine Learning", "Statistical Analysis", "Data Visualization (Tableau, Power BI)", "SQL", "Big Data Technologies"],
+    "softSkills": ["Analytical thinking", "Curiosity", "Communication", "Business acumen", "Problem-solving"],
+    "relatedEntranceExams": ["JEE Main", "JEE Advanced", "GATE", "CAT (for MBA in Business Analytics)"],
+    "careerOpportunities": "Growing demand in tech, finance, healthcare, e-commerce, and consulting. Remote work options available.",
+    "possibleJobRoles": ["Data Scientist", "Machine Learning Engineer", "Data Analyst", "Business Intelligence Analyst", "Research Scientist"],
+    "nextSteps": ["Learn Python and statistical libraries", "Work on Kaggle competitions", "Build portfolio with real datasets", "Learn SQL and database management", "Consider advanced degree (M.S./Ph.D.)"]
   },
   {
     "title": "UX/UI Designer",
     "description": "Designs intuitive and visually engaging digital experiences for users.",
     "tags": ["design", "creativity", "technology", "communication"],
     "recommendedCourses": ["B.Des", "BFA", "B.Sc Human-Computer Interaction"],
-    "personalityFit": ["creative", "social"]
+    "personalityFit": ["creative", "social"],
+    "requiredEducation": "Bachelor's degree in Design, Fine Arts, HCI, or related field. Portfolio is often more important than formal education.",
+    "requiredSkills": ["User Research", "Wireframing & Prototyping (Figma, Sketch)", "Visual Design", "Interaction Design", "Design Systems", "Basic HTML/CSS"],
+    "softSkills": ["Empathy", "Creativity", "Communication", "User-centered thinking", "Collaboration"],
+    "relatedEntranceExams": ["NID DAT", "UCEED", "NIFT Entrance", "Pearl Academy Entrance"],
+    "careerOpportunities": "High demand in tech companies, design agencies, startups, and product companies. Freelance opportunities available.",
+    "possibleJobRoles": ["UX Designer", "UI Designer", "Product Designer", "UX Researcher", "Design Lead"],
+    "nextSteps": ["Build a strong portfolio", "Learn design tools (Figma, Adobe XD)", "Study design principles and psychology", "Practice user research methods", "Network with design community"]
   },
   {
     "title": "Doctor (Physician)",
     "description": "Diagnoses and treats illnesses, and promotes patient health and wellness.",
     "tags": ["biology", "chemistry", "healthcare", "helping others", "science"],
     "recommendedCourses": ["MBBS", "B.Sc Biology (pre-med track)"],
-    "personalityFit": ["social", "analytical"]
+    "personalityFit": ["social", "analytical"],
+    "requiredEducation": "MBBS degree (5.5 years) followed by specialization (MD/MS, 3 years). Medical license required.",
+    "requiredSkills": ["Medical diagnosis", "Patient care", "Medical knowledge", "Treatment planning", "Emergency response"],
+    "softSkills": ["Empathy", "Communication", "Patience", "Attention to detail", "Stress management"],
+    "relatedEntranceExams": ["NEET UG", "NEET PG", "AIIMS MBBS", "JIPMER"],
+    "careerOpportunities": "Hospitals, clinics, research institutions, teaching hospitals, private practice. High job security and respect.",
+    "possibleJobRoles": ["General Physician", "Specialist (Cardiologist, Neurologist, etc.)", "Surgeon", "Medical Researcher", "Professor"],
+    "nextSteps": ["Prepare for NEET exam", "Complete MBBS with good grades", "Choose specialization based on interest", "Complete residency program", "Obtain medical license"]
   },
   {
     "title": "Mechanical Engineer",
     "description": "Designs and builds mechanical systems, machines, and tools.",
     "tags": ["engineering", "math", "physics", "problem-solving"],
     "recommendedCourses": ["B.Tech Mechanical Engineering", "B.E. Mechanical"],
-    "personalityFit": ["analytical"]
+    "personalityFit": ["analytical"],
+    "requiredEducation": "Bachelor's degree in Mechanical Engineering. Master's degree for specialized roles.",
+    "requiredSkills": ["CAD/CAM", "Thermodynamics", "Fluid Mechanics", "Material Science", "Manufacturing Processes", "MATLAB"],
+    "softSkills": ["Problem-solving", "Analytical thinking", "Teamwork", "Project management", "Innovation"],
+    "relatedEntranceExams": ["JEE Main", "JEE Advanced", "BITSAT", "VITEEE", "SRMJEEE", "GATE"],
+    "careerOpportunities": "Automotive, aerospace, manufacturing, energy, construction, and robotics industries. Stable career path.",
+    "possibleJobRoles": ["Mechanical Engineer", "Design Engineer", "Manufacturing Engineer", "Project Engineer", "R&D Engineer"],
+    "nextSteps": ["Focus on physics and math in high school", "Prepare for engineering entrance exams", "Gain internship experience", "Learn CAD software", "Consider professional certification (PE)"]
   },
   {
     "title": "Business Analyst",
     "description": "Bridges business needs and technology solutions through data-driven analysis.",
     "tags": ["business", "math", "communication", "problem-solving"],
     "recommendedCourses": ["BBA", "B.Com", "B.Sc Business Analytics"],
-    "personalityFit": ["analytical", "social"]
+    "personalityFit": ["analytical", "social"],
+    "requiredEducation": "Bachelor's degree in Business, Finance, Economics, or related field. MBA preferred for senior roles.",
+    "requiredSkills": ["Data Analysis", "Process Modeling", "SQL", "Excel/Google Sheets", "Requirements Gathering", "Stakeholder Management"],
+    "softSkills": ["Communication", "Critical thinking", "Problem-solving", "Negotiation", "Presentation skills"],
+    "relatedEntranceExams": ["CAT", "XAT", "SNAP", "NMAT", "GMAT"],
+    "careerOpportunities": "Consulting firms, IT companies, financial institutions, and corporate sectors. Good growth potential.",
+    "possibleJobRoles": ["Business Analyst", "Systems Analyst", "Process Analyst", "Product Manager", "Consultant"],
+    "nextSteps": ["Develop strong analytical skills", "Learn business analysis tools", "Gain domain knowledge", "Build communication skills", "Consider MBA for advancement"]
   },
   {
     "title": "Content Writer / Journalist",
     "description": "Researches and writes engaging content across media platforms.",
     "tags": ["writing", "communication", "creativity", "languages", "research"],
     "recommendedCourses": ["BA English", "BA Journalism & Mass Communication"],
-    "personalityFit": ["creative", "social"]
+    "personalityFit": ["creative", "social"],
+    "requiredEducation": "Bachelor's degree in English, Journalism, Mass Communication, or related field. Portfolio is crucial.",
+    "requiredSkills": ["Writing & Editing", "Research", "SEO Basics", "Content Strategy", "Social Media Management", "Basic Photography"],
+    "softSkills": ["Creativity", "Curiosity", "Adaptability", "Time management", "Interviewing skills"],
+    "relatedEntranceExams": ["IIMC Entrance", "Symbiosis Entrance Test", "Christ University Entrance", "Jamia Entrance"],
+    "careerOpportunities": "Media houses, digital marketing agencies, publishing companies, corporate communications, freelance opportunities.",
+    "possibleJobRoles": ["Content Writer", "Journalist", "Copywriter", "Technical Writer", "Content Strategist", "Editor"],
+    "nextSteps": ["Build writing portfolio", "Start a blog or contribute to publications", "Learn SEO and digital marketing", "Develop niche expertise", "Network with industry professionals"]
   },
   {
     "title": "Psychologist",
     "description": "Studies human behavior and mental processes to help individuals and groups.",
     "tags": ["psychology", "helping others", "communication", "biology", "research"],
     "recommendedCourses": ["BA/B.Sc Psychology"],
-    "personalityFit": ["social", "analytical"]
+    "personalityFit": ["social", "analytical"],
+    "requiredEducation": "Bachelor's in Psychology, Master's (M.A./M.Sc) for practice, Ph.D. or clinical training for clinical psychologists.",
+    "requiredSkills": ["Psychological Assessment", "Counseling Techniques", "Research Methods", "Behavioral Analysis", "Report Writing"],
+    "softSkills": ["Empathy", "Active listening", "Patience", "Confidentiality", "Emotional intelligence"],
+    "relatedEntranceExams": ["JNU Entrance", "DU Entrance", "TISS NET", "Christ University Entrance"],
+    "careerOpportunities": "Hospitals, clinics, schools, corporate sector, research institutions, private practice. Growing mental health awareness.",
+    "possibleJobRoles": ["Clinical Psychologist", "Counseling Psychologist", "School Psychologist", "Industrial-Organizational Psychologist", "Researcher"],
+    "nextSteps": ["Complete bachelor's in psychology", "Choose specialization (clinical, counseling, etc.)", "Complete master's degree", "Gain supervised experience", "Obtain licensure/certification"]
   },
   {
     "title": "Entrepreneur / Startup Founder",
     "description": "Builds and runs new business ventures, taking on risk to solve market problems.",
     "tags": ["business", "leadership", "creativity", "problem-solving"],
     "recommendedCourses": ["BBA", "B.Com", "Any degree + entrepreneurship program"],
-    "personalityFit": ["creative", "leadership", "analytical"]
+    "personalityFit": ["creative", "leadership", "analytical"],
+    "requiredEducation": "No formal requirement, but business education helps. Many successful founders have diverse educational backgrounds.",
+    "requiredSkills": ["Business Planning", "Financial Management", "Marketing", "Leadership", "Networking", "Product Development"],
+    "softSkills": ["Risk-taking", "Resilience", "Vision", "Adaptability", "Persuasion", "Decision-making"],
+    "relatedEntranceExams": ["CAT", "XAT", "GMAT", "SNAP", "NMAT"],
+    "careerOpportunities": "Self-employment, startup ecosystem, venture capital, incubators, accelerators. High risk, high reward.",
+    "possibleJobRoles": ["Founder", "Co-founder", "CEO", "Startup Advisor", "Venture Capitalist"],
+    "nextSteps": ["Identify a problem to solve", "Develop a business plan", "Build MVP (Minimum Viable Product)", "Network with mentors and investors", "Join startup incubators/accelerators"]
   },
   {
     "title": "Civil Engineer",
     "description": "Plans, designs, and oversees construction of infrastructure like roads and buildings.",
     "tags": ["engineering", "math", "physics", "design"],
     "recommendedCourses": ["B.Tech Civil Engineering", "B.E. Civil"],
-    "personalityFit": ["analytical"]
+    "personalityFit": ["analytical"],
+    "requiredEducation": "Bachelor's degree in Civil Engineering. Master's degree for specialization. Professional license (PE) required.",
+    "requiredSkills": ["Structural Analysis", "Construction Management", "CAD/AutoCAD", "Project Management", "Surveying", "Building Codes"],
+    "softSkills": ["Project management", "Leadership", "Attention to detail", "Safety consciousness", "Communication"],
+    "relatedEntranceExams": ["JEE Main", "JEE Advanced", "BITSAT", "VITEEE", "GATE"],
+    "careerOpportunities": "Construction companies, government agencies, real estate, infrastructure projects. Stable and growing sector.",
+    "possibleJobRoles": ["Civil Engineer", "Structural Engineer", "Construction Manager", "Site Engineer", "Urban Planner"],
+    "nextSteps": ["Prepare for engineering entrance exams", "Gain internship experience", "Learn CAD and design software", "Understand building codes", "Consider professional certification"]
   },
   {
     "title": "Graphic Designer",
     "description": "Creates visual content to communicate ideas through typography, imagery, and layout.",
     "tags": ["design", "creativity", "art", "technology"],
     "recommendedCourses": ["BFA", "B.Des Visual Communication"],
-    "personalityFit": ["creative"]
+    "personalityFit": ["creative"],
+    "requiredEducation": "Bachelor's degree in Fine Arts, Graphic Design, or related field. Strong portfolio is essential.",
+    "requiredSkills": ["Adobe Creative Suite (Photoshop, Illustrator, InDesign)", "Typography", "Color Theory", "Layout Design", "Digital Illustration", "Brand Identity"],
+    "softSkills": ["Creativity", "Attention to detail", "Time management", "Client communication", "Trend awareness"],
+    "relatedEntranceExams": ["NID DAT", "UCEED", "NIFT Entrance", "Pearl Academy Entrance"],
+    "careerOpportunities": "Advertising agencies, design studios, publishing houses, corporate marketing, freelance. Remote work common.",
+    "possibleJobRoles": ["Graphic Designer", "Art Director", "Brand Designer", "Visual Designer", "Illustrator"],
+    "nextSteps": ["Build diverse portfolio", "Master Adobe Creative Suite", "Study design principles and trends", "Develop personal style", "Network with creative community"]
   },
   {
     "title": "Teacher / Educator",
     "description": "Instructs and mentors students, shaping learning experiences in a subject area.",
     "tags": ["helping others", "communication", "leadership", "any subject"],
     "recommendedCourses": ["B.Ed", "Subject degree + B.Ed"],
-    "personalityFit": ["social"]
+    "personalityFit": ["social"],
+    "requiredEducation": "Bachelor's degree in subject area + B.Ed (Bachelor of Education). For higher education, Master's + NET/Ph.D. required.",
+    "requiredSkills": ["Subject Matter Expertise", "Lesson Planning", "Classroom Management", "Assessment & Evaluation", "Educational Technology"],
+    "softSkills": ["Patience", "Communication", "Empathy", "Leadership", "Adaptability", "Mentoring"],
+    "relatedEntranceExams": ["CTET", "TET (State level)", "NET (for college teaching)", "B.Ed Entrance Exams"],
+    "careerOpportunities": "Schools, colleges, universities, coaching centers, online education platforms. Job security and holidays.",
+    "possibleJobRoles": ["School Teacher", "College Professor", "Education Consultant", "Curriculum Developer", "Education Administrator"],
+    "nextSteps": ["Complete subject degree (B.A./B.Sc/B.Com)", "Complete B.Ed degree", "Clear teaching eligibility tests (CTET/TET)", "Gain teaching experience", "Consider specialization or higher education"]
   }
 ]

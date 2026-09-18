@@ -1,0 +1,1064 @@
+[
+  {
+    "id": "mu3oiz7brwad5ku1ia",
+    "careerTitle": "Software Engineer",
+    "userId": "mu3og06e59nb2x6g7ms",
+    "steps": [
+      {
+        "id": "current_education",
+        "title": "Current Education",
+        "description": "Complete your current education in 12th",
+        "skills": [
+          "math",
+          "computer science"
+        ],
+        "recommendedLearning": "Focus on maintaining good grades in your current subjects",
+        "estimatedDuration": "6-12 months",
+        "status": "completed",
+        "order": 1
+      },
+      {
+        "id": "entrance_exam",
+        "title": "Entrance Exam Preparation",
+        "description": "Prepare for JEE Main",
+        "skills": [
+          "test-taking",
+          "time management",
+          "subject knowledge"
+        ],
+        "recommendedLearning": "Focus on math and computer science",
+        "estimatedDuration": "3-6 months",
+        "status": "completed",
+        "order": 2
+      },
+      {
+        "id": "degree_course",
+        "title": "Bachelor's degree in Computer Science, Software Engineering, or related field. Master's degree preferred for specialized roles.",
+        "description": "Enroll in and complete Bachelor's degree in Computer Science, Software Engineering, or related field. Master's degree preferred for specialized roles.",
+        "skills": [
+          "Programming (Python, Java, JavaScript, C++)",
+          "Data Structures & Algorithms",
+          "Database Management (SQL, NoSQL)"
+        ],
+        "recommendedLearning": "B.Tech Computer Science, B.Sc Computer Science",
+        "estimatedDuration": "3-4 years",
+        "status": "in_progress",
+        "order": 3
+      },
+      {
+        "id": "required_skills",
+        "title": "Required Skills Development",
+        "description": "Develop core technical skills required for the career",
+        "skills": [
+          "Programming (Python, Java, JavaScript, C++)",
+          "Data Structures & Algorithms",
+          "Database Management (SQL, NoSQL)",
+          "Version Control (Git)",
+          "System Design",
+          "Testing & Debugging"
+        ],
+        "recommendedLearning": "Programming languages, algorithms, data structures, frameworks",
+        "estimatedDuration": "6-12 months",
+        "status": "pending",
+        "order": 4
+      },
+      {
+        "id": "projects",
+        "title": "Build Projects",
+        "description": "Create practical projects to demonstrate your skills",
+        "skills": [
+          "Programming (Python, Java, JavaScript, C++)",
+          "Data Structures & Algorithms"
+        ],
+        "recommendedLearning": "GitHub projects, open source contributions, hackathons",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 5
+      },
+      {
+        "id": "internship",
+        "title": "Internship/Work Experience",
+        "description": "Gain real-world experience through internships",
+        "skills": [
+          "Problem-solving",
+          "Logical thinking"
+        ],
+        "recommendedLearning": "Industry exposure, professional networking",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 6
+      },
+      {
+        "id": "resume",
+        "title": "Resume Building",
+        "description": "Create a professional resume highlighting your achievements",
+        "skills": [
+          "communication",
+          "presentation"
+        ],
+        "recommendedLearning": "Resume writing workshops, portfolio development",
+        "estimatedDuration": "1-2 weeks",
+        "status": "pending",
+        "order": 7
+      },
+      {
+        "id": "interview_prep",
+        "title": "Interview Preparation",
+        "description": "Prepare for job interviews in your chosen field",
+        "skills": [
+          "Problem-solving",
+          "Logical thinking",
+          "Attention to detail",
+          "Continuous learning",
+          "Communication"
+        ],
+        "recommendedLearning": "Mock interviews, technical practice, company research",
+        "estimatedDuration": "1-2 months",
+        "status": "pending",
+        "order": 8
+      },
+      {
+        "id": "job",
+        "title": "Job Application",
+        "description": "Apply for Software Developer",
+        "skills": [
+          "Programming (Python, Java, JavaScript, C++)",
+          "Data Structures & Algorithms"
+        ],
+        "recommendedLearning": "Job search strategies, networking, applications",
+        "estimatedDuration": "2-6 months",
+        "status": "pending",
+        "order": 9
+      }
+    ],
+    "createdAt": "2026-09-16T05:47:54.935Z",
+    "updatedAt": "2026-09-16T05:51:36.526Z"
+  },
+  {
+    "id": "mu3ondy4yj36vo1asp",
+    "careerTitle": "Data Scientist",
+    "userId": "mu3og06e59nb2x6g7ms",
+    "steps": [
+      {
+        "id": "current_education",
+        "title": "Current Education",
+        "description": "Complete your current education in 12th",
+        "skills": [
+          "math",
+          "statistics"
+        ],
+        "recommendedLearning": "Focus on maintaining good grades in your current subjects",
+        "estimatedDuration": "6-12 months",
+        "status": "in_progress",
+        "order": 1
+      },
+      {
+        "id": "entrance_exam",
+        "title": "Entrance Exam Preparation",
+        "description": "Prepare for JEE Main",
+        "skills": [
+          "test-taking",
+          "time management",
+          "subject knowledge"
+        ],
+        "recommendedLearning": "Focus on math and statistics",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 2
+      },
+      {
+        "id": "degree_course",
+        "title": "Bachelor's or Master's degree in Data Science, Statistics, Mathematics, Computer Science, or related quantitative field.",
+        "description": "Enroll in and complete Bachelor's or Master's degree in Data Science, Statistics, Mathematics, Computer Science, or related quantitative field.",
+        "skills": [
+          "Python/R Programming",
+          "Machine Learning",
+          "Statistical Analysis"
+        ],
+        "recommendedLearning": "B.Sc Statistics, B.Tech Data Science",
+        "estimatedDuration": "3-4 years",
+        "status": "pending",
+        "order": 3
+      },
+      {
+        "id": "required_skills",
+        "title": "Required Skills Development",
+        "description": "Develop core technical skills required for the career",
+        "skills": [
+          "Python/R Programming",
+          "Machine Learning",
+          "Statistical Analysis",
+          "Data Visualization (Tableau, Power BI)",
+          "SQL",
+          "Big Data Technologies"
+        ],
+        "recommendedLearning": "Statistics, programming (Python/R), data visualization, machine learning",
+        "estimatedDuration": "6-12 months",
+        "status": "pending",
+        "order": 4
+      },
+      {
+        "id": "projects",
+        "title": "Build Projects",
+        "description": "Create practical projects to demonstrate your skills",
+        "skills": [
+          "Python/R Programming",
+          "Machine Learning"
+        ],
+        "recommendedLearning": "Data analysis projects, Kaggle competitions, dashboards",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 5
+      },
+      {
+        "id": "internship",
+        "title": "Internship/Work Experience",
+        "description": "Gain real-world experience through internships",
+        "skills": [
+          "Analytical thinking",
+          "Curiosity"
+        ],
+        "recommendedLearning": "Industry exposure, professional networking",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 6
+      },
+      {
+        "id": "resume",
+        "title": "Resume Building",
+        "description": "Create a professional resume highlighting your achievements",
+        "skills": [
+          "communication",
+          "presentation"
+        ],
+        "recommendedLearning": "Resume writing workshops, portfolio development",
+        "estimatedDuration": "1-2 weeks",
+        "status": "pending",
+        "order": 7
+      },
+      {
+        "id": "interview_prep",
+        "title": "Interview Preparation",
+        "description": "Prepare for job interviews in your chosen field",
+        "skills": [
+          "Analytical thinking",
+          "Curiosity",
+          "Communication",
+          "Business acumen",
+          "Problem-solving"
+        ],
+        "recommendedLearning": "Mock interviews, technical practice, company research",
+        "estimatedDuration": "1-2 months",
+        "status": "pending",
+        "order": 8
+      },
+      {
+        "id": "job",
+        "title": "Job Application",
+        "description": "Apply for Data Scientist",
+        "skills": [
+          "Python/R Programming",
+          "Machine Learning"
+        ],
+        "recommendedLearning": "Job search strategies, networking, applications",
+        "estimatedDuration": "2-6 months",
+        "status": "pending",
+        "order": 9
+      }
+    ],
+    "createdAt": "2026-09-16T05:51:20.668Z",
+    "updatedAt": "2026-09-16T05:51:20.668Z"
+  },
+  {
+    "id": "mu3xk3q7dapdj2qx6ab",
+    "careerTitle": "Software Engineer",
+    "userId": "mu3ocmxw57kwpi2319q",
+    "steps": [
+      {
+        "id": "current_education",
+        "title": "Current Education",
+        "description": "Complete your current education in Not specified",
+        "skills": [],
+        "recommendedLearning": "Focus on maintaining good grades in your current subjects",
+        "estimatedDuration": "6-12 months",
+        "status": "in_progress",
+        "order": 1
+      },
+      {
+        "id": "entrance_exam",
+        "title": "Entrance Exam Preparation",
+        "description": "Prepare for JEE Main",
+        "skills": [
+          "test-taking",
+          "time management",
+          "subject knowledge"
+        ],
+        "recommendedLearning": "Focus on core subjects",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 2
+      },
+      {
+        "id": "degree_course",
+        "title": "Bachelor's degree in Computer Science, Software Engineering, or related field. Master's degree preferred for specialized roles.",
+        "description": "Enroll in and complete Bachelor's degree in Computer Science, Software Engineering, or related field. Master's degree preferred for specialized roles.",
+        "skills": [
+          "Programming (Python, Java, JavaScript, C++)",
+          "Data Structures & Algorithms",
+          "Database Management (SQL, NoSQL)"
+        ],
+        "recommendedLearning": "B.Tech Computer Science, B.Sc Computer Science",
+        "estimatedDuration": "3-4 years",
+        "status": "pending",
+        "order": 3
+      },
+      {
+        "id": "required_skills",
+        "title": "Required Skills Development",
+        "description": "Develop core technical skills required for the career",
+        "skills": [
+          "Programming (Python, Java, JavaScript, C++)",
+          "Data Structures & Algorithms",
+          "Database Management (SQL, NoSQL)",
+          "Version Control (Git)",
+          "System Design",
+          "Testing & Debugging"
+        ],
+        "recommendedLearning": "Programming languages, algorithms, data structures, frameworks",
+        "estimatedDuration": "6-12 months",
+        "status": "pending",
+        "order": 4
+      },
+      {
+        "id": "projects",
+        "title": "Build Projects",
+        "description": "Create practical projects to demonstrate your skills",
+        "skills": [
+          "Programming (Python, Java, JavaScript, C++)",
+          "Data Structures & Algorithms"
+        ],
+        "recommendedLearning": "GitHub projects, open source contributions, hackathons",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 5
+      },
+      {
+        "id": "internship",
+        "title": "Internship/Work Experience",
+        "description": "Gain real-world experience through internships",
+        "skills": [
+          "Problem-solving",
+          "Logical thinking"
+        ],
+        "recommendedLearning": "Industry exposure, professional networking",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 6
+      },
+      {
+        "id": "resume",
+        "title": "Resume Building",
+        "description": "Create a professional resume highlighting your achievements",
+        "skills": [
+          "communication",
+          "presentation"
+        ],
+        "recommendedLearning": "Resume writing workshops, portfolio development",
+        "estimatedDuration": "1-2 weeks",
+        "status": "pending",
+        "order": 7
+      },
+      {
+        "id": "interview_prep",
+        "title": "Interview Preparation",
+        "description": "Prepare for job interviews in your chosen field",
+        "skills": [
+          "Problem-solving",
+          "Logical thinking",
+          "Attention to detail",
+          "Continuous learning",
+          "Communication"
+        ],
+        "recommendedLearning": "Mock interviews, technical practice, company research",
+        "estimatedDuration": "1-2 months",
+        "status": "pending",
+        "order": 8
+      },
+      {
+        "id": "job",
+        "title": "Job Application",
+        "description": "Apply for Software Developer",
+        "skills": [
+          "Programming (Python, Java, JavaScript, C++)",
+          "Data Structures & Algorithms"
+        ],
+        "recommendedLearning": "Job search strategies, networking, applications",
+        "estimatedDuration": "2-6 months",
+        "status": "pending",
+        "order": 9
+      }
+    ],
+    "createdAt": "2026-09-16T10:00:43.998Z",
+    "updatedAt": "2026-09-16T10:00:43.999Z"
+  },
+  {
+    "id": "mu3xkvmmmq76x77z6wq",
+    "careerTitle": "Entrepreneur / Startup Founder",
+    "userId": "mu3ocmxw57kwpi2319q",
+    "steps": [
+      {
+        "id": "current_education",
+        "title": "Current Education",
+        "description": "Complete your current education in Not specified",
+        "skills": [],
+        "recommendedLearning": "Focus on maintaining good grades in your current subjects",
+        "estimatedDuration": "6-12 months",
+        "status": "in_progress",
+        "order": 1
+      },
+      {
+        "id": "entrance_exam",
+        "title": "Entrance Exam Preparation",
+        "description": "Prepare for CAT",
+        "skills": [
+          "test-taking",
+          "time management",
+          "subject knowledge"
+        ],
+        "recommendedLearning": "Focus on core subjects",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 2
+      },
+      {
+        "id": "degree_course",
+        "title": "No formal requirement, but business education helps. Many successful founders have diverse educational backgrounds.",
+        "description": "Enroll in and complete No formal requirement, but business education helps. Many successful founders have diverse educational backgrounds.",
+        "skills": [
+          "Business Planning",
+          "Financial Management",
+          "Marketing"
+        ],
+        "recommendedLearning": "BBA, B.Com",
+        "estimatedDuration": "3-4 years",
+        "status": "pending",
+        "order": 3
+      },
+      {
+        "id": "required_skills",
+        "title": "Required Skills Development",
+        "description": "Develop core technical skills required for the career",
+        "skills": [
+          "Business Planning",
+          "Financial Management",
+          "Marketing",
+          "Leadership",
+          "Networking",
+          "Product Development"
+        ],
+        "recommendedLearning": "Online courses, workshops, and practical projects",
+        "estimatedDuration": "6-12 months",
+        "status": "pending",
+        "order": 4
+      },
+      {
+        "id": "projects",
+        "title": "Build Projects",
+        "description": "Create practical projects to demonstrate your skills",
+        "skills": [
+          "Business Planning",
+          "Financial Management"
+        ],
+        "recommendedLearning": "Hands-on project work, GitHub portfolio",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 5
+      },
+      {
+        "id": "internship",
+        "title": "Internship/Work Experience",
+        "description": "Gain real-world experience through internships",
+        "skills": [
+          "Risk-taking",
+          "Resilience"
+        ],
+        "recommendedLearning": "Industry exposure, professional networking",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 6
+      },
+      {
+        "id": "resume",
+        "title": "Resume Building",
+        "description": "Create a professional resume highlighting your achievements",
+        "skills": [
+          "communication",
+          "presentation"
+        ],
+        "recommendedLearning": "Resume writing workshops, portfolio development",
+        "estimatedDuration": "1-2 weeks",
+        "status": "pending",
+        "order": 7
+      },
+      {
+        "id": "interview_prep",
+        "title": "Interview Preparation",
+        "description": "Prepare for job interviews in your chosen field",
+        "skills": [
+          "Risk-taking",
+          "Resilience",
+          "Vision",
+          "Adaptability",
+          "Persuasion",
+          "Decision-making"
+        ],
+        "recommendedLearning": "Mock interviews, technical practice, company research",
+        "estimatedDuration": "1-2 months",
+        "status": "pending",
+        "order": 8
+      },
+      {
+        "id": "job",
+        "title": "Job Application",
+        "description": "Apply for Founder",
+        "skills": [
+          "Business Planning",
+          "Financial Management"
+        ],
+        "recommendedLearning": "Job search strategies, networking, applications",
+        "estimatedDuration": "2-6 months",
+        "status": "pending",
+        "order": 9
+      }
+    ],
+    "createdAt": "2026-09-16T10:01:20.157Z",
+    "updatedAt": "2026-09-16T10:01:20.158Z"
+  },
+  {
+    "id": "mu3yqcslofwgd18f0gk",
+    "careerTitle": "UX/UI Designer",
+    "userId": "mu3ocmxw57kwpi2319q",
+    "steps": [
+      {
+        "id": "current_education",
+        "title": "Current Education",
+        "description": "Complete your current education in Not specified",
+        "skills": [],
+        "recommendedLearning": "Focus on maintaining good grades in your current subjects",
+        "estimatedDuration": "6-12 months",
+        "status": "in_progress",
+        "order": 1
+      },
+      {
+        "id": "entrance_exam",
+        "title": "Entrance Exam Preparation",
+        "description": "Prepare for NID DAT",
+        "skills": [
+          "test-taking",
+          "time management",
+          "subject knowledge"
+        ],
+        "recommendedLearning": "Focus on core subjects",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 2
+      },
+      {
+        "id": "degree_course",
+        "title": "Bachelor's degree in Design, Fine Arts, HCI, or related field. Portfolio is often more important than formal education.",
+        "description": "Enroll in and complete Bachelor's degree in Design, Fine Arts, HCI, or related field. Portfolio is often more important than formal education.",
+        "skills": [
+          "User Research",
+          "Wireframing & Prototyping (Figma, Sketch)",
+          "Visual Design"
+        ],
+        "recommendedLearning": "B.Des, BFA",
+        "estimatedDuration": "3-4 years",
+        "status": "pending",
+        "order": 3
+      },
+      {
+        "id": "required_skills",
+        "title": "Required Skills Development",
+        "description": "Develop core technical skills required for the career",
+        "skills": [
+          "User Research",
+          "Wireframing & Prototyping (Figma, Sketch)",
+          "Visual Design",
+          "Interaction Design",
+          "Design Systems",
+          "Basic HTML/CSS"
+        ],
+        "recommendedLearning": "Design tools (Figma, Adobe), design principles, user research",
+        "estimatedDuration": "6-12 months",
+        "status": "pending",
+        "order": 4
+      },
+      {
+        "id": "projects",
+        "title": "Build Projects",
+        "description": "Create practical projects to demonstrate your skills",
+        "skills": [
+          "User Research",
+          "Wireframing & Prototyping (Figma, Sketch)"
+        ],
+        "recommendedLearning": "Design portfolio, case studies, UI/UX projects",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 5
+      },
+      {
+        "id": "internship",
+        "title": "Internship/Work Experience",
+        "description": "Gain real-world experience through internships",
+        "skills": [
+          "Empathy",
+          "Creativity"
+        ],
+        "recommendedLearning": "Industry exposure, professional networking",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 6
+      },
+      {
+        "id": "resume",
+        "title": "Resume Building",
+        "description": "Create a professional resume highlighting your achievements",
+        "skills": [
+          "communication",
+          "presentation"
+        ],
+        "recommendedLearning": "Resume writing workshops, portfolio development",
+        "estimatedDuration": "1-2 weeks",
+        "status": "pending",
+        "order": 7
+      },
+      {
+        "id": "interview_prep",
+        "title": "Interview Preparation",
+        "description": "Prepare for job interviews in your chosen field",
+        "skills": [
+          "Empathy",
+          "Creativity",
+          "Communication",
+          "User-centered thinking",
+          "Collaboration"
+        ],
+        "recommendedLearning": "Mock interviews, technical practice, company research",
+        "estimatedDuration": "1-2 months",
+        "status": "pending",
+        "order": 8
+      },
+      {
+        "id": "job",
+        "title": "Job Application",
+        "description": "Apply for UX Designer",
+        "skills": [
+          "User Research",
+          "Wireframing & Prototyping (Figma, Sketch)"
+        ],
+        "recommendedLearning": "Job search strategies, networking, applications",
+        "estimatedDuration": "2-6 months",
+        "status": "pending",
+        "order": 9
+      }
+    ],
+    "createdAt": "2026-09-16T10:33:35.300Z",
+    "updatedAt": "2026-09-16T10:33:35.301Z"
+  },
+  {
+    "id": "mu4bant0kwxx3x9d7z",
+    "careerTitle": "Doctor (Physician)",
+    "userId": "mu3ocmxw57kwpi2319q",
+    "steps": [
+      {
+        "id": "current_education",
+        "title": "Current Education",
+        "description": "Complete your current education in Not specified",
+        "skills": [],
+        "recommendedLearning": "Focus on maintaining good grades in your current subjects",
+        "estimatedDuration": "6-12 months",
+        "status": "completed",
+        "order": 1
+      },
+      {
+        "id": "entrance_exam",
+        "title": "Entrance Exam Preparation",
+        "description": "Prepare for NEET UG",
+        "skills": [
+          "test-taking",
+          "time management",
+          "subject knowledge"
+        ],
+        "recommendedLearning": "Focus on core subjects",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 2
+      },
+      {
+        "id": "degree_course",
+        "title": "MBBS degree (5.5 years) followed by specialization (MD/MS, 3 years). Medical license required.",
+        "description": "Enroll in and complete MBBS degree (5.5 years) followed by specialization (MD/MS, 3 years). Medical license required.",
+        "skills": [
+          "Medical diagnosis",
+          "Patient care",
+          "Medical knowledge"
+        ],
+        "recommendedLearning": "MBBS, B.Sc Biology (pre-med track)",
+        "estimatedDuration": "3-4 years",
+        "status": "pending",
+        "order": 3
+      },
+      {
+        "id": "required_skills",
+        "title": "Required Skills Development",
+        "description": "Develop core technical skills required for the career",
+        "skills": [
+          "Medical diagnosis",
+          "Patient care",
+          "Medical knowledge",
+          "Treatment planning",
+          "Emergency response"
+        ],
+        "recommendedLearning": "Online courses, workshops, and practical projects",
+        "estimatedDuration": "6-12 months",
+        "status": "pending",
+        "order": 4
+      },
+      {
+        "id": "projects",
+        "title": "Build Projects",
+        "description": "Create practical projects to demonstrate your skills",
+        "skills": [
+          "Medical diagnosis",
+          "Patient care"
+        ],
+        "recommendedLearning": "Hands-on project work, GitHub portfolio",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 5
+      },
+      {
+        "id": "internship",
+        "title": "Internship/Work Experience",
+        "description": "Gain real-world experience through internships",
+        "skills": [
+          "Empathy",
+          "Communication"
+        ],
+        "recommendedLearning": "Industry exposure, professional networking",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 6
+      },
+      {
+        "id": "resume",
+        "title": "Resume Building",
+        "description": "Create a professional resume highlighting your achievements",
+        "skills": [
+          "communication",
+          "presentation"
+        ],
+        "recommendedLearning": "Resume writing workshops, portfolio development",
+        "estimatedDuration": "1-2 weeks",
+        "status": "pending",
+        "order": 7
+      },
+      {
+        "id": "interview_prep",
+        "title": "Interview Preparation",
+        "description": "Prepare for job interviews in your chosen field",
+        "skills": [
+          "Empathy",
+          "Communication",
+          "Patience",
+          "Attention to detail",
+          "Stress management"
+        ],
+        "recommendedLearning": "Mock interviews, technical practice, company research",
+        "estimatedDuration": "1-2 months",
+        "status": "pending",
+        "order": 8
+      },
+      {
+        "id": "job",
+        "title": "Job Application",
+        "description": "Apply for General Physician",
+        "skills": [
+          "Medical diagnosis",
+          "Patient care"
+        ],
+        "recommendedLearning": "Job search strategies, networking, applications",
+        "estimatedDuration": "2-6 months",
+        "status": "pending",
+        "order": 9
+      }
+    ],
+    "createdAt": "2026-09-16T16:25:18.082Z",
+    "updatedAt": "2026-09-16T16:25:31.132Z"
+  },
+  {
+    "id": "mu5tajtw11y67qqcuehm",
+    "careerTitle": "Business Analyst",
+    "userId": "mu3ocmxw57kwpi2319q",
+    "steps": [
+      {
+        "id": "current_education",
+        "title": "Current Education",
+        "description": "Complete your current education in Not specified",
+        "skills": [],
+        "recommendedLearning": "Focus on maintaining good grades in your current subjects",
+        "estimatedDuration": "6-12 months",
+        "status": "in_progress",
+        "order": 1
+      },
+      {
+        "id": "entrance_exam",
+        "title": "Entrance Exam Preparation",
+        "description": "Prepare for CAT",
+        "skills": [
+          "test-taking",
+          "time management",
+          "subject knowledge"
+        ],
+        "recommendedLearning": "Focus on core subjects",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 2
+      },
+      {
+        "id": "degree_course",
+        "title": "Bachelor's degree in Business, Finance, Economics, or related field. MBA preferred for senior roles.",
+        "description": "Enroll in and complete Bachelor's degree in Business, Finance, Economics, or related field. MBA preferred for senior roles.",
+        "skills": [
+          "Data Analysis",
+          "Process Modeling",
+          "SQL"
+        ],
+        "recommendedLearning": "BBA, B.Com",
+        "estimatedDuration": "3-4 years",
+        "status": "pending",
+        "order": 3
+      },
+      {
+        "id": "required_skills",
+        "title": "Required Skills Development",
+        "description": "Develop core technical skills required for the career",
+        "skills": [
+          "Data Analysis",
+          "Process Modeling",
+          "SQL",
+          "Excel/Google Sheets",
+          "Requirements Gathering",
+          "Stakeholder Management"
+        ],
+        "recommendedLearning": "Statistics, programming (Python/R), data visualization, machine learning",
+        "estimatedDuration": "6-12 months",
+        "status": "pending",
+        "order": 4
+      },
+      {
+        "id": "projects",
+        "title": "Build Projects",
+        "description": "Create practical projects to demonstrate your skills",
+        "skills": [
+          "Data Analysis",
+          "Process Modeling"
+        ],
+        "recommendedLearning": "Data analysis projects, Kaggle competitions, dashboards",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 5
+      },
+      {
+        "id": "internship",
+        "title": "Internship/Work Experience",
+        "description": "Gain real-world experience through internships",
+        "skills": [
+          "Communication",
+          "Critical thinking"
+        ],
+        "recommendedLearning": "Industry exposure, professional networking",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 6
+      },
+      {
+        "id": "resume",
+        "title": "Resume Building",
+        "description": "Create a professional resume highlighting your achievements",
+        "skills": [
+          "communication",
+          "presentation"
+        ],
+        "recommendedLearning": "Resume writing workshops, portfolio development",
+        "estimatedDuration": "1-2 weeks",
+        "status": "pending",
+        "order": 7
+      },
+      {
+        "id": "interview_prep",
+        "title": "Interview Preparation",
+        "description": "Prepare for job interviews in your chosen field",
+        "skills": [
+          "Communication",
+          "Critical thinking",
+          "Problem-solving",
+          "Negotiation",
+          "Presentation skills"
+        ],
+        "recommendedLearning": "Mock interviews, technical practice, company research",
+        "estimatedDuration": "1-2 months",
+        "status": "pending",
+        "order": 8
+      },
+      {
+        "id": "job",
+        "title": "Job Application",
+        "description": "Apply for Business Analyst",
+        "skills": [
+          "Data Analysis",
+          "Process Modeling"
+        ],
+        "recommendedLearning": "Job search strategies, networking, applications",
+        "estimatedDuration": "2-6 months",
+        "status": "pending",
+        "order": 9
+      }
+    ],
+    "createdAt": "2026-09-17T17:36:52.196Z",
+    "updatedAt": "2026-09-17T17:36:52.196Z"
+  },
+  {
+    "id": "mu5u0ppvflsuaq5py6a",
+    "careerTitle": "Content Writer / Journalist",
+    "userId": "mu3ocmxw57kwpi2319q",
+    "steps": [
+      {
+        "id": "current_education",
+        "title": "Current Education",
+        "description": "Complete your current education in Not specified",
+        "skills": [],
+        "recommendedLearning": "Focus on maintaining good grades in your current subjects",
+        "estimatedDuration": "6-12 months",
+        "status": "in_progress",
+        "order": 1
+      },
+      {
+        "id": "entrance_exam",
+        "title": "Entrance Exam Preparation",
+        "description": "Prepare for IIMC Entrance",
+        "skills": [
+          "test-taking",
+          "time management",
+          "subject knowledge"
+        ],
+        "recommendedLearning": "Focus on core subjects",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 2
+      },
+      {
+        "id": "degree_course",
+        "title": "Bachelor's degree in English, Journalism, Mass Communication, or related field. Portfolio is crucial.",
+        "description": "Enroll in and complete Bachelor's degree in English, Journalism, Mass Communication, or related field. Portfolio is crucial.",
+        "skills": [
+          "Writing & Editing",
+          "Research",
+          "SEO Basics"
+        ],
+        "recommendedLearning": "BA English, BA Journalism & Mass Communication",
+        "estimatedDuration": "3-4 years",
+        "status": "pending",
+        "order": 3
+      },
+      {
+        "id": "required_skills",
+        "title": "Required Skills Development",
+        "description": "Develop core technical skills required for the career",
+        "skills": [
+          "Writing & Editing",
+          "Research",
+          "SEO Basics",
+          "Content Strategy",
+          "Social Media Management",
+          "Basic Photography"
+        ],
+        "recommendedLearning": "Online courses, workshops, and practical projects",
+        "estimatedDuration": "6-12 months",
+        "status": "pending",
+        "order": 4
+      },
+      {
+        "id": "projects",
+        "title": "Build Projects",
+        "description": "Create practical projects to demonstrate your skills",
+        "skills": [
+          "Writing & Editing",
+          "Research"
+        ],
+        "recommendedLearning": "Hands-on project work, GitHub portfolio",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 5
+      },
+      {
+        "id": "internship",
+        "title": "Internship/Work Experience",
+        "description": "Gain real-world experience through internships",
+        "skills": [
+          "Creativity",
+          "Curiosity"
+        ],
+        "recommendedLearning": "Industry exposure, professional networking",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 6
+      },
+      {
+        "id": "resume",
+        "title": "Resume Building",
+        "description": "Create a professional resume highlighting your achievements",
+        "skills": [
+          "communication",
+          "presentation"
+        ],
+        "recommendedLearning": "Resume writing workshops, portfolio development",
+        "estimatedDuration": "1-2 weeks",
+        "status": "pending",
+        "order": 7
+      },
+      {
+        "id": "interview_prep",
+        "title": "Interview Preparation",
+        "description": "Prepare for job interviews in your chosen field",
+        "skills": [
+          "Creativity",
+          "Curiosity",
+          "Adaptability",
+          "Time management",
+          "Interviewing skills"
+        ],
+        "recommendedLearning": "Mock interviews, technical practice, company research",
+        "estimatedDuration": "1-2 months",
+        "status": "pending",
+        "order": 8
+      },
+      {
+        "id": "job",
+        "title": "Job Application",
+        "description": "Apply for Content Writer",
+        "skills": [
+          "Writing & Editing",
+          "Research"
+        ],
+        "recommendedLearning": "Job search strategies, networking, applications",
+        "estimatedDuration": "2-6 months",
+        "status": "pending",
+        "order": 9
+      }
+    ],
+    "createdAt": "2026-09-17T17:57:12.882Z",
+    "updatedAt": "2026-09-17T17:57:12.883Z"
+  }
+]

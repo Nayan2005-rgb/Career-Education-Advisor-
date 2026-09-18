@@ -18,7 +18,7 @@ export default function Dashboard() {
       const { data } = await recommendationAPI.getRecommendations(answers);
       setRecommendations(data.recommendations);
     } catch (err) {
-      setError(err.response?.data?.message || 'Something went wrong');
+      setError(err.response?.data?.message || 'Unable to submit assessment. Please try again.');
     } finally {
       setLoading(false);
     }

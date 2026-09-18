@@ -1,0 +1,297 @@
+[
+  {
+    "id": "exam_1",
+    "name": "JEE Main",
+    "fullName": "Joint Entrance Examination Main",
+    "purpose": "National level entrance exam for admission to undergraduate engineering programs (B.Tech/B.E.) at NITs, IIITs, and other centrally funded technical institutions. Also serves as eligibility test for JEE Advanced.",
+    "eligibility": "10+2 or equivalent examination with Physics, Chemistry, and Mathematics. Minimum 75% marks in 10+2 (65% for SC/ST). No age limit.",
+    "subjects": ["Physics", "Chemistry", "Mathematics"],
+    "examPattern": {
+      "mode": "Computer Based Test (CBT)",
+      "duration": "3 hours",
+      "totalMarks": 300,
+      "questions": {
+        "total": 90,
+        "physics": 30,
+        "chemistry": 30,
+        "mathematics": 30
+      },
+      "questionTypes": ["Multiple Choice Questions (MCQs)", "Numerical Value Questions"],
+      "markingScheme": "+4 for correct answer, -1 for incorrect answer (MCQs only)"
+    },
+    "preparationRoadmap": [
+      "Master NCERT textbooks for Physics, Chemistry, and Mathematics",
+      "Practice previous year JEE Main papers (minimum 10 years)",
+      "Join coaching institute or use online learning platforms",
+      "Focus on conceptual understanding over rote memorization",
+      "Take regular mock tests to improve speed and accuracy",
+      "Strengthen weak areas identified through practice tests",
+      "Revise regularly and maintain formula sheets",
+      "Solve problems from standard reference books"
+    ],
+    "relatedCourses": ["B.Tech Computer Science", "B.Tech Mechanical Engineering", "B.Tech Civil Engineering", "B.Tech Electrical Engineering", "B.Tech Data Science"],
+    "relatedColleges": ["IIT Bombay", "IIT Delhi", "IIT Madras", "IIT Kanpur", "NIT Trichy", "NIT Warangal", "BITS Pilani", "VIT Vellore", "SRM University"]
+  },
+  {
+    "id": "exam_2",
+    "name": "JEE Advanced",
+    "fullName": "Joint Entrance Examination Advanced",
+    "purpose": "National level entrance exam for admission to undergraduate engineering programs at Indian Institutes of Technology (IITs). Only for candidates who qualify JEE Main.",
+    "eligibility": "Qualified JEE Main exam. 10+2 or equivalent with Physics, Chemistry, and Mathematics. Minimum 75% marks in 10+2 (65% for SC/ST). Age limit: 25 years (30 for SC/ST/PwD). Maximum 2 attempts in consecutive years.",
+    "subjects": ["Physics", "Chemistry", "Mathematics"],
+    "examPattern": {
+      "mode": "Computer Based Test (CBT)",
+      "duration": "3 hours per paper (2 papers)",
+      "totalMarks": "360 per paper",
+      "questions": {
+        "total": "54 per paper",
+        "physics": 18,
+        "chemistry": 18,
+        "mathematics": 18
+      },
+      "questionTypes": ["Multiple Choice Questions (MCQs)", "Numerical Value Questions", "Match the Following", "Comprehension Based"],
+      "markingScheme": "Varies by question type. Generally +4 for correct, -1 for incorrect (MCQs), no negative for numerical"
+    },
+    "preparationRoadmap": [
+      "Advanced problem-solving beyond JEE Main level",
+      "Study from IIT JEE standard reference books",
+      "Practice IIT Advanced previous year papers (minimum 15 years)",
+      "Focus on application-based concepts and complex problems",
+      "Join advanced coaching or test series",
+      "Participate in mock tests simulating actual exam conditions",
+      "Strengthen conceptual depth in all three subjects",
+      "Work on time management and accuracy under pressure"
+    ],
+    "relatedCourses": ["B.Tech Computer Science", "B.Tech Mechanical Engineering", "B.Tech Civil Engineering", "B.Tech Electrical Engineering", "B.Tech Aerospace Engineering"],
+    "relatedColleges": ["IIT Bombay", "IIT Delhi", "IIT Madras", "IIT Kanpur", "IIT Kharagpur", "IIT Roorkee", "IIT Guwahati", "IIT Hyderabad", "IIT Indore"]
+  },
+  {
+    "id": "exam_3",
+    "name": "NEET",
+    "fullName": "National Eligibility cum Entrance Test",
+    "purpose": "National level entrance exam for admission to undergraduate medical courses (MBBS, BDS, AYUSH, Veterinary) in government and private medical colleges across India.",
+    "eligibility": "10+2 or equivalent with Physics, Chemistry, Biology/Biotechnology, and English. Minimum 50% marks in 10+2 (40% for SC/ST/OBC, 45% for PwD). Age limit: 17-25 years (30 for SC/ST/OBC). Indian nationals, NRIs, OCIs, and foreign nationals eligible.",
+    "subjects": ["Physics", "Chemistry", "Biology (Botany and Zoology)"],
+    "examPattern": {
+      "mode": "Pen and Paper (Offline)",
+      "duration": "3 hours 20 minutes",
+      "totalMarks": 720,
+      "questions": {
+        "total": 200,
+        "physics": 50,
+        "chemistry": 50,
+        "biology": 100
+      },
+      "questionTypes": ["Multiple Choice Questions (MCQs)"],
+      "markingScheme": "+4 for correct answer, -1 for incorrect answer"
+    },
+    "preparationRoadmap": [
+      "Master NCERT Biology textbooks (Class 11 and 12)",
+      "Study NCERT Physics and Chemistry thoroughly",
+      "Practice previous year NEET papers (minimum 10 years)",
+      "Join medical coaching institute or online platform",
+      "Focus on diagram-based questions in Biology",
+      "Memorize important facts, cycles, and processes",
+      "Take regular mock tests to improve speed",
+      "Revise botanical and zoological classifications extensively"
+    ],
+    "relatedCourses": ["MBBS", "BDS", "B.Sc Nursing", "B.Pharm", "BAMS", "BHMS"],
+    "relatedColleges": ["AIIMS New Delhi", "JIPMER Puducherry", "CMC Vellore", "AFMC Pune", "MGM Medical College", "KMC Manipal", "Christian Medical College"]
+  },
+  {
+    "id": "exam_4",
+    "name": "CUET",
+    "fullName": "Common University Entrance Test",
+    "purpose": "National level entrance exam for admission to undergraduate, postgraduate, and doctoral programs in central universities and participating institutions. Replaces multiple university-specific entrance tests.",
+    "eligibility": "Varies by program and university. Generally 10+2 or equivalent for undergraduate programs. No upper age limit. Indian nationals and foreign nationals eligible.",
+    "subjects": ["Domain-specific subjects (choose from 27 options)", "General Test", "Language Test (13 Indian languages + English)"],
+    "examPattern": {
+      "mode": "Computer Based Test (CBT)",
+      "duration": "45-195 minutes (varies by subjects)",
+      "totalMarks": "Varies by subject combination",
+      "questions": {
+        "total": "Varies by subject",
+        "domainSubjects": "40-60 questions per subject",
+        "generalTest": "75 questions",
+        "languageTest": "40-50 questions"
+      },
+      "questionTypes": ["Multiple Choice Questions (MCQs)"],
+      "markingScheme": "+5 for correct answer, -1 for incorrect answer"
+    },
+    "preparationRoadmap": [
+      "Identify required subjects for target courses/universities",
+      "Study NCERT textbooks for domain subjects",
+      "Practice general awareness and current affairs",
+      "Improve reading comprehension for language section",
+      "Take CUET-specific mock tests",
+      "Focus on time management across multiple sections",
+      "Review previous year patterns of target universities",
+      "Strengthen general knowledge and logical reasoning"
+    ],
+    "relatedCourses": ["B.Sc Computer Science", "B.Sc Statistics", "B.Sc Mathematics", "BA English", "BA Psychology", "B.Com", "BBA"],
+    "relatedColleges": ["Delhi University", "Jawaharlal Nehru University", "Banaras Hindu University", "University of Hyderabad", "Aligarh Muslim University", "Jamia Millia Islamia"]
+  },
+  {
+    "id": "exam_5",
+    "name": "NDA",
+    "fullName": "National Defence Academy Examination",
+    "purpose": "National level entrance exam for admission to the National Defence Academy and Naval Academy for training candidates for Indian Army, Navy, and Air Force.",
+    "eligibility": "10+2 or equivalent. Army Wing: Any stream. Navy and Air Force: Physics, Chemistry, and Mathematics. Age limit: 16.5-19.5 years. Unmarried male candidates only. Indian nationals only.",
+    "subjects": ["Mathematics", "General Ability Test (Physics, Chemistry, General Science, History, Geography, Current Events)"],
+    "examPattern": {
+      "mode": "Pen and Paper (Offline)",
+      "duration": "Mathematics: 2.5 hours, GAT: 2.5 hours",
+      "totalMarks": "Mathematics: 300, GAT: 600 (Total: 900)",
+      "questions": {
+        "total": "270",
+        "mathematics": 120,
+        "generalAbilityTest": 150
+      },
+      "questionTypes": ["Multiple Choice Questions (MCQs)"],
+      "markingScheme": "+2.5 for correct in Mathematics, +0.83 for correct in GAT, -0.83 for incorrect in Mathematics, -0.27 for incorrect in GAT"
+    },
+    "preparationRoadmap": [
+      "Strengthen Mathematics foundation (Class 11-12 level)",
+      "Study Science subjects (Physics, Chemistry) thoroughly",
+      "Read newspapers for current affairs and general knowledge",
+      "Study Indian history, geography, and polity",
+      "Practice previous year NDA papers (minimum 10 years)",
+      "Focus on English language and comprehension",
+      "Prepare for SSB interview simultaneously",
+      "Maintain physical fitness for medical tests"
+    ],
+    "relatedCourses": ["B.Tech (through NDA)", "B.Sc (through NDA)", "BA (through NDA)"],
+    "relatedColleges": ["National Defence Academy (Khadakwasla)", "Indian Military Academy", "Indian Naval Academy", "Air Force Academy"]
+  },
+  {
+    "id": "exam_6",
+    "name": "CDS",
+    "fullName": "Combined Defence Services Examination",
+    "purpose": "National level entrance exam for recruitment to Indian Military Academy, Indian Naval Academy, Air Force Academy, and Officers Training Academy. For graduates seeking commission in armed forces.",
+    "eligibility": "Graduate degree from recognized university. IMA/OTA: Any degree. INA: B.Sc with Physics/Mathematics or Bachelor of Engineering. AFA: B.Sc with Physics/Mathematics or Bachelor of Engineering or B.Tech. Age limit: 19-24 years (varies by academy). Unmarried candidates only. Indian nationals only.",
+    "subjects": ["English", "General Knowledge", "Elementary Mathematics (for IMA, INA, AFA only)"],
+    "examPattern": {
+      "mode": "Pen and Paper (Offline)",
+      "duration": "2 hours per paper",
+      "totalMarks": "English: 100, GK: 100, Mathematics: 100 (Total: 300 for IMA/INA/AFA, 200 for OTA)",
+      "questions": {
+        "total": "300 (IMA/INA/AFA), 200 (OTA)",
+        "english": 120,
+        "generalKnowledge": 120,
+        "mathematics": 100
+      },
+      "questionTypes": ["Multiple Choice Questions (MCQs)"],
+      "markingScheme": "+1 for correct answer, -0.33 for incorrect answer"
+    },
+    "preparationRoadmap": [
+      "Strengthen English grammar and vocabulary",
+      "Read newspapers and magazines for current affairs",
+      "Study Indian history, geography, polity, and economy",
+      "Review basic Mathematics (Class 10 level)",
+      "Practice previous year CDS papers (minimum 10 years)",
+      "Focus on defense-related current affairs",
+      "Prepare for SSB interview alongside written exam",
+      "Maintain physical fitness standards"
+    ],
+    "relatedCourses": ["Post-commission training programs in respective academies"],
+    "relatedColleges": ["Indian Military Academy (Dehradun)", "Indian Naval Academy (Ezhimala)", "Air Force Academy (Hyderabad)", "Officers Training Academy (Chennai)"]
+  },
+  {
+    "id": "exam_7",
+    "name": "CAT",
+    "fullName": "Common Admission Test",
+    "purpose": "National level entrance exam for admission to postgraduate management programs (MBA/PGDM) at Indian Institutes of Management (IIMs) and other top B-schools in India.",
+    "eligibility": "Bachelor's degree with minimum 50% marks (45% for SC/ST/PwD). Final year students eligible. No age limit. Indian nationals and foreign nationals eligible.",
+    "subjects": ["Verbal Ability and Reading Comprehension (VARC)", "Data Interpretation and Logical Reasoning (DILR)", "Quantitative Aptitude (QA)"],
+    "examPattern": {
+      "mode": "Computer Based Test (CBT)",
+      "duration": "2 hours",
+      "totalMarks": "198",
+      "questions": {
+        "total": 66,
+        "varc": 24,
+        "dilr": 20,
+        "qa": 22
+      },
+      "questionTypes": ["Multiple Choice Questions (MCQs)", "Type in the Answer (TITA)"],
+      "markingScheme": "+3 for correct answer, -1 for incorrect answer (MCQs only), no negative for TITA"
+    },
+    "preparationRoadmap": [
+      "Strengthen reading comprehension and vocabulary",
+      "Practice mental mathematics and calculation speed",
+      "Master data interpretation techniques",
+      "Develop logical reasoning through puzzles and games",
+      "Take CAT mock tests (minimum 20-30)",
+      "Analyze mock test performance to identify weak areas",
+      "Practice time management across sections",
+      "Read extensively to improve reading speed"
+    ],
+    "relatedCourses": ["MBA", "PGDM", "Executive MBA", "MBA in Business Analytics", "MBA in Finance"],
+    "relatedColleges": ["IIM Ahmedabad", "IIM Bangalore", "IIM Calcutta", "IIM Lucknow", "IIM Indore", "FMS Delhi", "XLRI Jamshedpur", "SPJIMR Mumbai", "ISB Hyderabad"]
+  },
+  {
+    "id": "exam_8",
+    "name": "GATE",
+    "fullName": "Graduate Aptitude Test in Engineering",
+    "purpose": "National level entrance exam for admission to postgraduate engineering programs (M.Tech, M.E.) and for recruitment in PSUs (Public Sector Undertakings). Also serves as eligibility for fellowships.",
+    "eligibility": "Bachelor's degree in Engineering/Technology/Architecture (4 years after 10+2) or Master's degree in Science/Mathematics/Statistics/Computer Applications. No age limit. Indian nationals and foreign nationals eligible.",
+    "subjects": ["General Aptitude", "Engineering Mathematics", "Subject-specific paper (choose from 29 disciplines)"],
+    "examPattern": {
+      "mode": "Computer Based Test (CBT)",
+      "duration": "3 hours",
+      "totalMarks": 100,
+      "questions": {
+        "total": 65,
+        "generalAptitude": 15,
+        "subjectSpecific": 50
+      },
+      "questionTypes": ["Multiple Choice Questions (MCQs)", "Multiple Select Questions (MSQs)", "Numerical Answer Type (NAT)"],
+      "markingScheme": "+1 or +2 for correct (varies by question), -0.33 for incorrect (MCQs only), no negative for MSQs and NAT"
+    },
+    "preparationRoadmap": [
+      "Master undergraduate engineering syllabus",
+      "Study standard textbooks for chosen discipline",
+      "Practice previous year GATE papers (minimum 15 years)",
+      "Focus on conceptual understanding and application",
+      "Join GATE coaching or online test series",
+      "Take regular mock tests to improve accuracy",
+      "Strengthen engineering mathematics fundamentals",
+      "Review general aptitude topics (quantitative, reasoning, English)"
+    ],
+    "relatedCourses": ["M.Tech Computer Science", "M.Tech Mechanical Engineering", "M.Tech Electrical Engineering", "M.Tech Civil Engineering", "M.Tech Electronics"],
+    "relatedColleges": ["IIT Bombay", "IIT Delhi", "IIT Madras", "IISc Bangalore", "IIT Kanpur", "IIT Kharagpur", "NIT Trichy", "IIT Roorkee"]
+  },
+  {
+    "id": "exam_9",
+    "name": "MHT-CET",
+    "fullName": "Maharashtra Common Entrance Test",
+    "purpose": "State level entrance exam for admission to undergraduate engineering, pharmacy, and agriculture programs in Maharashtra state colleges and universities.",
+    "eligibility": "10+2 or equivalent with Physics, Chemistry, and Mathematics for Engineering/Pharmacy. Minimum 50% marks in 10+2 (45% for OBC, 40% for SC/ST). Maharashtra domicile and other state candidates eligible with different criteria.",
+    "subjects": ["Physics", "Chemistry", "Mathematics/Biology"],
+    "examPattern": {
+      "mode": "Computer Based Test (CBT)",
+      "duration": "3 hours",
+      "totalMarks": 200,
+      "questions": {
+        "total": 150,
+        "physics": 50,
+        "chemistry": 50,
+        "mathematics": 50
+      },
+      "questionTypes": ["Multiple Choice Questions (MCQs)"],
+      "markingScheme": "+1 for correct answer, no negative marking"
+    },
+    "preparationRoadmap": [
+      "Study Maharashtra State Board textbooks thoroughly",
+      "Practice previous year MHT-CET papers (minimum 10 years)",
+      "Focus on state board syllabus specifically",
+      "Join state-specific coaching or online platform",
+      "Take regular mock tests for practice",
+      "Strengthen conceptual understanding in PCM",
+      "Review formulas and important concepts regularly",
+      "Practice time management for each section"
+    ],
+    "relatedCourses": ["B.Tech Computer Science", "B.Tech Mechanical Engineering", "B.Tech Civil Engineering", "B.Pharm", "B.Sc Agriculture"],
+    "relatedColleges": ["College of Engineering Pune (COEP)", "Veermata Jijabai Technological Institute (VJTI)", "Sardar Patel Institute of Technology", "Pillai College of Engineering", "DY Patil College of Engineering"]
+  }
+]

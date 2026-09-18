@@ -1,0 +1,2611 @@
+[
+  {
+    "id": "mu3p3bqppvju1p16zu",
+    "user": "mu3p17d8xp36s0kxz6",
+    "careerTitle": "Software Engineer",
+    "analysis": {
+      "careerTitle": "Software Engineer",
+      "studentProfile": {
+        "skills": [
+          "problem-solving",
+          "communication"
+        ],
+        "subjects": [
+          "computer science",
+          "math"
+        ],
+        "interests": [
+          "technology"
+        ]
+      },
+      "overallMatch": 0,
+      "skillComparisons": [
+        {
+          "skill": "Programming (Python, Java, JavaScript, C++)",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Data Structures & Algorithms",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Database Management (SQL, NoSQL)",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Version Control (Git)",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "System Design",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Testing & Debugging",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Problem-solving",
+          "current": 70,
+          "required": 75,
+          "gap": 5,
+          "hasSkill": true,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Logical thinking",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Attention to detail",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Continuous learning",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Communication",
+          "current": 70,
+          "required": 75,
+          "gap": 5,
+          "hasSkill": true,
+          "isSoftSkill": true
+        }
+      ],
+      "skillCategories": {
+        "highPriority": [
+          {
+            "skill": "Programming (Python, Java, JavaScript, C++)",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Data Structures & Algorithms",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Database Management (SQL, NoSQL)",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Version Control (Git)",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "System Design",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Testing & Debugging",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Logical thinking",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Attention to detail",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Continuous learning",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          }
+        ],
+        "mediumPriority": [],
+        "lowPriority": [
+          {
+            "skill": "Problem-solving",
+            "current": 70,
+            "required": 75,
+            "gap": 5,
+            "hasSkill": true,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Communication",
+            "current": 70,
+            "required": 75,
+            "gap": 5,
+            "hasSkill": true,
+            "isSoftSkill": true
+          }
+        ],
+        "missingSkills": [
+          "Programming (Python, Java, JavaScript, C++)",
+          "Data Structures & Algorithms",
+          "Database Management (SQL, NoSQL)",
+          "Version Control (Git)",
+          "System Design",
+          "Testing & Debugging",
+          "Logical thinking",
+          "Attention to detail",
+          "Continuous learning"
+        ]
+      },
+      "learningRecommendations": [
+        {
+          "skill": "Programming (Python, Java, JavaScript, C++)",
+          "gap": 80,
+          "recommendation": "Start with online courses (Coursera, edX), practice on LeetCode/HackerRank, build small projects",
+          "priority": "high"
+        },
+        {
+          "skill": "Data Structures & Algorithms",
+          "gap": 80,
+          "recommendation": "Complete ML specialization courses, work on Kaggle competitions, implement algorithms from scratch",
+          "priority": "high"
+        },
+        {
+          "skill": "Database Management (SQL, NoSQL)",
+          "gap": 80,
+          "recommendation": "Learn SQL basics through SQLZoo, practice with real datasets, take database design courses",
+          "priority": "high"
+        },
+        {
+          "skill": "Version Control (Git)",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "System Design",
+          "gap": 80,
+          "recommendation": "Complete UI/UX design courses, build portfolio projects, study design systems",
+          "priority": "high"
+        },
+        {
+          "skill": "Testing & Debugging",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Logical thinking",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Attention to detail",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Continuous learning",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        }
+      ],
+      "projectRecommendations": [
+        {
+          "title": "Full-Stack Web Application",
+          "description": "Build a complete web app using modern frameworks, database integration, and deployment",
+          "skills": [
+            "Programming (Python, Java, JavaScript, C++)",
+            "Data Structures & Algorithms"
+          ],
+          "difficulty": "Intermediate",
+          "estimatedTime": "4-6 weeks"
+        },
+        {
+          "title": "API Development Project",
+          "description": "Design and implement RESTful APIs with proper authentication and documentation",
+          "skills": [
+            "Programming (Python, Java, JavaScript, C++)",
+            "Data Structures & Algorithms"
+          ],
+          "difficulty": "Beginner",
+          "estimatedTime": "2-3 weeks"
+        }
+      ],
+      "generatedAt": "2026-09-16T06:03:44.303Z"
+    },
+    "createdAt": "2026-09-16T06:03:44.305Z",
+    "updatedAt": "2026-09-16T06:03:44.305Z"
+  },
+  {
+    "id": "mu3xk3q12cs9b3x2t6v",
+    "user": "mu3ocmxw57kwpi2319q",
+    "careerTitle": "Software Engineer",
+    "analysis": {
+      "careerTitle": "Software Engineer",
+      "studentProfile": {
+        "skills": [
+          "communication"
+        ],
+        "subjects": [
+          "computer science"
+        ],
+        "interests": [
+          "technology"
+        ]
+      },
+      "overallMatch": 0,
+      "skillComparisons": [
+        {
+          "skill": "Programming (Python, Java, JavaScript, C++)",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Data Structures & Algorithms",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Database Management (SQL, NoSQL)",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Version Control (Git)",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "System Design",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Testing & Debugging",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Problem-solving",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Logical thinking",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Attention to detail",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Continuous learning",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Communication",
+          "current": 70,
+          "required": 75,
+          "gap": 5,
+          "hasSkill": true,
+          "isSoftSkill": true
+        }
+      ],
+      "skillCategories": {
+        "highPriority": [
+          {
+            "skill": "Programming (Python, Java, JavaScript, C++)",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Data Structures & Algorithms",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Database Management (SQL, NoSQL)",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Version Control (Git)",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "System Design",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Testing & Debugging",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Problem-solving",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Logical thinking",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Attention to detail",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Continuous learning",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          }
+        ],
+        "mediumPriority": [],
+        "lowPriority": [
+          {
+            "skill": "Communication",
+            "current": 70,
+            "required": 75,
+            "gap": 5,
+            "hasSkill": true,
+            "isSoftSkill": true
+          }
+        ],
+        "missingSkills": [
+          "Programming (Python, Java, JavaScript, C++)",
+          "Data Structures & Algorithms",
+          "Database Management (SQL, NoSQL)",
+          "Version Control (Git)",
+          "System Design",
+          "Testing & Debugging",
+          "Problem-solving",
+          "Logical thinking",
+          "Attention to detail",
+          "Continuous learning"
+        ]
+      },
+      "learningRecommendations": [
+        {
+          "skill": "Programming (Python, Java, JavaScript, C++)",
+          "gap": 80,
+          "recommendation": "Start with online courses (Coursera, edX), practice on LeetCode/HackerRank, build small projects",
+          "priority": "high"
+        },
+        {
+          "skill": "Data Structures & Algorithms",
+          "gap": 80,
+          "recommendation": "Complete ML specialization courses, work on Kaggle competitions, implement algorithms from scratch",
+          "priority": "high"
+        },
+        {
+          "skill": "Database Management (SQL, NoSQL)",
+          "gap": 80,
+          "recommendation": "Learn SQL basics through SQLZoo, practice with real datasets, take database design courses",
+          "priority": "high"
+        },
+        {
+          "skill": "Version Control (Git)",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "System Design",
+          "gap": 80,
+          "recommendation": "Complete UI/UX design courses, build portfolio projects, study design systems",
+          "priority": "high"
+        },
+        {
+          "skill": "Testing & Debugging",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Problem-solving",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Logical thinking",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Attention to detail",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Continuous learning",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        }
+      ],
+      "projectRecommendations": [
+        {
+          "title": "Full-Stack Web Application",
+          "description": "Build a complete web app using modern frameworks, database integration, and deployment",
+          "skills": [
+            "Programming (Python, Java, JavaScript, C++)",
+            "Data Structures & Algorithms"
+          ],
+          "difficulty": "Intermediate",
+          "estimatedTime": "4-6 weeks"
+        },
+        {
+          "title": "API Development Project",
+          "description": "Design and implement RESTful APIs with proper authentication and documentation",
+          "skills": [
+            "Programming (Python, Java, JavaScript, C++)",
+            "Data Structures & Algorithms"
+          ],
+          "difficulty": "Beginner",
+          "estimatedTime": "2-3 weeks"
+        }
+      ],
+      "generatedAt": "2026-09-16T10:00:44.002Z"
+    },
+    "createdAt": "2026-09-16T10:00:43.993Z",
+    "updatedAt": "2026-09-16T10:00:44.004Z"
+  },
+  {
+    "id": "mu3xkvmgr6az2v80jwm",
+    "user": "mu3ocmxw57kwpi2319q",
+    "careerTitle": "Entrepreneur / Startup Founder",
+    "analysis": {
+      "careerTitle": "Entrepreneur / Startup Founder",
+      "studentProfile": {
+        "skills": [
+          "leadership"
+        ],
+        "subjects": [
+          "languages"
+        ],
+        "interests": [
+          "engineering"
+        ]
+      },
+      "overallMatch": 17,
+      "skillComparisons": [
+        {
+          "skill": "Business Planning",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Financial Management",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Marketing",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Leadership",
+          "current": 60,
+          "required": 80,
+          "gap": 20,
+          "hasSkill": true
+        },
+        {
+          "skill": "Networking",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Product Development",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Risk-taking",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Resilience",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Vision",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Adaptability",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Persuasion",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Decision-making",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        }
+      ],
+      "skillCategories": {
+        "highPriority": [
+          {
+            "skill": "Business Planning",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Financial Management",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Marketing",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Networking",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Product Development",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Risk-taking",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Resilience",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Vision",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Adaptability",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Persuasion",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Decision-making",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          }
+        ],
+        "mediumPriority": [],
+        "lowPriority": [
+          {
+            "skill": "Leadership",
+            "current": 60,
+            "required": 80,
+            "gap": 20,
+            "hasSkill": true
+          }
+        ],
+        "missingSkills": [
+          "Business Planning",
+          "Financial Management",
+          "Marketing",
+          "Networking",
+          "Product Development",
+          "Risk-taking",
+          "Resilience",
+          "Vision",
+          "Adaptability",
+          "Persuasion",
+          "Decision-making"
+        ]
+      },
+      "learningRecommendations": [
+        {
+          "skill": "Business Planning",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Financial Management",
+          "gap": 80,
+          "recommendation": "Take leadership courses, seek mentorship opportunities, lead small team projects",
+          "priority": "high"
+        },
+        {
+          "skill": "Marketing",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Networking",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Product Development",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Risk-taking",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Resilience",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Vision",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Adaptability",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Persuasion",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Decision-making",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        }
+      ],
+      "projectRecommendations": [
+        {
+          "title": "Capstone Project",
+          "description": "Create a comprehensive project demonstrating key Entrepreneur / Startup Founder skills",
+          "skills": [
+            "Business Planning",
+            "Financial Management"
+          ],
+          "difficulty": "Intermediate",
+          "estimatedTime": "4-6 weeks"
+        },
+        {
+          "title": "Skill-Building Mini Projects",
+          "description": "Complete 2-3 smaller projects focusing on specific skill gaps",
+          "skills": [
+            "Business Planning",
+            "Financial Management"
+          ],
+          "difficulty": "Beginner",
+          "estimatedTime": "2-3 weeks each"
+        }
+      ],
+      "generatedAt": "2026-09-16T10:01:20.161Z"
+    },
+    "createdAt": "2026-09-16T10:01:20.152Z",
+    "updatedAt": "2026-09-16T10:01:20.162Z"
+  },
+  {
+    "id": "mu3yqcsgt4ylve2cg7k",
+    "user": "mu3ocmxw57kwpi2319q",
+    "careerTitle": "UX/UI Designer",
+    "analysis": {
+      "careerTitle": "UX/UI Designer",
+      "studentProfile": {
+        "skills": [
+          "communication"
+        ],
+        "subjects": [
+          "computer science"
+        ],
+        "interests": [
+          "technology"
+        ]
+      },
+      "overallMatch": 0,
+      "skillComparisons": [
+        {
+          "skill": "User Research",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Wireframing & Prototyping (Figma, Sketch)",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Visual Design",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Interaction Design",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Design Systems",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Basic HTML/CSS",
+          "current": 0,
+          "required": 60,
+          "gap": 60,
+          "hasSkill": false
+        },
+        {
+          "skill": "Empathy",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Creativity",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Communication",
+          "current": 70,
+          "required": 75,
+          "gap": 5,
+          "hasSkill": true,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "User-centered thinking",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Collaboration",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        }
+      ],
+      "skillCategories": {
+        "highPriority": [
+          {
+            "skill": "User Research",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Wireframing & Prototyping (Figma, Sketch)",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Visual Design",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Interaction Design",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Design Systems",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Basic HTML/CSS",
+            "current": 0,
+            "required": 60,
+            "gap": 60,
+            "hasSkill": false
+          },
+          {
+            "skill": "Empathy",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Creativity",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "User-centered thinking",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Collaboration",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          }
+        ],
+        "mediumPriority": [],
+        "lowPriority": [
+          {
+            "skill": "Communication",
+            "current": 70,
+            "required": 75,
+            "gap": 5,
+            "hasSkill": true,
+            "isSoftSkill": true
+          }
+        ],
+        "missingSkills": [
+          "User Research",
+          "Wireframing & Prototyping (Figma, Sketch)",
+          "Visual Design",
+          "Interaction Design",
+          "Design Systems",
+          "Basic HTML/CSS",
+          "Empathy",
+          "Creativity",
+          "User-centered thinking",
+          "Collaboration"
+        ]
+      },
+      "learningRecommendations": [
+        {
+          "skill": "User Research",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Wireframing & Prototyping (Figma, Sketch)",
+          "gap": 80,
+          "recommendation": "Complete UI/UX design courses, build portfolio projects, study design systems",
+          "priority": "high"
+        },
+        {
+          "skill": "Visual Design",
+          "gap": 80,
+          "recommendation": "Complete UI/UX design courses, build portfolio projects, study design systems",
+          "priority": "high"
+        },
+        {
+          "skill": "Interaction Design",
+          "gap": 80,
+          "recommendation": "Complete UI/UX design courses, build portfolio projects, study design systems",
+          "priority": "high"
+        },
+        {
+          "skill": "Design Systems",
+          "gap": 80,
+          "recommendation": "Complete UI/UX design courses, build portfolio projects, study design systems",
+          "priority": "high"
+        },
+        {
+          "skill": "Basic HTML/CSS",
+          "gap": 60,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Empathy",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Creativity",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "User-centered thinking",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Collaboration",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        }
+      ],
+      "projectRecommendations": [
+        {
+          "title": "Mobile App Redesign",
+          "description": "Redesign an existing mobile app with improved UX and updated UI",
+          "skills": [
+            "User Research",
+            "Wireframing & Prototyping (Figma, Sketch)"
+          ],
+          "difficulty": "Intermediate",
+          "estimatedTime": "3-4 weeks"
+        },
+        {
+          "title": "Design System Creation",
+          "description": "Create a comprehensive design system with components and guidelines",
+          "skills": [
+            "User Research",
+            "Wireframing & Prototyping (Figma, Sketch)"
+          ],
+          "difficulty": "Advanced",
+          "estimatedTime": "4-5 weeks"
+        }
+      ],
+      "generatedAt": "2026-09-16T10:33:35.308Z"
+    },
+    "createdAt": "2026-09-16T10:33:35.297Z",
+    "updatedAt": "2026-09-16T10:33:35.312Z"
+  },
+  {
+    "id": "mu4banschjr0ntwx9l",
+    "user": "mu3ocmxw57kwpi2319q",
+    "careerTitle": "Doctor (Physician)",
+    "analysis": {
+      "careerTitle": "Doctor (Physician)",
+      "studentProfile": {
+        "skills": [
+          "communication"
+        ],
+        "subjects": [
+          "biology"
+        ],
+        "interests": [
+          "design"
+        ]
+      },
+      "overallMatch": 0,
+      "skillComparisons": [
+        {
+          "skill": "Medical diagnosis",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Patient care",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Medical knowledge",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Treatment planning",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Emergency response",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Empathy",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Communication",
+          "current": 70,
+          "required": 75,
+          "gap": 5,
+          "hasSkill": true,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Patience",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Attention to detail",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Stress management",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        }
+      ],
+      "skillCategories": {
+        "highPriority": [
+          {
+            "skill": "Medical diagnosis",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Patient care",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Medical knowledge",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Treatment planning",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Emergency response",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Empathy",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Patience",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Attention to detail",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Stress management",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          }
+        ],
+        "mediumPriority": [],
+        "lowPriority": [
+          {
+            "skill": "Communication",
+            "current": 70,
+            "required": 75,
+            "gap": 5,
+            "hasSkill": true,
+            "isSoftSkill": true
+          }
+        ],
+        "missingSkills": [
+          "Medical diagnosis",
+          "Patient care",
+          "Medical knowledge",
+          "Treatment planning",
+          "Emergency response",
+          "Empathy",
+          "Patience",
+          "Attention to detail",
+          "Stress management"
+        ]
+      },
+      "learningRecommendations": [
+        {
+          "skill": "Medical diagnosis",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Patient care",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Medical knowledge",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Treatment planning",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Emergency response",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Empathy",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Patience",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Attention to detail",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Stress management",
+          "gap": 75,
+          "recommendation": "Take leadership courses, seek mentorship opportunities, lead small team projects",
+          "priority": "high"
+        }
+      ],
+      "detailedLearningPath": [
+        {
+          "skill": "Medical diagnosis",
+          "topic": "Medical diagnosis",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 80,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Patient care",
+          "topic": "Patient care",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 80,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Medical knowledge",
+          "topic": "Medical knowledge",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 80,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Treatment planning",
+          "topic": "Treatment planning",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 80,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Emergency response",
+          "topic": "Emergency response",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 80,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Empathy",
+          "topic": "Empathy",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 75,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Patience",
+          "topic": "Patience",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 75,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Attention to detail",
+          "topic": "Attention to detail",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 75,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Stress management",
+          "topic": "Leadership & Management",
+          "difficulty": "Advanced",
+          "estimatedDuration": "8-12 weeks",
+          "prerequisites": [
+            "Communication skills",
+            "Team experience"
+          ],
+          "recommendedResource": "Harvard Business School Online, LinkedIn Learning",
+          "learningSteps": [
+            "Complete leadership fundamentals course",
+            "Lead a small team project",
+            "Seek mentorship from experienced leaders",
+            "Practice decision-making scenarios"
+          ],
+          "gap": 75,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        }
+      ],
+      "projectRecommendations": [
+        {
+          "title": "Capstone Project",
+          "description": "Create a comprehensive project demonstrating key Doctor (Physician) skills",
+          "skills": [
+            "Medical diagnosis",
+            "Patient care"
+          ],
+          "difficulty": "Intermediate",
+          "estimatedTime": "4-6 weeks"
+        },
+        {
+          "title": "Skill-Building Mini Projects",
+          "description": "Complete 2-3 smaller projects focusing on specific skill gaps",
+          "skills": [
+            "Medical diagnosis",
+            "Patient care"
+          ],
+          "difficulty": "Beginner",
+          "estimatedTime": "2-3 weeks each"
+        }
+      ],
+      "generatedAt": "2026-09-16T16:25:18.097Z"
+    },
+    "createdAt": "2026-09-16T16:25:18.060Z",
+    "updatedAt": "2026-09-16T16:25:18.101Z"
+  },
+  {
+    "id": "mu5tajtjnbol1auxt4",
+    "user": "mu3ocmxw57kwpi2319q",
+    "careerTitle": "Business Analyst",
+    "analysis": {
+      "careerTitle": "Business Analyst",
+      "studentProfile": {
+        "skills": [
+          "communication",
+          "problem-solving"
+        ],
+        "subjects": [
+          "computer science"
+        ],
+        "interests": [
+          "technology"
+        ]
+      },
+      "overallMatch": 0,
+      "skillComparisons": [
+        {
+          "skill": "Data Analysis",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Process Modeling",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "SQL",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Excel/Google Sheets",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Requirements Gathering",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Stakeholder Management",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Communication",
+          "current": 70,
+          "required": 75,
+          "gap": 5,
+          "hasSkill": true,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Critical thinking",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Problem-solving",
+          "current": 70,
+          "required": 75,
+          "gap": 5,
+          "hasSkill": true,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Negotiation",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Presentation skills",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        }
+      ],
+      "skillCategories": {
+        "highPriority": [
+          {
+            "skill": "Data Analysis",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Process Modeling",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "SQL",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Excel/Google Sheets",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Requirements Gathering",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Stakeholder Management",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Critical thinking",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Negotiation",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Presentation skills",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          }
+        ],
+        "mediumPriority": [],
+        "lowPriority": [
+          {
+            "skill": "Communication",
+            "current": 70,
+            "required": 75,
+            "gap": 5,
+            "hasSkill": true,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Problem-solving",
+            "current": 70,
+            "required": 75,
+            "gap": 5,
+            "hasSkill": true,
+            "isSoftSkill": true
+          }
+        ],
+        "missingSkills": [
+          "Data Analysis",
+          "Process Modeling",
+          "SQL",
+          "Excel/Google Sheets",
+          "Requirements Gathering",
+          "Stakeholder Management",
+          "Critical thinking",
+          "Negotiation",
+          "Presentation skills"
+        ]
+      },
+      "learningRecommendations": [
+        {
+          "skill": "Data Analysis",
+          "gap": 80,
+          "recommendation": "Complete ML specialization courses, work on Kaggle competitions, implement algorithms from scratch",
+          "priority": "high"
+        },
+        {
+          "skill": "Process Modeling",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "SQL",
+          "gap": 80,
+          "recommendation": "Learn SQL basics through SQLZoo, practice with real datasets, take database design courses",
+          "priority": "high"
+        },
+        {
+          "skill": "Excel/Google Sheets",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Requirements Gathering",
+          "gap": 80,
+          "recommendation": "Complete UI/UX design courses, build portfolio projects, study design systems",
+          "priority": "high"
+        },
+        {
+          "skill": "Stakeholder Management",
+          "gap": 80,
+          "recommendation": "Take leadership courses, seek mentorship opportunities, lead small team projects",
+          "priority": "high"
+        },
+        {
+          "skill": "Critical thinking",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Negotiation",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Presentation skills",
+          "gap": 75,
+          "recommendation": "Join public speaking clubs (Toastmasters), practice presentation skills, take business communication courses",
+          "priority": "high"
+        }
+      ],
+      "detailedLearningPath": [
+        {
+          "skill": "Data Analysis",
+          "topic": "Machine Learning",
+          "difficulty": "Advanced",
+          "estimatedDuration": "12-16 weeks",
+          "prerequisites": [
+            "Python programming",
+            "Statistics",
+            "Linear algebra"
+          ],
+          "recommendedResource": "Coursera - Machine Learning Specialization, Kaggle Learn",
+          "learningSteps": [
+            "Complete ML fundamentals course",
+            "Implement algorithms from scratch",
+            "Participate in Kaggle competitions",
+            "Build 2-3 ML projects with real data"
+          ],
+          "gap": 80,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Process Modeling",
+          "topic": "Process Modeling",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 80,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "SQL",
+          "topic": "Database Management",
+          "difficulty": "Beginner",
+          "estimatedDuration": "4-5 weeks",
+          "prerequisites": [
+            "Basic programming knowledge",
+            "Understanding of data concepts"
+          ],
+          "recommendedResource": "SQLZoo, Coursera - SQL for Data Science",
+          "learningSteps": [
+            "Learn SQL basics (SELECT, WHERE, ORDER BY)",
+            "Practice with SQLZoo tutorials",
+            "Work with sample databases",
+            "Learn JOINs and complex queries"
+          ],
+          "gap": 80,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Excel/Google Sheets",
+          "topic": "Excel/Google Sheets",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 80,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Requirements Gathering",
+          "topic": "UI/UX Design",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "8-10 weeks",
+          "prerequisites": [
+            "Creativity",
+            "Basic computer skills"
+          ],
+          "recommendedResource": "Figma Academy, Coursera - UI/UX Design Specialization",
+          "learningSteps": [
+            "Learn design principles and typography",
+            "Master Figma interface and tools",
+            "Create wireframes and prototypes",
+            "Build a portfolio of 3-5 projects"
+          ],
+          "gap": 80,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Stakeholder Management",
+          "topic": "Leadership & Management",
+          "difficulty": "Advanced",
+          "estimatedDuration": "8-12 weeks",
+          "prerequisites": [
+            "Communication skills",
+            "Team experience"
+          ],
+          "recommendedResource": "Harvard Business School Online, LinkedIn Learning",
+          "learningSteps": [
+            "Complete leadership fundamentals course",
+            "Lead a small team project",
+            "Seek mentorship from experienced leaders",
+            "Practice decision-making scenarios"
+          ],
+          "gap": 80,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Critical thinking",
+          "topic": "Critical thinking",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 75,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Negotiation",
+          "topic": "Negotiation",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 75,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Presentation skills",
+          "topic": "Communication Skills",
+          "difficulty": "Beginner",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "Basic language proficiency"
+          ],
+          "recommendedResource": "Toastmasters International, Coursera - Communication Skills",
+          "learningSteps": [
+            "Join Toastmasters or similar group",
+            "Practice public speaking weekly",
+            "Learn presentation structure",
+            "Deliver 5 presentations with feedback"
+          ],
+          "gap": 75,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        }
+      ],
+      "projectRecommendations": [
+        {
+          "title": "Business Process Analysis",
+          "description": "Analyze and optimize a business process with data-driven recommendations",
+          "skills": [
+            "Data Analysis",
+            "Process Modeling"
+          ],
+          "difficulty": "Intermediate",
+          "estimatedTime": "3-4 weeks"
+        },
+        {
+          "title": "Market Research Project",
+          "description": "Conduct comprehensive market research and present strategic insights",
+          "skills": [
+            "Data Analysis",
+            "Process Modeling"
+          ],
+          "difficulty": "Beginner",
+          "estimatedTime": "2-3 weeks"
+        }
+      ],
+      "generatedAt": "2026-09-17T17:36:52.204Z"
+    },
+    "createdAt": "2026-09-17T17:36:52.183Z",
+    "updatedAt": "2026-09-17T17:36:52.209Z"
+  },
+  {
+    "id": "mu5u0ppjtbfcyhqao2",
+    "user": "mu3ocmxw57kwpi2319q",
+    "careerTitle": "Content Writer / Journalist",
+    "analysis": {
+      "careerTitle": "Content Writer / Journalist",
+      "studentProfile": {
+        "skills": [
+          "creativity"
+        ],
+        "subjects": [
+          "computer science"
+        ],
+        "interests": [
+          "writing"
+        ]
+      },
+      "overallMatch": 0,
+      "skillComparisons": [
+        {
+          "skill": "Writing & Editing",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Research",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "SEO Basics",
+          "current": 0,
+          "required": 60,
+          "gap": 60,
+          "hasSkill": false
+        },
+        {
+          "skill": "Content Strategy",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Social Media Management",
+          "current": 0,
+          "required": 80,
+          "gap": 80,
+          "hasSkill": false
+        },
+        {
+          "skill": "Basic Photography",
+          "current": 0,
+          "required": 60,
+          "gap": 60,
+          "hasSkill": false
+        },
+        {
+          "skill": "Creativity",
+          "current": 70,
+          "required": 75,
+          "gap": 5,
+          "hasSkill": true,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Curiosity",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Adaptability",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Time management",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        },
+        {
+          "skill": "Interviewing skills",
+          "current": 0,
+          "required": 75,
+          "gap": 75,
+          "hasSkill": false,
+          "isSoftSkill": true
+        }
+      ],
+      "skillCategories": {
+        "highPriority": [
+          {
+            "skill": "Writing & Editing",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Research",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "SEO Basics",
+            "current": 0,
+            "required": 60,
+            "gap": 60,
+            "hasSkill": false
+          },
+          {
+            "skill": "Content Strategy",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Social Media Management",
+            "current": 0,
+            "required": 80,
+            "gap": 80,
+            "hasSkill": false
+          },
+          {
+            "skill": "Basic Photography",
+            "current": 0,
+            "required": 60,
+            "gap": 60,
+            "hasSkill": false
+          },
+          {
+            "skill": "Curiosity",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Adaptability",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Time management",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          },
+          {
+            "skill": "Interviewing skills",
+            "current": 0,
+            "required": 75,
+            "gap": 75,
+            "hasSkill": false,
+            "isSoftSkill": true
+          }
+        ],
+        "mediumPriority": [],
+        "lowPriority": [
+          {
+            "skill": "Creativity",
+            "current": 70,
+            "required": 75,
+            "gap": 5,
+            "hasSkill": true,
+            "isSoftSkill": true
+          }
+        ],
+        "missingSkills": [
+          "Writing & Editing",
+          "Research",
+          "SEO Basics",
+          "Content Strategy",
+          "Social Media Management",
+          "Basic Photography",
+          "Curiosity",
+          "Adaptability",
+          "Time management",
+          "Interviewing skills"
+        ]
+      },
+      "learningRecommendations": [
+        {
+          "skill": "Writing & Editing",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Research",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "SEO Basics",
+          "gap": 60,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Content Strategy",
+          "gap": 80,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Social Media Management",
+          "gap": 80,
+          "recommendation": "Take leadership courses, seek mentorship opportunities, lead small team projects",
+          "priority": "high"
+        },
+        {
+          "skill": "Basic Photography",
+          "gap": 60,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Curiosity",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Adaptability",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        },
+        {
+          "skill": "Time management",
+          "gap": 75,
+          "recommendation": "Take leadership courses, seek mentorship opportunities, lead small team projects",
+          "priority": "high"
+        },
+        {
+          "skill": "Interviewing skills",
+          "gap": 75,
+          "recommendation": "Take online courses, practice through hands-on projects, seek mentorship in this area",
+          "priority": "high"
+        }
+      ],
+      "detailedLearningPath": [
+        {
+          "skill": "Writing & Editing",
+          "topic": "Writing & Editing",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 80,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Research",
+          "topic": "Research",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 80,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Content Strategy",
+          "topic": "Content Strategy",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 80,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Social Media Management",
+          "topic": "Leadership & Management",
+          "difficulty": "Advanced",
+          "estimatedDuration": "8-12 weeks",
+          "prerequisites": [
+            "Communication skills",
+            "Team experience"
+          ],
+          "recommendedResource": "Harvard Business School Online, LinkedIn Learning",
+          "learningSteps": [
+            "Complete leadership fundamentals course",
+            "Lead a small team project",
+            "Seek mentorship from experienced leaders",
+            "Practice decision-making scenarios"
+          ],
+          "gap": 80,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Curiosity",
+          "topic": "Curiosity",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 75,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Adaptability",
+          "topic": "Adaptability",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 75,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Time management",
+          "topic": "Leadership & Management",
+          "difficulty": "Advanced",
+          "estimatedDuration": "8-12 weeks",
+          "prerequisites": [
+            "Communication skills",
+            "Team experience"
+          ],
+          "recommendedResource": "Harvard Business School Online, LinkedIn Learning",
+          "learningSteps": [
+            "Complete leadership fundamentals course",
+            "Lead a small team project",
+            "Seek mentorship from experienced leaders",
+            "Practice decision-making scenarios"
+          ],
+          "gap": 75,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Interviewing skills",
+          "topic": "Interviewing skills",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 75,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "SEO Basics",
+          "topic": "SEO Basics",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 60,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        },
+        {
+          "skill": "Basic Photography",
+          "topic": "Basic Photography",
+          "difficulty": "Intermediate",
+          "estimatedDuration": "6-8 weeks",
+          "prerequisites": [
+            "General subject knowledge"
+          ],
+          "recommendedResource": "Coursera, edX, Udemy",
+          "learningSteps": [
+            "Research best practices in this area",
+            "Complete introductory course",
+            "Practice with hands-on exercises",
+            "Apply knowledge to real-world scenario"
+          ],
+          "gap": 60,
+          "priority": "high",
+          "completed": false,
+          "completedAt": null
+        }
+      ],
+      "projectRecommendations": [
+        {
+          "title": "Capstone Project",
+          "description": "Create a comprehensive project demonstrating key Content Writer / Journalist skills",
+          "skills": [
+            "Writing & Editing",
+            "Research"
+          ],
+          "difficulty": "Intermediate",
+          "estimatedTime": "4-6 weeks"
+        },
+        {
+          "title": "Skill-Building Mini Projects",
+          "description": "Complete 2-3 smaller projects focusing on specific skill gaps",
+          "skills": [
+            "Writing & Editing",
+            "Research"
+          ],
+          "difficulty": "Beginner",
+          "estimatedTime": "2-3 weeks each"
+        }
+      ],
+      "generatedAt": "2026-09-17T17:57:12.886Z"
+    },
+    "createdAt": "2026-09-17T17:57:12.871Z",
+    "updatedAt": "2026-09-17T17:57:12.888Z"
+  }
+]

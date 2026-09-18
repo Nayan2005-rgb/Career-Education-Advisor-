@@ -5,10 +5,10 @@ educational programs based on their interests, skills, academic background, and
 personality traits — all in one place.
 
 ## Tech Stack
-- **Frontend:** React (Create React App), React Router, Axios
+- **Frontend:** React (Create React App), React Router, Axios, Tailwind CSS
 - **Backend:** Node.js, Express.js
-- **Database:** MongoDB (Mongoose)
-- **Auth:** JWT-based authentication
+- **Database:** JSON file-based storage
+- **Auth:** JWT-based authentication with bcryptjs
 - **Recommendation Engine:** Rule-based weighted scoring (pluggable, can be swapped for an ML model later)
 
 ## Features
@@ -22,11 +22,11 @@ personality traits — all in one place.
 ```
 career-education-advisor/
 ├── backend/
-│   ├── config/            # DB connection config
+│   ├── config/            # JSON database configuration
 │   ├── controllers/       # Route logic (auth, assessment, recommendation)
-│   ├── data/               # Career & course dataset used by recommendation engine
+│   ├── data/               # JSON data files (users.json, assessments.json, careers.json)
 │   ├── middleware/         # JWT auth middleware
-│   ├── models/              # Mongoose schemas (User, Assessment, CareerPath)
+│   ├── models/              # Data models (User, Assessment)
 │   ├── routes/              # Express route definitions
 │   ├── utils/               # Recommendation engine logic
 │   ├── server.js            # App entry point
@@ -51,7 +51,7 @@ career-education-advisor/
 ```bash
 cd backend
 npm install
-cp .env.example .env   # then fill in MONGO_URI and JWT_SECRET
+cp .env.example .env   # then fill in JWT_SECRET
 npm run dev             # starts server with nodemon on http://localhost:5000
 ```
 
@@ -65,7 +65,6 @@ npm start                # starts React dev server on http://localhost:3000
 ### 3. Environment Variables (backend/.env)
 ```
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/career_advisor
 JWT_SECRET=your_jwt_secret_here
 ```
 
