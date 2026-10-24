@@ -90,3 +90,22 @@ Python microservice, or a Node ML library) without touching the rest of the app.
 - Integrate real course/college data via an external API
 - Add email notifications for assessment results
 - Add an admin panel to manage the careers dataset via UI
+
+# AISHE 2023-24 import package
+
+Files:
+- aishe_schema_2023_24.sql — MySQL schema for AISHE aggregate/report data.
+- importAishe2023_24.js — Node.js importer for the supplied workbook.
+
+Important:
+The supplied workbook is an aggregate AISHE Final Report. It contains state/type/programme/discipline statistics, not individual college/university names. The importer therefore does not invent institution records.
+
+Before running the importer:
+1. Put the workbook at:
+   backend/data/aishe/AISHE_2023_24.xlsx
+2. From backend run:
+   npm install xlsx
+3. Run the SQL schema if you want the additional AISHE tables:
+   source aishe_schema_2023_24.sql in MySQL Workbench, or execute it through your MySQL client.
+4. Run:
+   node scripts/importAishe2023_24.js

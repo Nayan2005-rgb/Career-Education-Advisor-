@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { collegeAPI } from '../services/api';
+import { collegeAPI, aisheAPI } from '../services/api';
 
 export default function CollegeFinder() {
   const [colleges, setColleges] = useState([]);
@@ -10,6 +10,12 @@ export default function CollegeFinder() {
   const [compareMode, setCompareMode] = useState(false);
   const [selectedForCompare, setSelectedForCompare] = useState([]);
   const [comparisonData, setComparisonData] = useState(null);
+
+  // AISHE statistics state
+  const [aisheData, setAisheData] = useState(null);
+  const [aisheLoading, setAisheLoading] = useState(false);
+  const [aisheError, setAisheError] = useState('');
+  const [aisheState, setAisheState] = useState('');
   
   // Filter states
   const [filters, setFilters] = useState({
@@ -42,11 +48,23 @@ export default function CollegeFinder() {
     loadFilterOptions();
     loadSavedColleges();
     loadAllColleges();
+    loadAisheStatistics();
   }, []);
 
   useEffect(() => {
     if (filters.state) {
       loadCitiesForState(filters.state);
+    }
+  }, [filters.state]);
+
+  // Update AISHE statistics when state filter changes
+  useEffect(() => {
+    if (filters.state) {
+      setAisheState(filters.state);
+      loadAisheStatistics(filters.state);
+    } else {
+      setAisheState('');
+      loadAisheStatistics();
     }
   }, [filters.state]);
 
@@ -88,6 +106,24 @@ export default function CollegeFinder() {
       setFilters(prev => ({ ...prev, city: '' }));
     } catch (err) {
       console.error('Error loading cities:', err);
+    }
+  };
+
+  const loadAisheStatistics = async (state = '') => {
+    setAisheLoading(true);
+    setAisheError('');
+    try {
+      const { data } = await aisheAPI.getCollegeStatistics(state);
+      if (data.success) {
+        setAisheData(data.data);
+      } else {
+        setAisheError('Unable to load AISHE statistics.');
+      }
+    } catch (err) {
+      console.error('Error loading AISHE statistics:', err);
+      setAisheError('Unable to load AISHE statistics.');
+    } finally {
+      setAisheLoading(false);
     }
   };
 
@@ -242,6 +278,13 @@ export default function CollegeFinder() {
       'Management': '#8b5cf6'
     };
     return colors[stream] || '#6b7280';
+  };
+
+  const formatNumber = (value) => {
+    if (value === null || value === undefined || value === '') {
+      return '-';
+    }
+    return Number(value).toLocaleString('en-IN');
   };
 
   if (loading && !selectedCollege) {
@@ -581,13 +624,13 @@ export default function CollegeFinder() {
                   <div className="college-card-header">
                     <h4>{college.name}</h4>
                     <div className="college-badges">
-                      <span 
+                      <span
                         className="college-type-badge"
                         style={{ backgroundColor: getCollegeTypeColor(college.collegeType) }}
                       >
                         {college.collegeType}
                       </span>
-                      <span 
+                      <span
                         className="stream-badge"
                         style={{ backgroundColor: getStreamColor(college.stream) }}
                       >
@@ -627,19 +670,19 @@ export default function CollegeFinder() {
                   </div>
 
                   <div className="college-card-actions">
-                    <button 
+                    <button
                       onClick={() => handleCollegeClick(college.id)}
                       className="btn-primary view-details"
                     >
                       View Details
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleCompareToggle(college.id)}
                       className={`btn-secondary compare-btn ${selectedForCompare.includes(college.id) ? 'selected' : ''}`}
                     >
                       {selectedForCompare.includes(college.id) ? '✓ Selected' : 'Compare'}
                     </button>
-                    <button 
+                    <button
                       onClick={() => isCollegeSaved(college.id) ? handleRemoveSavedCollege(college.id) : handleSaveCollege(college.id)}
                       className={`btn-secondary save-btn ${isCollegeSaved(college.id) ? 'saved' : ''}`}
                     >
@@ -648,6 +691,158 @@ export default function CollegeFinder() {
                   </div>
                 </div>
               ))}
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* AISHE Statistics Section */}
+      {!compareMode && (
+        <div className="aishe-statistics-section">
+          <div className="aishe-header">
+            <h3>AISHE 2023-24 Statistics</h3>
+            <p className="aishe-subtitle">State-wise higher education statistics from All India Survey on Higher Education</p>
+          </div>
+
+          {/* AISHE State Selector */}
+          <div className="aishe-state-selector">
+            <label htmlFor="aishe-state">Select State / Union Territory</label>
+            <select
+              id="aishe-state"
+              value={aisheState}
+              onChange={(e) => {
+                setAisheState(e.target.value);
+                loadAisheStatistics(e.target.value);
+              }}
+              className="filter-select"
+            >
+              <option value="">All States / Union Territories</option>
+              {aisheData && [...new Set(aisheData.map(item => item.state_name).filter(Boolean))].map(state => (
+                <option key={state} value={state}>{state}</option>
+              ))}
+            </select>
+          </div>
+
+          {/* AISHE Loading */}
+          {aisheLoading && (
+            <div className="aishe-loading">
+              <p>Loading AISHE statistics...</p>
+            </div>
+          )}
+
+          {/* AISHE Error */}
+          {!aisheLoading && aisheError && (
+            <div className="aishe-error">
+              <p>{aisheError}</p>
+            </div>
+          )}
+
+          {/* AISHE Statistics Display */}
+          {!aisheLoading && !aisheError && aisheData && aisheData.length > 0 && (
+            <div className="aishe-statistics-display">
+              <div className="aishe-cards-grid">
+                <div className="aishe-card">
+                  <p className="aishe-card-label">States / UTs</p>
+                  <p className="aishe-card-value">{aisheData.length}</p>
+                </div>
+
+                <div className="aishe-card">
+                  <p className="aishe-card-label">Total Colleges</p>
+                  <p className="aishe-card-value">
+                    {formatNumber(aisheData.reduce((sum, item) => sum + Number(item.number_of_colleges || 0), 0))}
+                  </p>
+                </div>
+
+                <div className="aishe-card">
+                  <p className="aishe-card-label">Colleges Responded</p>
+                  <p className="aishe-card-value">
+                    {formatNumber(aisheData.reduce((sum, item) => sum + Number(item.colleges_responded || 0), 0))}
+                  </p>
+                </div>
+
+                <div className="aishe-card">
+                  <p className="aishe-card-label">Academic Year</p>
+                  <p className="aishe-card-value">{aisheData[0]?.academic_year || '2023-24'}</p>
+                </div>
+              </div>
+
+              {/* Single State Statistics */}
+              {aisheState && aisheData.length === 1 && (
+                <div className="aishe-state-details">
+                  <h4>Statistics for {aisheData[0].state_name}</h4>
+                  <div className="aishe-detail-grid">
+                    <div className="aishe-detail-item">
+                      <span className="aishe-detail-label">Number of Colleges:</span>
+                      <span className="aishe-detail-value">{formatNumber(aisheData[0].number_of_colleges)}</span>
+                    </div>
+                    <div className="aishe-detail-item">
+                      <span className="aishe-detail-label">Colleges Responded:</span>
+                      <span className="aishe-detail-value">{formatNumber(aisheData[0].colleges_responded)}</span>
+                    </div>
+                    <div className="aishe-detail-item">
+                      <span className="aishe-detail-label">Colleges per Lakh Population:</span>
+                      <span className="aishe-detail-value">{aisheData[0].colleges_per_lakh_population || '-'}</span>
+                    </div>
+                    <div className="aishe-detail-item">
+                      <span className="aishe-detail-label">Average Enrolment:</span>
+                      <span className="aishe-detail-value">{aisheData[0].average_enrolment || '-'}</span>
+                    </div>
+                    <div className="aishe-detail-item">
+                      <span className="aishe-detail-label">Districts with Colleges:</span>
+                      <span className="aishe-detail-value">{formatNumber(aisheData[0].districts_with_colleges)}</span>
+                    </div>
+                    <div className="aishe-detail-item">
+                      <span className="aishe-detail-label">Universities in Those Districts:</span>
+                      <span className="aishe-detail-value">{formatNumber(aisheData[0].universities_in_those_districts)}</span>
+                    </div>
+                    <div className="aishe-detail-item">
+                      <span className="aishe-detail-label">Colleges in Those Districts:</span>
+                      <span className="aishe-detail-value">{formatNumber(aisheData[0].colleges_in_those_districts)}</span>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* All States Table */}
+              {!aisheState && aisheData.length > 1 && (
+                <div className="aishe-table-container">
+                  <table className="aishe-table">
+                    <thead>
+                      <tr>
+                        <th>State / UT</th>
+                        <th>Districts with Colleges</th>
+                        <th>Number of Colleges</th>
+                        <th>Colleges Responded</th>
+                        <th>Colleges / Lakh Population</th>
+                        <th>Average Enrolment</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {aisheData.map((item) => (
+                        <tr key={item.id}>
+                          <td>{item.state_name}</td>
+                          <td>{formatNumber(item.districts_with_colleges)}</td>
+                          <td>{formatNumber(item.number_of_colleges)}</td>
+                          <td>{formatNumber(item.colleges_responded)}</td>
+                          <td>{item.colleges_per_lakh_population || '-'}</td>
+                          <td>{item.average_enrolment || '-'}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+
+              {/* Source */}
+              <div className="aishe-source">
+                <p>Source: All India Survey on Higher Education (AISHE), Academic Year 2023-24</p>
+              </div>
+            </div>
+          )}
+
+          {!aisheLoading && !aisheError && (!aisheData || aisheData.length === 0) && (
+            <div className="aishe-no-data">
+              <p>No AISHE statistics available.</p>
             </div>
           )}
         </div>

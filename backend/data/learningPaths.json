@@ -844,5 +844,916 @@
     ],
     "createdAt": "2026-09-17T17:57:12.878Z",
     "updatedAt": "2026-09-17T17:57:12.897Z"
+  },
+  {
+    "id": "mue1nd7q5nuv23ph1ob",
+    "user": "mu3ocmxw57kwpi2319q",
+    "careerTitle": "UX/UI Designer",
+    "learningItems": [
+      {
+        "skill": "User Research",
+        "topic": "User Research",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Wireframing & Prototyping (Figma, Sketch)",
+        "topic": "UI/UX Design",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "8-10 weeks",
+        "prerequisites": [
+          "Creativity",
+          "Basic computer skills"
+        ],
+        "recommendedResource": "Figma Academy, Coursera - UI/UX Design Specialization",
+        "learningSteps": [
+          "Learn design principles and typography",
+          "Master Figma interface and tools",
+          "Create wireframes and prototypes",
+          "Build a portfolio of 3-5 projects"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Visual Design",
+        "topic": "UI/UX Design",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "8-10 weeks",
+        "prerequisites": [
+          "Creativity",
+          "Basic computer skills"
+        ],
+        "recommendedResource": "Figma Academy, Coursera - UI/UX Design Specialization",
+        "learningSteps": [
+          "Learn design principles and typography",
+          "Master Figma interface and tools",
+          "Create wireframes and prototypes",
+          "Build a portfolio of 3-5 projects"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Interaction Design",
+        "topic": "UI/UX Design",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "8-10 weeks",
+        "prerequisites": [
+          "Creativity",
+          "Basic computer skills"
+        ],
+        "recommendedResource": "Figma Academy, Coursera - UI/UX Design Specialization",
+        "learningSteps": [
+          "Learn design principles and typography",
+          "Master Figma interface and tools",
+          "Create wireframes and prototypes",
+          "Build a portfolio of 3-5 projects"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Design Systems",
+        "topic": "UI/UX Design",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "8-10 weeks",
+        "prerequisites": [
+          "Creativity",
+          "Basic computer skills"
+        ],
+        "recommendedResource": "Figma Academy, Coursera - UI/UX Design Specialization",
+        "learningSteps": [
+          "Learn design principles and typography",
+          "Master Figma interface and tools",
+          "Create wireframes and prototypes",
+          "Build a portfolio of 3-5 projects"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Empathy",
+        "topic": "Empathy",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Creativity",
+        "topic": "Creativity",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "User-centered thinking",
+        "topic": "User-centered thinking",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Collaboration",
+        "topic": "Collaboration",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Basic HTML/CSS",
+        "topic": "Basic HTML/CSS",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 60,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      }
+    ],
+    "createdAt": "2026-09-23T11:52:56.486Z",
+    "updatedAt": "2026-09-23T11:52:56.494Z"
+  },
+  {
+    "id": "muzklpurw84je573ql",
+    "user": "mu3ocmxw57kwpi2319q",
+    "careerTitle": "Data Scientist",
+    "learningItems": [
+      {
+        "skill": "Python/R Programming",
+        "topic": "Programming Fundamentals",
+        "difficulty": "Beginner",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "Basic computer literacy",
+          "Mathematical aptitude"
+        ],
+        "recommendedResource": "Coursera - Python for Everybody, edX - CS50",
+        "learningSteps": [
+          "Complete basic syntax and data types course",
+          "Practice with 50+ coding exercises",
+          "Build 3 small projects (calculator, to-do list, weather app)",
+          "Learn OOP concepts and apply to projects"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Machine Learning",
+        "topic": "Machine Learning",
+        "difficulty": "Advanced",
+        "estimatedDuration": "12-16 weeks",
+        "prerequisites": [
+          "Python programming",
+          "Statistics",
+          "Linear algebra"
+        ],
+        "recommendedResource": "Coursera - Machine Learning Specialization, Kaggle Learn",
+        "learningSteps": [
+          "Complete ML fundamentals course",
+          "Implement algorithms from scratch",
+          "Participate in Kaggle competitions",
+          "Build 2-3 ML projects with real data"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Statistical Analysis",
+        "topic": "Statistical Analysis",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Data Visualization (Tableau, Power BI)",
+        "topic": "Machine Learning",
+        "difficulty": "Advanced",
+        "estimatedDuration": "12-16 weeks",
+        "prerequisites": [
+          "Python programming",
+          "Statistics",
+          "Linear algebra"
+        ],
+        "recommendedResource": "Coursera - Machine Learning Specialization, Kaggle Learn",
+        "learningSteps": [
+          "Complete ML fundamentals course",
+          "Implement algorithms from scratch",
+          "Participate in Kaggle competitions",
+          "Build 2-3 ML projects with real data"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "SQL",
+        "topic": "Database Management",
+        "difficulty": "Beginner",
+        "estimatedDuration": "4-5 weeks",
+        "prerequisites": [
+          "Basic programming knowledge",
+          "Understanding of data concepts"
+        ],
+        "recommendedResource": "SQLZoo, Coursera - SQL for Data Science",
+        "learningSteps": [
+          "Learn SQL basics (SELECT, WHERE, ORDER BY)",
+          "Practice with SQLZoo tutorials",
+          "Work with sample databases",
+          "Learn JOINs and complex queries"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Big Data Technologies",
+        "topic": "Machine Learning",
+        "difficulty": "Advanced",
+        "estimatedDuration": "12-16 weeks",
+        "prerequisites": [
+          "Python programming",
+          "Statistics",
+          "Linear algebra"
+        ],
+        "recommendedResource": "Coursera - Machine Learning Specialization, Kaggle Learn",
+        "learningSteps": [
+          "Complete ML fundamentals course",
+          "Implement algorithms from scratch",
+          "Participate in Kaggle competitions",
+          "Build 2-3 ML projects with real data"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Analytical thinking",
+        "topic": "Analytical thinking",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Curiosity",
+        "topic": "Curiosity",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Communication",
+        "topic": "Communication Skills",
+        "difficulty": "Beginner",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "Basic language proficiency"
+        ],
+        "recommendedResource": "Toastmasters International, Coursera - Communication Skills",
+        "learningSteps": [
+          "Join Toastmasters or similar group",
+          "Practice public speaking weekly",
+          "Learn presentation structure",
+          "Deliver 5 presentations with feedback"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Business acumen",
+        "topic": "Business acumen",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Problem-solving",
+        "topic": "Problem-solving",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": true,
+        "completedAt": "2026-10-08T13:27:01.123Z"
+      }
+    ],
+    "createdAt": "2026-10-08T13:26:41.955Z",
+    "updatedAt": "2026-10-08T13:27:01.142Z"
+  },
+  {
+    "id": "mv58ckovgkknyh8qbwl",
+    "user": "mv58c03jaydo69s3hnb",
+    "careerTitle": "Content Writer / Journalist",
+    "learningItems": [
+      {
+        "skill": "Writing & Editing",
+        "topic": "Writing & Editing",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Research",
+        "topic": "Research",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Content Strategy",
+        "topic": "Content Strategy",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Social Media Management",
+        "topic": "Leadership & Management",
+        "difficulty": "Advanced",
+        "estimatedDuration": "8-12 weeks",
+        "prerequisites": [
+          "Communication skills",
+          "Team experience"
+        ],
+        "recommendedResource": "Harvard Business School Online, LinkedIn Learning",
+        "learningSteps": [
+          "Complete leadership fundamentals course",
+          "Lead a small team project",
+          "Seek mentorship from experienced leaders",
+          "Practice decision-making scenarios"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Creativity",
+        "topic": "Creativity",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Curiosity",
+        "topic": "Curiosity",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Adaptability",
+        "topic": "Adaptability",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Time management",
+        "topic": "Leadership & Management",
+        "difficulty": "Advanced",
+        "estimatedDuration": "8-12 weeks",
+        "prerequisites": [
+          "Communication skills",
+          "Team experience"
+        ],
+        "recommendedResource": "Harvard Business School Online, LinkedIn Learning",
+        "learningSteps": [
+          "Complete leadership fundamentals course",
+          "Lead a small team project",
+          "Seek mentorship from experienced leaders",
+          "Practice decision-making scenarios"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Interviewing skills",
+        "topic": "Interviewing skills",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "SEO Basics",
+        "topic": "SEO Basics",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 60,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Basic Photography",
+        "topic": "Basic Photography",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 60,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      }
+    ],
+    "createdAt": "2026-10-12T12:30:17.023Z",
+    "updatedAt": "2026-10-12T12:30:17.042Z"
+  },
+  {
+    "id": "mv58d6o92p4wtofsj3",
+    "user": "mv58c03jaydo69s3hnb",
+    "careerTitle": "Entrepreneur / Startup Founder",
+    "learningItems": [
+      {
+        "skill": "Business Planning",
+        "topic": "Business Planning",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Financial Management",
+        "topic": "Leadership & Management",
+        "difficulty": "Advanced",
+        "estimatedDuration": "8-12 weeks",
+        "prerequisites": [
+          "Communication skills",
+          "Team experience"
+        ],
+        "recommendedResource": "Harvard Business School Online, LinkedIn Learning",
+        "learningSteps": [
+          "Complete leadership fundamentals course",
+          "Lead a small team project",
+          "Seek mentorship from experienced leaders",
+          "Practice decision-making scenarios"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Marketing",
+        "topic": "Marketing",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Networking",
+        "topic": "Networking",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Product Development",
+        "topic": "Product Development",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 80,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Risk-taking",
+        "topic": "Risk-taking",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Resilience",
+        "topic": "Resilience",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Vision",
+        "topic": "Vision",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Adaptability",
+        "topic": "Adaptability",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Persuasion",
+        "topic": "Persuasion",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "skill": "Decision-making",
+        "topic": "Decision-making",
+        "difficulty": "Intermediate",
+        "estimatedDuration": "6-8 weeks",
+        "prerequisites": [
+          "General subject knowledge"
+        ],
+        "recommendedResource": "Coursera, edX, Udemy",
+        "learningSteps": [
+          "Research best practices in this area",
+          "Complete introductory course",
+          "Practice with hands-on exercises",
+          "Apply knowledge to real-world scenario"
+        ],
+        "gap": 75,
+        "priority": "high",
+        "completed": false,
+        "completedAt": null
+      }
+    ],
+    "createdAt": "2026-10-12T12:30:45.513Z",
+    "updatedAt": "2026-10-12T12:30:45.567Z"
   }
 ]

@@ -124,4 +124,15 @@ export const scholarshipAPI = {
   getFilterOptions: () => api.get('/scholarship/filters'),
 };
 
+export const aisheAPI = {
+  getCollegeStatistics: (state) => {
+    const params = state ? { state } : {};
+    return api.get('/aishe/colleges', { params });
+  },
+  getProgrammeStatistics: (discipline) => {
+    const params = discipline ? { discipline } : {};
+    return api.get('/aishe/programme-statistics', { params });
+  },
+};
+
 export default api;

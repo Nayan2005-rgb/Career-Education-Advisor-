@@ -12,9 +12,13 @@ import GovtResidentialSchoolFinderPage from './pages/GovtResidentialSchoolFinder
 import CollegeFinderPage from './pages/CollegeFinder';
 import CourseFinderPage from './pages/CourseFinder';
 import EntranceExamFinderPage from './pages/EntranceExamFinder';
+import AisheCollegeStatistics from './pages/AisheCollegeStatistics';
 
 function AppContent() {
-  const [isAuthenticated, setIsAuthenticated] = useState(!!localStorage.getItem('token'));
+  const [isAuthenticated, setIsAuthenticated] = useState(
+    !!localStorage.getItem('token')
+  );
+
   const location = useLocation();
 
   useEffect(() => {
@@ -31,14 +35,38 @@ function AppContent() {
 
   return (
     <>
-      {location.pathname !== '/login' && location.pathname !== '/register' && (
-        <Navbar isAuthenticated={isAuthenticated} onLogout={handleLogout} />
-      )}
-      <main className={location.pathname === '/' ? 'container landing-container' : 'container'}>
+      {location.pathname !== '/login' &&
+        location.pathname !== '/register' && (
+          <Navbar
+            isAuthenticated={isAuthenticated}
+            onLogout={handleLogout}
+          />
+        )}
+
+      <main
+        className={
+          location.pathname === '/'
+            ? 'container landing-container'
+            : 'container'
+        }
+      >
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login onLogin={() => setIsAuthenticated(true)} />} />
-          <Route path="/register" element={<Register onRegister={() => setIsAuthenticated(true)} />} />
+
+          <Route
+            path="/login"
+            element={
+              <Login onLogin={() => setIsAuthenticated(true)} />
+            }
+          />
+
+          <Route
+            path="/register"
+            element={
+              <Register onRegister={() => setIsAuthenticated(true)} />
+            }
+          />
+
           <Route
             path="/dashboard"
             element={
@@ -47,6 +75,7 @@ function AppContent() {
               </PrivateRoute>
             }
           />
+
           <Route
             path="/profile"
             element={
@@ -55,6 +84,7 @@ function AppContent() {
               </PrivateRoute>
             }
           />
+
           <Route
             path="/career/:careerTitle"
             element={
@@ -63,16 +93,43 @@ function AppContent() {
               </PrivateRoute>
             }
           />
-          <Route path="/school-finder" element={<SchoolFinderPage />} />
-          <Route path="/govt-residential-school-finder" element={<GovtResidentialSchoolFinderPage />} />
-          <Route path="/college-finder" element={<CollegeFinderPage />} />
-          <Route path="/course-finder" element={<CourseFinderPage />} />
-          <Route path="/entrance-exam-finder" element={<EntranceExamFinderPage />} />
+
+          <Route
+            path="/school-finder"
+            element={<SchoolFinderPage />}
+          />
+
+          <Route
+            path="/govt-residential-school-finder"
+            element={<GovtResidentialSchoolFinderPage />}
+          />
+
+          <Route
+            path="/college-finder"
+            element={<CollegeFinderPage />}
+          />
+
+          <Route
+            path="/course-finder"
+            element={<CourseFinderPage />}
+          />
+
+          <Route
+            path="/entrance-exam-finder"
+            element={<EntranceExamFinderPage />}
+          />
+
+          {/* AISHE Statistics */}
+          <Route
+            path="/aishe/college-statistics"
+            element={<AisheCollegeStatistics />}
+          />
         </Routes>
       </main>
     </>
   );
 }
+
 
 function App() {
   return (
@@ -83,3 +140,5 @@ function App() {
 }
 
 export default App;
+
+

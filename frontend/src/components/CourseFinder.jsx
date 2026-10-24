@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { courseAPI } from '../services/api';
+import { courseAPI, aisheAPI } from '../services/api';
 
 export default function CourseFinder() {
   const [courses, setCourses] = useState([]);
@@ -10,7 +10,13 @@ export default function CourseFinder() {
   const [compareMode, setCompareMode] = useState(false);
   const [selectedForCompare, setSelectedForCompare] = useState([]);
   const [comparisonData, setComparisonData] = useState(null);
-  
+
+  // AISHE statistics state
+  const [aisheData, setAisheData] = useState(null);
+  const [aisheLoading, setAisheLoading] = useState(false);
+  const [aisheError, setAisheError] = useState('');
+  const [aisheDiscipline, setAisheDiscipline] = useState('');
+
   // Filter states
   const [filters, setFilters] = useState({
     search: '',
@@ -36,6 +42,7 @@ export default function CourseFinder() {
     loadFilterOptions();
     loadSavedCourses();
     loadAllCourses();
+    loadAisheStatistics();
   }, []);
 
   const loadFilterOptions = async () => {
@@ -66,6 +73,24 @@ export default function CourseFinder() {
       setError('Unable to load courses. Please try again.');
     } finally {
       setLoading(false);
+    }
+  };
+
+  const loadAisheStatistics = async (discipline = '') => {
+    setAisheLoading(true);
+    setAisheError('');
+    try {
+      const { data } = await aisheAPI.getProgrammeStatistics(discipline);
+      if (data.success) {
+        setAisheData(data);
+      } else {
+        setAisheError('Unable to load AISHE statistics.');
+      }
+    } catch (err) {
+      console.error('Error loading AISHE statistics:', err);
+      setAisheError('Unable to load AISHE statistics.');
+    } finally {
+      setAisheLoading(false);
     }
   };
 
@@ -168,6 +193,13 @@ export default function CourseFinder() {
     if (duration.includes('2')) return '#eab308';
     if (duration.includes('5')) return '#dc2626';
     return '#6b7280';
+  };
+
+  const formatNumber = (value) => {
+    if (value === null || value === undefined || value === '') {
+      return '-';
+    }
+    return Number(value).toLocaleString('en-IN');
   };
 
   if (loading && !selectedCourse) {
@@ -520,6 +552,110 @@ export default function CourseFinder() {
                   </div>
                 </div>
               ))}
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* AISHE 2023-24 Programme Statistics Section */}
+      {!compareMode && (
+        <div className="aishe-statistics-section">
+          <div className="aishe-header">
+            <h3>AISHE 2023-24 Programme Statistics</h3>
+            <p className="aishe-subtitle">Programme and discipline statistics from All India Survey on Higher Education</p>
+          </div>
+
+          {/* AISHE Discipline Selector */}
+          <div className="aishe-state-selector">
+            <label htmlFor="aishe-discipline">Select Discipline</label>
+            <select
+              id="aishe-discipline"
+              value={aisheDiscipline}
+              onChange={(e) => {
+                setAisheDiscipline(e.target.value);
+                loadAisheStatistics(e.target.value);
+              }}
+              className="filter-select"
+            >
+              <option value="">All Disciplines</option>
+              {aisheData && aisheData.disciplines && aisheData.disciplines.map(discipline => (
+                <option key={discipline} value={discipline}>{discipline}</option>
+              ))}
+            </select>
+          </div>
+
+          {/* AISHE Loading */}
+          {aisheLoading && (
+            <div className="aishe-loading">
+              <p>Loading AISHE statistics...</p>
+            </div>
+          )}
+
+          {/* AISHE Error */}
+          {!aisheLoading && aisheError && (
+            <div className="aishe-error">
+              <p>{aisheError}</p>
+            </div>
+          )}
+
+          {/* AISHE Statistics Display */}
+          {!aisheLoading && !aisheError && aisheData && aisheData.data && aisheData.data.length > 0 && (
+            <div className="aishe-statistics-display">
+              <div className="aishe-cards-grid">
+                <div className="aishe-card">
+                  <p className="aishe-card-label">Total Programmes</p>
+                  <p className="aishe-card-value">{formatNumber(aisheData.totalProgrammes || aisheData.count)}</p>
+                </div>
+
+                <div className="aishe-card">
+                  <p className="aishe-card-label">Disciplines</p>
+                  <p className="aishe-card-value">{formatNumber(aisheData.disciplineCount)}</p>
+                </div>
+
+                <div className="aishe-card">
+                  <p className="aishe-card-label">Academic Year</p>
+                  <p className="aishe-card-value">{aisheData.academicYear}</p>
+                </div>
+
+                <div className="aishe-card">
+                  <p className="aishe-card-label">Source</p>
+                  <p className="aishe-card-value">AISHE</p>
+                </div>
+              </div>
+
+              {/* All Programmes Table */}
+              {aisheData.data.length > 0 && (
+                <div className="aishe-table-container">
+                  <table className="aishe-table">
+                    <thead>
+                      <tr>
+                        <th>Programme Name</th>
+                        <th>Academic Year</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {aisheData.data.map((item, index) => (
+                        <tr key={index}>
+                          <td>{item.programme_name}</td>
+                          <td>{item.academic_year}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+
+              {/* Source */}
+              <div className="aishe-source">
+                <p>Source: All India Survey on Higher Education (AISHE), Academic Year {aisheData.academicYear}</p>
+                <p>Showing {aisheData.data.length} of {aisheData.totalProgrammes || aisheData.count} programmes</p>
+              </div>
+            </div>
+          )}
+
+          {!aisheLoading && !aisheError && (!aisheData || !aisheData.data || aisheData.data.length === 0) && (
+            <div className="aishe-no-data">
+              <p>No AISHE programme statistics available.</p>
             </div>
           )}
         </div>

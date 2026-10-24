@@ -3177,3 +3177,923 @@ body {
     flex-direction: column;
   }
 }
+
+/* College Finder Component */
+.college-finder {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.college-finder-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.college-finder-header h1 {
+  font-size: 2.5rem;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.college-finder-header p {
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.streams-section {
+  margin-bottom: 2rem;
+}
+
+.streams-section h3 {
+  font-size: 1.3rem;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+.streams-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.stream-button {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.8rem 1.2rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.stream-button:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.stream-button.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.colleges-section {
+  margin-top: 2rem;
+}
+
+.colleges-header {
+  margin-bottom: 1.5rem;
+}
+
+.colleges-header h3 {
+  font-size: 1.5rem;
+  color: var(--text);
+  margin: 0;
+}
+
+.colleges-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.college-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.college-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border-color: var(--primary);
+}
+
+.college-card-header {
+  margin-bottom: 1rem;
+}
+
+.college-card-header h4 {
+  font-size: 1.2rem;
+  color: var(--text);
+  margin: 0 0 0.8rem 0;
+  line-height: 1.4;
+}
+
+.college-badges {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.college-type-badge,
+.stream-badge {
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+}
+
+.college-location {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.college-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+.college-courses-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.course-tag-mini {
+  background: #e0e7ff;
+  color: var(--primary);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.more-courses {
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+.college-card-actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: auto;
+  flex-wrap: wrap;
+}
+
+.college-card-actions button {
+  flex: 1;
+  min-width: 80px;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.85rem;
+}
+
+.view-details {
+  flex: 2;
+}
+
+.compare-btn.selected {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.save-btn.saved {
+  background: #dc2626;
+  color: white;
+  border-color: #dc2626;
+}
+
+.comparison-view {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.comparison-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.comparison-header h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: var(--text);
+}
+
+.comparison-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.comparison-row {
+  display: grid;
+  grid-template-columns: 200px repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.comparison-row.header {
+  background: #f9fafb;
+  font-weight: 600;
+}
+
+.comparison-row:nth-child(even) {
+  background: #f9fafb;
+}
+
+.comparison-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.comparison-cell.label {
+  justify-content: flex-start;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.comparison-cell.college-name {
+  font-weight: 600;
+  color: var(--primary);
+  font-size: 0.9rem;
+}
+
+.exams-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  justify-content: center;
+}
+
+.exams-list .exam-tag {
+  background: #fef3c7;
+  color: #92400e;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.facilities-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  justify-content: center;
+}
+
+.facilities-list .facility-tag {
+  background: #e0e7ff;
+  color: var(--primary);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.courses-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.courses-list .course-tag {
+  background: #dcfce7;
+  color: #16a34a;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.badge {
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--text);
+}
+
+.close-modal {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--muted);
+  padding: 0.5rem;
+  line-height: 1;
+}
+
+.close-modal:hover {
+  color: var(--text);
+}
+
+.modal-body {
+  padding: 1.5rem;
+}
+
+.modal-body .detail-section {
+  margin-bottom: 2rem;
+}
+
+.modal-body .detail-section h3 {
+  font-size: 1.2rem;
+  color: var(--text);
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 0.5rem;
+}
+
+.modal-footer {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.modal-footer .btn-primary.saved {
+  background: #dc2626;
+}
+
+/* AISHE Statistics Section */
+.aishe-statistics-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--border);
+}
+
+.aishe-header {
+  margin-bottom: 1.5rem;
+}
+
+.aishe-header h3 {
+  font-size: 1.8rem;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.aishe-subtitle {
+  color: var(--muted);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.aishe-state-selector {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.aishe-state-selector label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.aishe-state-selector select {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  background: white;
+}
+
+.aishe-state-selector select:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.aishe-loading,
+.aishe-error,
+.aishe-no-data {
+  text-align: center;
+  padding: 2rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--muted);
+}
+
+.aishe-error {
+  color: #dc2626;
+}
+
+.aishe-statistics-display {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.aishe-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.aishe-card {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  border: 1px solid #bae6fd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.aishe-card-label {
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.aishe-card-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.aishe-state-details {
+  background: #f9fafb;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.aishe-state-details h4 {
+  font-size: 1.3rem;
+  color: var(--text);
+  margin: 0 0 1rem 0;
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 0.5rem;
+}
+
+.aishe-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.aishe-detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem;
+  background: white;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+.aishe-detail-label {
+  font-weight: 600;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.aishe-detail-value {
+  font-weight: 700;
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.aishe-table-container {
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.aishe-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.aishe-table thead {
+  background: #f9fafb;
+}
+
+.aishe-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text);
+  border-bottom: 2px solid var(--border);
+}
+
+.aishe-table th:last-child {
+  text-align: right;
+}
+
+.aishe-table td {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+}
+
+.aishe-table td:last-child {
+  text-align: right;
+}
+
+.aishe-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+.aishe-source {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* Responsive Design for College Finder */
+@media (max-width: 768px) {
+  .college-finder-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .streams-grid {
+    flex-direction: column;
+  }
+
+  .stream-button {
+    width: 100%;
+  }
+
+  .search-bar {
+    flex-direction: column;
+  }
+
+  .filter-row {
+    grid-template-columns: 1fr;
+  }
+
+  .compare-bar {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .compare-actions {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .colleges-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .college-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .comparison-row {
+    grid-template-columns: 150px repeat(auto-fit, minmax(100px, 1fr));
+    gap: 0.5rem;
+  }
+
+  .comparison-cell {
+    font-size: 0.85rem;
+    padding: 0.3rem;
+  }
+
+  .aishe-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .aishe-detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .aishe-detail-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+
+  .modal-actions {
+    flex-direction: column;
+  }
+
+  .modal-actions button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .aishe-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Course Finder Component */
+.course-finder {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.course-finder-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.course-finder-header h1 {
+  font-size: 2.5rem;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.course-finder-header p {
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.courses-section {
+  margin-top: 2rem;
+}
+
+.courses-header {
+  margin-bottom: 1.5rem;
+}
+
+.courses-header h3 {
+  font-size: 1.5rem;
+  color: var(--text);
+  margin: 0;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.course-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.course-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border-color: var(--primary);
+}
+
+.course-card-header {
+  margin-bottom: 1rem;
+}
+
+.course-card-header h4 {
+  font-size: 1.2rem;
+  color: var(--text);
+  margin: 0 0 0.8rem 0;
+  line-height: 1.4;
+}
+
+.course-badges {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.duration-badge {
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+}
+
+.course-eligibility {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.course-subjects-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.subject-tag {
+  background: #e0e7ff;
+  color: var(--primary);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.course-careers-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.career-tag-small {
+  background: #dcfce7;
+  color: #16a34a;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.course-card-actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: auto;
+  flex-wrap: wrap;
+}
+
+.course-card-actions button {
+  flex: 1;
+  min-width: 80px;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.85rem;
+}
+
+.view-details-button {
+  flex: 2;
+}
+
+.compare-button.selected {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.save-button.saved {
+  background: #dc2626;
+  color: white;
+  border-color: #dc2626;
+}
+
+.course-details-modal {
+  max-width: 900px;
+}
+
+.course-details-body {
+  padding: 1.5rem;
+}
+
+.course-details-body .detail-section {
+  margin-bottom: 2rem;
+}
+
+.course-details-body .detail-section h3 {
+  font-size: 1.2rem;
+  color: var(--text);
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 0.5rem;
+}
+
+.subjects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.careers-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.career-tag {
+  background: #dcfce7;
+  color: #16a34a;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.colleges-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+/* Responsive Design for Course Finder */
+@media (max-width: 768px) {
+  .course-finder-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .search-bar {
+    flex-direction: column;
+  }
+
+  .filter-row {
+    grid-template-columns: 1fr;
+  }
+
+  .compare-bar {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .compare-actions {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .courses-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .course-card-actions {
+    flex-direction: column;
+  }
+
+  .course-card-actions button {
+    width: 100%;
+  }
+
+  .comparison-row {
+    grid-template-columns: 150px repeat(auto-fit, minmax(100px, 1fr));
+    gap: 0.5rem;
+  }
+
+  .comparison-cell {
+    font-size: 0.85rem;
+    padding: 0.3rem;
+  }
+
+  .aishe-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .aishe-detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .aishe-detail-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .aishe-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}

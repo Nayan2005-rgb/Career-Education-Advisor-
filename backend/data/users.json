@@ -34,5 +34,14 @@
     "grade": "12th",
     "createdAt": "2026-09-16T06:02:05.324Z",
     "updatedAt": "2026-09-16T06:02:05.324Z"
+  },
+  {
+    "id": "mv58c03jaydo69s3hnb",
+    "name": "Odyssey",
+    "email": "odyssey8941@gmail.com",
+    "password": "$2a$10$.G3odX51YT8O4/lBbSS6quN8npKAeWu2YiIisZGtgRm4uIk3xdhNO",
+    "grade": "undergrad",
+    "createdAt": "2026-10-12T12:29:50.335Z",
+    "updatedAt": "2026-10-12T12:29:50.335Z"
   }
 ]

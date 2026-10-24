@@ -1060,5 +1060,402 @@
     ],
     "createdAt": "2026-09-17T17:57:12.882Z",
     "updatedAt": "2026-09-17T17:57:12.883Z"
+  },
+  {
+    "id": "muzklpvdsybjlewsoj",
+    "careerTitle": "Data Scientist",
+    "userId": "mu3ocmxw57kwpi2319q",
+    "steps": [
+      {
+        "id": "current_education",
+        "title": "Current Education",
+        "description": "Complete your current education in Not specified",
+        "skills": [],
+        "recommendedLearning": "Focus on maintaining good grades in your current subjects",
+        "estimatedDuration": "6-12 months",
+        "status": "in_progress",
+        "order": 1
+      },
+      {
+        "id": "entrance_exam",
+        "title": "Entrance Exam Preparation",
+        "description": "Prepare for JEE Main",
+        "skills": [
+          "test-taking",
+          "time management",
+          "subject knowledge"
+        ],
+        "recommendedLearning": "Focus on core subjects",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 2
+      },
+      {
+        "id": "degree_course",
+        "title": "Bachelor's or Master's degree in Data Science, Statistics, Mathematics, Computer Science, or related quantitative field.",
+        "description": "Enroll in and complete Bachelor's or Master's degree in Data Science, Statistics, Mathematics, Computer Science, or related quantitative field.",
+        "skills": [
+          "Python/R Programming",
+          "Machine Learning",
+          "Statistical Analysis"
+        ],
+        "recommendedLearning": "B.Sc Statistics, B.Tech Data Science",
+        "estimatedDuration": "3-4 years",
+        "status": "pending",
+        "order": 3
+      },
+      {
+        "id": "required_skills",
+        "title": "Required Skills Development",
+        "description": "Develop core technical skills required for the career",
+        "skills": [
+          "Python/R Programming",
+          "Machine Learning",
+          "Statistical Analysis",
+          "Data Visualization (Tableau, Power BI)",
+          "SQL",
+          "Big Data Technologies"
+        ],
+        "recommendedLearning": "Statistics, programming (Python/R), data visualization, machine learning",
+        "estimatedDuration": "6-12 months",
+        "status": "pending",
+        "order": 4
+      },
+      {
+        "id": "projects",
+        "title": "Build Projects",
+        "description": "Create practical projects to demonstrate your skills",
+        "skills": [
+          "Python/R Programming",
+          "Machine Learning"
+        ],
+        "recommendedLearning": "Data analysis projects, Kaggle competitions, dashboards",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 5
+      },
+      {
+        "id": "internship",
+        "title": "Internship/Work Experience",
+        "description": "Gain real-world experience through internships",
+        "skills": [
+          "Analytical thinking",
+          "Curiosity"
+        ],
+        "recommendedLearning": "Industry exposure, professional networking",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 6
+      },
+      {
+        "id": "resume",
+        "title": "Resume Building",
+        "description": "Create a professional resume highlighting your achievements",
+        "skills": [
+          "communication",
+          "presentation"
+        ],
+        "recommendedLearning": "Resume writing workshops, portfolio development",
+        "estimatedDuration": "1-2 weeks",
+        "status": "pending",
+        "order": 7
+      },
+      {
+        "id": "interview_prep",
+        "title": "Interview Preparation",
+        "description": "Prepare for job interviews in your chosen field",
+        "skills": [
+          "Analytical thinking",
+          "Curiosity",
+          "Communication",
+          "Business acumen",
+          "Problem-solving"
+        ],
+        "recommendedLearning": "Mock interviews, technical practice, company research",
+        "estimatedDuration": "1-2 months",
+        "status": "pending",
+        "order": 8
+      },
+      {
+        "id": "job",
+        "title": "Job Application",
+        "description": "Apply for Data Scientist",
+        "skills": [
+          "Python/R Programming",
+          "Machine Learning"
+        ],
+        "recommendedLearning": "Job search strategies, networking, applications",
+        "estimatedDuration": "2-6 months",
+        "status": "pending",
+        "order": 9
+      }
+    ],
+    "createdAt": "2026-10-08T13:26:41.973Z",
+    "updatedAt": "2026-10-08T13:26:41.977Z"
+  },
+  {
+    "id": "mv58ckoiaqrbq7sepos",
+    "careerTitle": "Content Writer / Journalist",
+    "userId": "mv58c03jaydo69s3hnb",
+    "steps": [
+      {
+        "id": "current_education",
+        "title": "Current Education",
+        "description": "Complete your current education in Not specified",
+        "skills": [],
+        "recommendedLearning": "Focus on maintaining good grades in your current subjects",
+        "estimatedDuration": "6-12 months",
+        "status": "in_progress",
+        "order": 1
+      },
+      {
+        "id": "entrance_exam",
+        "title": "Entrance Exam Preparation",
+        "description": "Prepare for IIMC Entrance",
+        "skills": [
+          "test-taking",
+          "time management",
+          "subject knowledge"
+        ],
+        "recommendedLearning": "Focus on core subjects",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 2
+      },
+      {
+        "id": "degree_course",
+        "title": "Bachelor's degree in English, Journalism, Mass Communication, or related field. Portfolio is crucial.",
+        "description": "Enroll in and complete Bachelor's degree in English, Journalism, Mass Communication, or related field. Portfolio is crucial.",
+        "skills": [
+          "Writing & Editing",
+          "Research",
+          "SEO Basics"
+        ],
+        "recommendedLearning": "BA English, BA Journalism & Mass Communication",
+        "estimatedDuration": "3-4 years",
+        "status": "pending",
+        "order": 3
+      },
+      {
+        "id": "required_skills",
+        "title": "Required Skills Development",
+        "description": "Develop core technical skills required for the career",
+        "skills": [
+          "Writing & Editing",
+          "Research",
+          "SEO Basics",
+          "Content Strategy",
+          "Social Media Management",
+          "Basic Photography"
+        ],
+        "recommendedLearning": "Online courses, workshops, and practical projects",
+        "estimatedDuration": "6-12 months",
+        "status": "pending",
+        "order": 4
+      },
+      {
+        "id": "projects",
+        "title": "Build Projects",
+        "description": "Create practical projects to demonstrate your skills",
+        "skills": [
+          "Writing & Editing",
+          "Research"
+        ],
+        "recommendedLearning": "Hands-on project work, GitHub portfolio",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 5
+      },
+      {
+        "id": "internship",
+        "title": "Internship/Work Experience",
+        "description": "Gain real-world experience through internships",
+        "skills": [
+          "Creativity",
+          "Curiosity"
+        ],
+        "recommendedLearning": "Industry exposure, professional networking",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 6
+      },
+      {
+        "id": "resume",
+        "title": "Resume Building",
+        "description": "Create a professional resume highlighting your achievements",
+        "skills": [
+          "communication",
+          "presentation"
+        ],
+        "recommendedLearning": "Resume writing workshops, portfolio development",
+        "estimatedDuration": "1-2 weeks",
+        "status": "pending",
+        "order": 7
+      },
+      {
+        "id": "interview_prep",
+        "title": "Interview Preparation",
+        "description": "Prepare for job interviews in your chosen field",
+        "skills": [
+          "Creativity",
+          "Curiosity",
+          "Adaptability",
+          "Time management",
+          "Interviewing skills"
+        ],
+        "recommendedLearning": "Mock interviews, technical practice, company research",
+        "estimatedDuration": "1-2 months",
+        "status": "pending",
+        "order": 8
+      },
+      {
+        "id": "job",
+        "title": "Job Application",
+        "description": "Apply for Content Writer",
+        "skills": [
+          "Writing & Editing",
+          "Research"
+        ],
+        "recommendedLearning": "Job search strategies, networking, applications",
+        "estimatedDuration": "2-6 months",
+        "status": "pending",
+        "order": 9
+      }
+    ],
+    "createdAt": "2026-10-12T12:30:17.009Z",
+    "updatedAt": "2026-10-12T12:30:17.010Z"
+  },
+  {
+    "id": "mv58d6ou1u8yes14flo",
+    "careerTitle": "Entrepreneur / Startup Founder",
+    "userId": "mv58c03jaydo69s3hnb",
+    "steps": [
+      {
+        "id": "current_education",
+        "title": "Current Education",
+        "description": "Complete your current education in Not specified",
+        "skills": [],
+        "recommendedLearning": "Focus on maintaining good grades in your current subjects",
+        "estimatedDuration": "6-12 months",
+        "status": "in_progress",
+        "order": 1
+      },
+      {
+        "id": "entrance_exam",
+        "title": "Entrance Exam Preparation",
+        "description": "Prepare for CAT",
+        "skills": [
+          "test-taking",
+          "time management",
+          "subject knowledge"
+        ],
+        "recommendedLearning": "Focus on core subjects",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 2
+      },
+      {
+        "id": "degree_course",
+        "title": "No formal requirement, but business education helps. Many successful founders have diverse educational backgrounds.",
+        "description": "Enroll in and complete No formal requirement, but business education helps. Many successful founders have diverse educational backgrounds.",
+        "skills": [
+          "Business Planning",
+          "Financial Management",
+          "Marketing"
+        ],
+        "recommendedLearning": "BBA, B.Com",
+        "estimatedDuration": "3-4 years",
+        "status": "pending",
+        "order": 3
+      },
+      {
+        "id": "required_skills",
+        "title": "Required Skills Development",
+        "description": "Develop core technical skills required for the career",
+        "skills": [
+          "Business Planning",
+          "Financial Management",
+          "Marketing",
+          "Leadership",
+          "Networking",
+          "Product Development"
+        ],
+        "recommendedLearning": "Online courses, workshops, and practical projects",
+        "estimatedDuration": "6-12 months",
+        "status": "pending",
+        "order": 4
+      },
+      {
+        "id": "projects",
+        "title": "Build Projects",
+        "description": "Create practical projects to demonstrate your skills",
+        "skills": [
+          "Business Planning",
+          "Financial Management"
+        ],
+        "recommendedLearning": "Hands-on project work, GitHub portfolio",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 5
+      },
+      {
+        "id": "internship",
+        "title": "Internship/Work Experience",
+        "description": "Gain real-world experience through internships",
+        "skills": [
+          "Risk-taking",
+          "Resilience"
+        ],
+        "recommendedLearning": "Industry exposure, professional networking",
+        "estimatedDuration": "3-6 months",
+        "status": "pending",
+        "order": 6
+      },
+      {
+        "id": "resume",
+        "title": "Resume Building",
+        "description": "Create a professional resume highlighting your achievements",
+        "skills": [
+          "communication",
+          "presentation"
+        ],
+        "recommendedLearning": "Resume writing workshops, portfolio development",
+        "estimatedDuration": "1-2 weeks",
+        "status": "pending",
+        "order": 7
+      },
+      {
+        "id": "interview_prep",
+        "title": "Interview Preparation",
+        "description": "Prepare for job interviews in your chosen field",
+        "skills": [
+          "Risk-taking",
+          "Resilience",
+          "Vision",
+          "Adaptability",
+          "Persuasion",
+          "Decision-making"
+        ],
+        "recommendedLearning": "Mock interviews, technical practice, company research",
+        "estimatedDuration": "1-2 months",
+        "status": "pending",
+        "order": 8
+      },
+      {
+        "id": "job",
+        "title": "Job Application",
+        "description": "Apply for Founder",
+        "skills": [
+          "Business Planning",
+          "Financial Management"
+        ],
+        "recommendedLearning": "Job search strategies, networking, applications",
+        "estimatedDuration": "2-6 months",
+        "status": "pending",
+        "order": 9
+      }
+    ],
+    "createdAt": "2026-10-12T12:30:45.531Z",
+    "updatedAt": "2026-10-12T12:30:45.534Z"
   }
 ]
