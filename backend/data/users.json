@@ -43,5 +43,18 @@
     "grade": "undergrad",
     "createdAt": "2026-10-12T12:29:50.335Z",
     "updatedAt": "2026-10-12T12:29:50.335Z"
+  },
+  {
+    "id": "mvpmhvgc3dekqbukkmr",
+    "name": "Test User",
+    "email": "scholarshiptest@example.com",
+    "password": "$2a$10$lguJHN1sRAVXHPlHlmTAYuGxw4FlL1kJoT9Y7xJYvNs3NO5XZa3Ki",
+    "createdAt": "2026-10-26T19:01:42.396Z",
+    "updatedAt": "2026-10-26T19:03:22.217Z",
+    "educationLevel": "Undergraduate",
+    "state": "Maharashtra",
+    "familyIncome": "2",
+    "academicPercentage": "75",
+    "category": "General"
   }
 ]

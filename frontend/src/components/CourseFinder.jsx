@@ -15,7 +15,8 @@ export default function CourseFinder() {
   const [aisheData, setAisheData] = useState(null);
   const [aisheLoading, setAisheLoading] = useState(false);
   const [aisheError, setAisheError] = useState('');
-  const [aisheDiscipline, setAisheDiscipline] = useState('');
+  const [aishePage, setAishePage] = useState(1);
+  const [aishePageSize] = useState(50);
 
   // Filter states
   const [filters, setFilters] = useState({
@@ -43,6 +44,7 @@ export default function CourseFinder() {
     loadSavedCourses();
     loadAllCourses();
     loadAisheStatistics();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const loadFilterOptions = async () => {
@@ -76,13 +78,14 @@ export default function CourseFinder() {
     }
   };
 
-  const loadAisheStatistics = async (discipline = '') => {
+  const loadAisheStatistics = async (page = 1) => {
     setAisheLoading(true);
     setAisheError('');
     try {
-      const { data } = await aisheAPI.getProgrammeStatistics(discipline);
+      const { data } = await aisheAPI.getProgrammeStatistics(null, page, aishePageSize);
       if (data.success) {
         setAisheData(data);
+        setAishePage(page);
       } else {
         setAisheError('Unable to load AISHE statistics.');
       }
@@ -565,25 +568,6 @@ export default function CourseFinder() {
             <p className="aishe-subtitle">Programme and discipline statistics from All India Survey on Higher Education</p>
           </div>
 
-          {/* AISHE Discipline Selector */}
-          <div className="aishe-state-selector">
-            <label htmlFor="aishe-discipline">Select Discipline</label>
-            <select
-              id="aishe-discipline"
-              value={aisheDiscipline}
-              onChange={(e) => {
-                setAisheDiscipline(e.target.value);
-                loadAisheStatistics(e.target.value);
-              }}
-              className="filter-select"
-            >
-              <option value="">All Disciplines</option>
-              {aisheData && aisheData.disciplines && aisheData.disciplines.map(discipline => (
-                <option key={discipline} value={discipline}>{discipline}</option>
-              ))}
-            </select>
-          </div>
-
           {/* AISHE Loading */}
           {aisheLoading && (
             <div className="aishe-loading">
@@ -604,11 +588,11 @@ export default function CourseFinder() {
               <div className="aishe-cards-grid">
                 <div className="aishe-card">
                   <p className="aishe-card-label">Total Programmes</p>
-                  <p className="aishe-card-value">{formatNumber(aisheData.totalProgrammes || aisheData.count)}</p>
+                  <p className="aishe-card-value">{formatNumber(aisheData.totalProgrammes)}</p>
                 </div>
 
                 <div className="aishe-card">
-                  <p className="aishe-card-label">Disciplines</p>
+                  <p className="aishe-card-label">Distinct Disciplines</p>
                   <p className="aishe-card-value">{formatNumber(aisheData.disciplineCount)}</p>
                 </div>
 
@@ -630,14 +614,24 @@ export default function CourseFinder() {
                     <thead>
                       <tr>
                         <th>Programme Name</th>
-                        <th>Academic Year</th>
+                        <th>Total Enrolment</th>
+                        <th>Male</th>
+                        <th>Female</th>
+                        <th>SC</th>
+                        <th>ST</th>
+                        <th>OBC</th>
                       </tr>
                     </thead>
                     <tbody>
                       {aisheData.data.map((item, index) => (
-                        <tr key={index}>
+                        <tr key={item.id || index}>
                           <td>{item.programme_name}</td>
-                          <td>{item.academic_year}</td>
+                          <td>{formatNumber(item.all_total)}</td>
+                          <td>{formatNumber(item.all_male)}</td>
+                          <td>{formatNumber(item.all_female)}</td>
+                          <td>{formatNumber(item.sc_total)}</td>
+                          <td>{formatNumber(item.st_total)}</td>
+                          <td>{formatNumber(item.obc_total)}</td>
                         </tr>
                       ))}
                     </tbody>
@@ -645,10 +639,33 @@ export default function CourseFinder() {
                 </div>
               )}
 
+              {/* Pagination Controls */}
+              {aisheData.totalPages > 1 && (
+                <div className="aishe-pagination">
+                  <button
+                    onClick={() => loadAisheStatistics(aishePage - 1)}
+                    disabled={aishePage === 1}
+                    className="btn-secondary"
+                  >
+                    Previous
+                  </button>
+                  <span className="pagination-info">
+                    Page {aisheData.currentPage} of {aisheData.totalPages}
+                  </span>
+                  <button
+                    onClick={() => loadAisheStatistics(aishePage + 1)}
+                    disabled={aishePage === aisheData.totalPages}
+                    className="btn-secondary"
+                  >
+                    Next
+                  </button>
+                </div>
+              )}
+
               {/* Source */}
               <div className="aishe-source">
                 <p>Source: All India Survey on Higher Education (AISHE), Academic Year {aisheData.academicYear}</p>
-                <p>Showing {aisheData.data.length} of {aisheData.totalProgrammes || aisheData.count} programmes</p>
+                <p>Showing {aisheData.data.length} of {aisheData.totalRecords} programmes (Page {aisheData.currentPage} of {aisheData.totalPages})</p>
               </div>
             </div>
           )}

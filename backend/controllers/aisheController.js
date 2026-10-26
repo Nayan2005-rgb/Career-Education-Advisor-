@@ -109,43 +109,56 @@ const getProgrammes = async (req, res) => {
 // Get programme statistics
 const getProgrammeStatistics = async (req, res) => {
   try {
-    const { discipline } = req.query;
+    const { page = 1, limit = 50 } = req.query;
 
-    // Get unique programmes
-    let programmeQuery = `
-      SELECT DISTINCT
-        programme_name,
-        academic_year
-      FROM programmes
-    `;
+    // Parse pagination parameters
+    const pageNum = parseInt(page, 10) || 1;
+    const limitNum = parseInt(limit, 10) || 50;
+    const offset = (pageNum - 1) * limitNum;
 
-    const programmeParams = [];
+    // Get total count of programmes
+    const [countResult] = await pool.query(
+      `SELECT COUNT(*) as total FROM programmes WHERE academic_year = '2023-24'`
+    );
+    const totalRecords = countResult[0].total;
+    const totalPages = Math.ceil(totalRecords / limitNum);
 
-    if (discipline) {
-      // For now, return all programmes since discipline filtering requires proper joins
-      // Future enhancement: Implement proper discipline-programme relationship
-    }
+    // Get programmes with pagination
+    const [programmeRows] = await pool.query(
+      `SELECT p.id, p.programme_name, p.academic_year,
+              pe.all_male, pe.all_female, pe.all_total,
+              pe.sc_male, pe.sc_female, pe.sc_total,
+              pe.st_male, pe.st_female, pe.st_total,
+              pe.obc_male, pe.obc_female, pe.obc_total
+       FROM programmes p
+       LEFT JOIN programme_enrolment pe ON p.id = pe.programme_id
+       WHERE p.academic_year = '2023-24'
+       ORDER BY p.programme_name
+       LIMIT ? OFFSET ?`,
+      [limitNum, offset]
+    );
 
-    programmeQuery += ` ORDER BY programme_name LIMIT 100`;
-
-    const [programmeRows] = await pool.query(programmeQuery, programmeParams);
-
-    // Get disciplines separately
+    // Get disciplines separately for dropdown
     const [disciplineRows] = await pool.query(`
-      SELECT DISTINCT discipline_name, discipline_level
+      SELECT DISTINCT discipline_name
       FROM disciplines
+      WHERE academic_year = '2023-24'
       ORDER BY discipline_name
     `);
 
-    // Get unique disciplines
+    // Get unique discipline names
     const uniqueDisciplines = [...new Set(disciplineRows.map(r => r.discipline_name).filter(Boolean))];
 
     res.json({
       success: true,
       count: programmeRows.length,
-      totalProgrammes: 263,
+      totalRecords,
+      currentPage: pageNum,
+      pageSize: limitNum,
+      totalPages,
+      totalProgrammes: totalRecords,
       disciplineCount: uniqueDisciplines.length,
-      academicYear: programmeRows[0]?.academic_year || '2023-24',
+      academicYear: '2023-24',
       disciplines: uniqueDisciplines,
       data: programmeRows
     });

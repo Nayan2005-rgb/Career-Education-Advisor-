@@ -12,6 +12,7 @@ import GovtResidentialSchoolFinderPage from './pages/GovtResidentialSchoolFinder
 import CollegeFinderPage from './pages/CollegeFinder';
 import CourseFinderPage from './pages/CourseFinder';
 import EntranceExamFinderPage from './pages/EntranceExamFinder';
+import ScholarshipFinderPage from './pages/ScholarshipFinder';
 import AisheCollegeStatistics from './pages/AisheCollegeStatistics';
 
 function AppContent() {
@@ -117,6 +118,11 @@ function AppContent() {
           <Route
             path="/entrance-exam-finder"
             element={<EntranceExamFinderPage />}
+          />
+
+          <Route
+            path="/scholarship-finder"
+            element={<ScholarshipFinderPage />}
           />
 
           {/* AISHE Statistics */}

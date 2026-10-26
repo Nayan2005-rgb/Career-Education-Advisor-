@@ -34,8 +34,15 @@
       "contact": "1800-11-6001",
       "email": "support@scholarships.gov.in"
     },
+    "verificationStatus": "requires verification",
+    "officialProvider": "Ministry of Electronics and IT, Government of India",
+    "applicationUrl": "https://scholarships.gov.in",
+    "lastVerifiedDate": "2026-09-17",
+    "academicYear": "2024-2025",
+    "deadlineStatus": "closed",
+    "verificationNote": "This information is from academic year 2024-2025 and requires verification. Please check the official source for current deadlines, benefits, and eligibility requirements for the 2026-2027 academic year.",
     "createdAt": "2026-09-17T17:57:39.163Z",
-    "updatedAt": "2026-09-17T17:57:39.164Z"
+    "updatedAt": "2026-10-27T00:00:00.000Z"
   },
   {
     "id": "mu5u19zyqrl17qkmm2b",
@@ -70,8 +77,15 @@
       "contact": "011-23365256",
       "email": "ksb-mod@nic.in"
     },
+    "verificationStatus": "requires verification",
+    "officialProvider": "Kendriya Sainik Board, Ministry of Defence",
+    "applicationUrl": "https://ksb.gov.in",
+    "lastVerifiedDate": "2026-09-17",
+    "academicYear": "2024-2025",
+    "deadlineStatus": "closed",
+    "verificationNote": "This information is from academic year 2024-2025 and requires verification. Please check the official source for current deadlines, benefits, and eligibility requirements for the 2026-2027 academic year.",
     "createdAt": "2026-09-17T17:57:39.166Z",
-    "updatedAt": "2026-09-17T17:57:39.166Z"
+    "updatedAt": "2026-10-27T00:00:00.000Z"
   },
   {
     "id": "mu5u1a000bu11sf6fi2g",
@@ -107,8 +121,15 @@
       "contact": "011-26172630",
       "email": "scholarship.moe@gov.in"
     },
+    "verificationStatus": "requires verification",
+    "officialProvider": "Ministry of Education, Government of India",
+    "applicationUrl": "https://scholarships.gov.in",
+    "lastVerifiedDate": "2026-09-17",
+    "academicYear": "2024-2025",
+    "deadlineStatus": "closed",
+    "verificationNote": "This information is from academic year 2024-2025 and requires verification. Please check the official source for current deadlines, benefits, and eligibility requirements for the 2026-2027 academic year.",
     "createdAt": "2026-09-17T17:57:39.168Z",
-    "updatedAt": "2026-09-17T17:57:39.168Z"
+    "updatedAt": "2026-10-27T00:00:00.000Z"
   },
   {
     "id": "mu5u1a02whjhmfc8i3p",
@@ -142,8 +163,15 @@
       "contact": "011-26152670",
       "email": "pgscholarship@aicte-india.org"
     },
+    "verificationStatus": "requires verification",
+    "officialProvider": "All India Council for Technical Education (AICTE)",
+    "applicationUrl": "https://aicte-india.org",
+    "lastVerifiedDate": "2026-09-17",
+    "academicYear": "2024-2025",
+    "deadlineStatus": "closed",
+    "verificationNote": "This information is from academic year 2024-2025 and requires verification. Please check the official source for current deadlines, benefits, and eligibility requirements for the 2026-2027 academic year.",
     "createdAt": "2026-09-17T17:57:39.170Z",
-    "updatedAt": "2026-09-17T17:57:39.170Z"
+    "updatedAt": "2026-10-27T00:00:00.000Z"
   },
   {
     "id": "mu5u1a03m3w3o6dp9w",
@@ -176,8 +204,15 @@
       "contact": "011-26590400",
       "email": "inspire@dst.gov.in"
     },
+    "verificationStatus": "requires verification",
+    "officialProvider": "Department of Science and Technology, Government of India",
+    "applicationUrl": "https://www.inspire-dst.gov.in",
+    "lastVerifiedDate": "2026-09-17",
+    "academicYear": "2024-2025",
+    "deadlineStatus": "closed",
+    "verificationNote": "This information is from academic year 2024-2025 and requires verification. Please check the official source for current deadlines, benefits, and eligibility requirements for the 2026-2027 academic year.",
     "createdAt": "2026-09-17T17:57:39.171Z",
-    "updatedAt": "2026-09-17T17:57:39.171Z"
+    "updatedAt": "2026-10-27T00:00:00.000Z"
   },
   {
     "id": "mu5u1a059hbf5onvhrg",
@@ -213,12 +248,19 @@
       "contact": "011-23604444",
       "email": "scholarship@ugc.ac.in"
     },
+    "verificationStatus": "requires verification",
+    "officialProvider": "University Grants Commission (UGC)",
+    "applicationUrl": "https://scholarships.gov.in",
+    "lastVerifiedDate": "2026-09-17",
+    "academicYear": "2024-2025",
+    "deadlineStatus": "closed",
+    "verificationNote": "This information is from academic year 2024-2025 and requires verification. Please check the official source for current deadlines, benefits, and eligibility requirements for the 2026-2027 academic year.",
     "createdAt": "2026-09-17T17:57:39.173Z",
-    "updatedAt": "2026-09-17T17:57:39.173Z"
+    "updatedAt": "2026-10-27T00:00:00.000Z"
   },
   {
     "id": "mu5u1a08j5y5zh247k8",
-    "name": "Kishore Vaigyanik Protsahan Yojana (KVPY)",
+    "name": "Kishore Vaigyanik Protsahan Yojana (KVPY) - DISCONTINUED",
     "providerType": "Government",
     "educationLevel": "Undergraduate",
     "state": "All India",
@@ -247,8 +289,17 @@
       "contact": "080-22932535",
       "email": "kvpy@iisc.ac.in"
     },
+    "verificationStatus": "requires verification",
+    "officialProvider": "Department of Science and Technology, Government of India",
+    "applicationUrl": "https://kvpy.iisc.ac.in",
+    "lastVerifiedDate": "2026-09-17",
+    "academicYear": "2024-2025",
+    "deadlineStatus": "closed",
+    "isActive": false,
+    "status": "discontinued",
+    "discontinuationNote": "KVPY has been discontinued. This record is preserved for historical reference only. Do not apply - this scholarship is no longer available.",
     "createdAt": "2026-09-17T17:57:39.176Z",
-    "updatedAt": "2026-09-17T17:57:39.176Z"
+    "updatedAt": "2026-10-27T00:00:00.000Z"
   },
   {
     "id": "mu5u1a0amta4de82c7b",
@@ -283,8 +334,15 @@
       "contact": "011-23604444",
       "email": "manf@ugc.ac.in"
     },
+    "verificationStatus": "requires verification",
+    "officialProvider": "University Grants Commission (UGC)",
+    "applicationUrl": "https://www.ugc.ac.in",
+    "lastVerifiedDate": "2026-09-17",
+    "academicYear": "2024-2025",
+    "deadlineStatus": "closed",
+    "verificationNote": "This information is from academic year 2024-2025 and requires verification. Please check the official source for current deadlines, benefits, and eligibility requirements for the 2026-2027 academic year.",
     "createdAt": "2026-09-17T17:57:39.178Z",
-    "updatedAt": "2026-09-17T17:57:39.178Z"
+    "updatedAt": "2026-10-27T00:00:00.000Z"
   },
   {
     "id": "mu5u1a0ca20x2h99f7p",
@@ -318,8 +376,14 @@
       "contact": "State Education Department",
       "email": "scholarships@maharashtra.gov.in"
     },
+    "verificationStatus": "demo",
+    "officialProvider": "Government of Maharashtra (unverified)",
+    "applicationUrl": null,
+    "lastVerifiedDate": null,
+    "academicYear": null,
+    "deadlineStatus": "closed",
     "createdAt": "2026-09-17T17:57:39.180Z",
-    "updatedAt": "2026-09-17T17:57:39.180Z"
+    "updatedAt": "2026-10-27T00:00:00.000Z"
   },
   {
     "id": "mu5u1a0fw447xien1",
@@ -353,8 +417,14 @@
       "contact": "Tamil Nadu Education Department",
       "email": "scholarships@tn.gov.in"
     },
+    "verificationStatus": "demo",
+    "officialProvider": "Government of Tamil Nadu (unverified)",
+    "applicationUrl": null,
+    "lastVerifiedDate": null,
+    "academicYear": null,
+    "deadlineStatus": "closed",
     "createdAt": "2026-09-17T17:57:39.183Z",
-    "updatedAt": "2026-09-17T17:57:39.183Z"
+    "updatedAt": "2026-10-27T00:00:00.000Z"
   },
   {
     "id": "mu5u1a0gpfz24fke7",
@@ -388,8 +458,14 @@
       "contact": "Reliance Foundation",
       "email": "scholarships@reliancefoundation.org"
     },
+    "verificationStatus": "demo",
+    "officialProvider": "Reliance Foundation (unverified)",
+    "applicationUrl": null,
+    "lastVerifiedDate": null,
+    "academicYear": null,
+    "deadlineStatus": "closed",
     "createdAt": "2026-09-17T17:57:39.184Z",
-    "updatedAt": "2026-09-17T17:57:39.184Z"
+    "updatedAt": "2026-10-27T00:00:00.000Z"
   },
   {
     "id": "mu5u1a0il0nidj0rbhl",
@@ -424,8 +500,14 @@
       "contact": "Tata Trusts",
       "email": "scholarships@tatatrusts.org"
     },
+    "verificationStatus": "demo",
+    "officialProvider": "Tata Trusts (unverified)",
+    "applicationUrl": null,
+    "lastVerifiedDate": null,
+    "academicYear": null,
+    "deadlineStatus": "closed",
     "createdAt": "2026-09-17T17:57:39.186Z",
-    "updatedAt": "2026-09-17T17:57:39.186Z"
+    "updatedAt": "2026-10-27T00:00:00.000Z"
   },
   {
     "id": "mu5u1a0lupe2z7yvvqr",
@@ -459,8 +541,14 @@
       "contact": "Karnataka Education Department",
       "email": "scholarships@karnataka.gov.in"
     },
+    "verificationStatus": "demo",
+    "officialProvider": "Government of Karnataka (unverified)",
+    "applicationUrl": null,
+    "lastVerifiedDate": null,
+    "academicYear": null,
+    "deadlineStatus": "closed",
     "createdAt": "2026-09-17T17:57:39.189Z",
-    "updatedAt": "2026-09-17T17:57:39.189Z"
+    "updatedAt": "2026-10-27T00:00:00.000Z"
   },
   {
     "id": "mu5u1a0naje7z6b8fzl",
@@ -495,8 +583,14 @@
       "contact": "Aditya Birla Group",
       "email": "scholarships@adityabirla.com"
     },
+    "verificationStatus": "demo",
+    "officialProvider": "Aditya Birla Group (unverified)",
+    "applicationUrl": null,
+    "lastVerifiedDate": null,
+    "academicYear": null,
+    "deadlineStatus": "closed",
     "createdAt": "2026-09-17T17:57:39.191Z",
-    "updatedAt": "2026-09-17T17:57:39.191Z"
+    "updatedAt": "2026-10-27T00:00:00.000Z"
   },
   {
     "id": "mu5u1a0ps8uif9k0mri",
@@ -528,8 +622,14 @@
       "contact": "Delhi University",
       "email": "scholarships@du.ac.in"
     },
+    "verificationStatus": "demo",
+    "officialProvider": "Delhi University (unverified)",
+    "applicationUrl": null,
+    "lastVerifiedDate": null,
+    "academicYear": null,
+    "deadlineStatus": "closed",
     "createdAt": "2026-09-17T17:57:39.193Z",
-    "updatedAt": "2026-09-17T17:57:39.193Z"
+    "updatedAt": "2026-10-27T00:00:00.000Z"
   },
   {
     "id": "mu5u1a0s6gz5a68klae",
@@ -563,7 +663,13 @@
       "contact": "HDFC Bank CSR",
       "email": "csr@hdfcbank.com"
     },
+    "verificationStatus": "demo",
+    "officialProvider": "HDFC Bank CSR (unverified)",
+    "applicationUrl": null,
+    "lastVerifiedDate": null,
+    "academicYear": null,
+    "deadlineStatus": "closed",
     "createdAt": "2026-09-17T17:57:39.196Z",
-    "updatedAt": "2026-09-17T17:57:39.196Z"
+    "updatedAt": "2026-10-27T00:00:00.000Z"
   }
 ]

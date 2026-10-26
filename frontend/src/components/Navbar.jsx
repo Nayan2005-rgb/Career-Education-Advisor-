@@ -33,6 +33,7 @@ export default function Navbar({ isAuthenticated, onLogout }) {
         <Link to="/college-finder" onClick={closeMobileMenu}>College Finder</Link>
         <Link to="/course-finder" onClick={closeMobileMenu}>Course Finder</Link>
         <Link to="/entrance-exam-finder" onClick={closeMobileMenu}>Entrance Exams</Link>
+        <Link to="/scholarship-finder" onClick={closeMobileMenu}>Scholarships</Link>
         {isAuthenticated ? (
           <>
             <Link to="/dashboard" onClick={closeMobileMenu}>Dashboard</Link>

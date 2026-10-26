@@ -17,6 +17,7 @@ export const authAPI = {
   register: (data) => api.post('/auth/register', data),
   login: (data) => api.post('/auth/login', data),
   getMe: () => api.get('/auth/me'),
+  updateProfile: (data) => api.put('/auth/profile', data),
 };
 
 export const assessmentAPI = {
@@ -122,6 +123,11 @@ export const scholarshipAPI = {
   getScholarshipsByCategory: (category) => api.get(`/scholarship/category/${encodeURIComponent(category)}`),
   getScholarshipDetails: (id) => api.get(`/scholarship/details/${id}`),
   getFilterOptions: () => api.get('/scholarship/filters'),
+  checkEligibility: (id) => api.get(`/scholarship/eligibility/${id}`),
+  checkEligibilityBatch: () => api.get('/scholarship/eligibility'),
+  saveScholarship: (scholarshipId) => api.post(`/scholarship/save/${scholarshipId}`),
+  getSavedScholarships: () => api.get('/scholarship/saved'),
+  removeSavedScholarship: (scholarshipId) => api.delete(`/scholarship/saved/${scholarshipId}`),
 };
 
 export const aisheAPI = {
@@ -129,8 +135,11 @@ export const aisheAPI = {
     const params = state ? { state } : {};
     return api.get('/aishe/colleges', { params });
   },
-  getProgrammeStatistics: (discipline) => {
-    const params = discipline ? { discipline } : {};
+  getProgrammeStatistics: (discipline, page = 1, limit = 50) => {
+    const params = { page, limit };
+    if (discipline) {
+      params.discipline = discipline;
+    }
     return api.get('/aishe/programme-statistics', { params });
   },
 };
