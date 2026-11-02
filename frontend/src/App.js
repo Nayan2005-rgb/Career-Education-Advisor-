@@ -14,6 +14,12 @@ import CourseFinderPage from './pages/CourseFinder';
 import EntranceExamFinderPage from './pages/EntranceExamFinder';
 import ScholarshipFinderPage from './pages/ScholarshipFinder';
 import AisheCollegeStatistics from './pages/AisheCollegeStatistics';
+import ResumeDashboard from './pages/ResumeDashboard';
+import ResumeBuilder from './pages/ResumeBuilder';
+import OpportunityFinderPage from './pages/OpportunityFinder';
+import OpportunityRecommendationsPage from './pages/OpportunityRecommendations';
+import SavedOpportunitiesPage from './pages/SavedOpportunities';
+import ApplicationTrackerPage from './pages/ApplicationTracker';
 
 function AppContent() {
   const [isAuthenticated, setIsAuthenticated] = useState(
@@ -129,6 +135,67 @@ function AppContent() {
           <Route
             path="/aishe/college-statistics"
             element={<AisheCollegeStatistics />}
+          />
+
+          {/* Resume Builder */}
+          <Route
+            path="/resume-dashboard"
+            element={
+              <PrivateRoute>
+                <ResumeDashboard />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/resume-builder"
+            element={
+              <PrivateRoute>
+                <ResumeBuilder />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/resume-builder/:id"
+            element={
+              <PrivateRoute>
+                <ResumeBuilder />
+              </PrivateRoute>
+            }
+          />
+
+          {/* Internship & Job Finder */}
+          <Route
+            path="/opportunity-finder"
+            element={<OpportunityFinderPage />}
+          />
+
+          <Route
+            path="/opportunity-recommendations"
+            element={
+              <PrivateRoute>
+                <OpportunityRecommendationsPage />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/saved-opportunities"
+            element={
+              <PrivateRoute>
+                <SavedOpportunitiesPage />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/application-tracker"
+            element={
+              <PrivateRoute>
+                <ApplicationTrackerPage />
+              </PrivateRoute>
+            }
           />
         </Routes>
       </main>

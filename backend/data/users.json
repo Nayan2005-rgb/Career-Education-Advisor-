@@ -56,5 +56,120 @@
     "familyIncome": "2",
     "academicPercentage": "75",
     "category": "General"
+  },
+  {
+    "id": "mvpptzddy8xn4fyhwxm",
+    "name": "Resume Test",
+    "email": "resumetest@example.com",
+    "password": "$2a$10$qPlu1WaZgPSzM/V4eTS89uqTGFLoQ70Z/FxaD6BgC9uBW5dbYCdBO",
+    "courses": [],
+    "createdAt": "2026-10-26T20:35:06.193Z",
+    "updatedAt": "2026-10-26T20:35:06.193Z"
+  },
+  {
+    "id": "mvqgbf32nnvuen2mw4",
+    "name": "random",
+    "email": "random@gmail.com",
+    "password": "$2a$10$/SZ2a7g8YmRC4XVePfvmHelwYRK60pwJHG0da2zx81.YOzl.d5mkC",
+    "grade": "undergrad",
+    "courses": [],
+    "createdAt": "2026-10-27T08:56:29.726Z",
+    "updatedAt": "2026-10-27T08:56:29.726Z"
+  },
+  {
+    "id": "mvqgc4et8lomokg1zko",
+    "name": "Resume Tester",
+    "email": "resumetester@example.com",
+    "password": "$2a$10$G9pQBGlIk5f9zN/jy9p0Fub1TBL6KKUdetMvcnKKYKowbqHPMkj.6",
+    "courses": [],
+    "createdAt": "2026-10-27T08:57:02.549Z",
+    "updatedAt": "2026-10-27T08:57:02.549Z"
+  },
+  {
+    "id": "mvqgedsitqnrffw79ro",
+    "name": "Unauthorized User",
+    "email": "unauth@example.com",
+    "password": "$2a$10$r7ioUc.Ir7cp/HEBXWwzvuxxzf/ACNGeJzBfNmtizdFRh70lM6Rn.",
+    "courses": [],
+    "createdAt": "2026-10-27T08:58:48.018Z",
+    "updatedAt": "2026-10-27T08:58:48.018Z"
+  },
+  {
+    "id": "mvqjdclrmmfd72ac94",
+    "name": "Test User 1",
+    "email": "testuser1@example.com",
+    "password": "$2a$10$Pn1q5iWOtf6Cq6nTgDqyoO1jKMSv1ov4AQaBm3tKotflgG9EFkVRG",
+    "courses": [],
+    "createdAt": "2026-10-27T10:21:58.671Z",
+    "updatedAt": "2026-10-27T10:21:58.671Z"
+  },
+  {
+    "id": "mvqjdhmq4swb2nla1m",
+    "name": "Test User 2",
+    "email": "testuser2@example.com",
+    "password": "$2a$10$PA67pmdgPZZFjtBt.0wdg..3km5jnp4H4yfYRmXVot90GtNJtkEji",
+    "courses": [],
+    "createdAt": "2026-10-27T10:22:05.186Z",
+    "updatedAt": "2026-10-27T10:22:05.186Z"
+  },
+  {
+    "id": "mvry9nyp0nls6qhsa5v9",
+    "name": "Test User",
+    "email": "test1793182006993@example.com",
+    "password": "$2a$10$cO52jS2PLAPZZeZSt4OKI.uAt3e7k.lQFp18VDR.1SezAH0w603kG",
+    "grade": "12th",
+    "courses": [],
+    "createdAt": "2026-10-28T10:06:47.185Z",
+    "updatedAt": "2026-10-28T10:06:47.185Z"
+  },
+  {
+    "id": "mvryba898kguugm7f9j",
+    "name": "User 1",
+    "email": "user1_1793182082539@example.com",
+    "password": "$2a$10$41DU2uNQY8Zct13WgXeXV.b8S4bsHvLy.jRwBflaO4OtrzZ8EqXXe",
+    "grade": "12th",
+    "courses": [],
+    "createdAt": "2026-10-28T10:08:02.697Z",
+    "updatedAt": "2026-10-28T10:08:02.697Z"
+  },
+  {
+    "id": "mvrybac71m2y8kwblos",
+    "name": "User 2",
+    "email": "user2_1793182082539@example.com",
+    "password": "$2a$10$t9uUulhzBrrYj3vxeXXKruTlaEYgtvfhvZZSyXLgE3S6jt7pk7wSW",
+    "grade": "12th",
+    "courses": [],
+    "createdAt": "2026-10-28T10:08:02.839Z",
+    "updatedAt": "2026-10-28T10:08:02.839Z"
+  },
+  {
+    "id": "mvrybvl8qixsaxriqj",
+    "name": "User 1",
+    "email": "user1_1793182110219@example.com",
+    "password": "$2a$10$pC1eZbOJ5qhz1R7ItmWrE.G4MOdGCvXVExU3UZl5E2VnIN8SXJDnq",
+    "grade": "12th",
+    "courses": [],
+    "createdAt": "2026-10-28T10:08:30.380Z",
+    "updatedAt": "2026-10-28T10:08:30.380Z"
+  },
+  {
+    "id": "mvrybvok6zzgy0amv7c",
+    "name": "User 2",
+    "email": "user2_1793182110219@example.com",
+    "password": "$2a$10$ZkMCsQOKxi16N3MXMuypNOa16GVVLSt3kSNxiTS7m5WG5tAlKbd72",
+    "grade": "12th",
+    "courses": [],
+    "createdAt": "2026-10-28T10:08:30.500Z",
+    "updatedAt": "2026-10-28T10:08:30.500Z"
+  },
+  {
+    "id": "mvryfbwcyqfbpg2oars",
+    "name": "Test User",
+    "email": "test1793182271135@example.com",
+    "password": "$2a$10$nRZ3QTb3hfApOte3AobuqOPBk/Ovl8ZHpH/Pj2QvRn6l.LlJbuqtS",
+    "grade": "12th",
+    "courses": [],
+    "createdAt": "2026-10-28T10:11:11.484Z",
+    "updatedAt": "2026-10-28T10:11:11.485Z"
   }
 ]

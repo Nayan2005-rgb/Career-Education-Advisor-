@@ -12,24 +12,39 @@ exports.searchSchools = async (req, res) => {
       district: req.query.district,
       gender: req.query.gender,
       entranceExam: req.query.entranceExam,
-      hostelAvailable: req.query.hostelAvailable === 'true' ? true : 
-                     req.query.hostelAvailable === 'false' ? false : undefined
+      hostelAvailable: req.query.hostelAvailable === 'true' ? true :
+                     req.query.hostelAvailable === 'false' ? false : undefined,
+      classesOffered: req.query.classesOffered,
+      governingOrganization: req.query.governingOrganization
     };
 
-    const schools = GovtResidentialSchool.search(filters);
-    
+    let schools = GovtResidentialSchool.search(filters);
+
+    // Pagination with validation
+    const pageParsed = parseInt(req.query.page);
+    const limitParsed = parseInt(req.query.limit);
+    const validPage = Math.max(1, isNaN(pageParsed) ? 1 : pageParsed);
+    const validLimit = Math.max(1, Math.min(100, isNaN(limitParsed) ? 20 : limitParsed));
+    const startIndex = (validPage - 1) * validLimit;
+    const endIndex = startIndex + validLimit;
+
+    const paginatedSchools = schools.slice(startIndex, endIndex);
+
     // Remove undefined filters for cleaner query
     Object.keys(filters).forEach(key => filters[key] === undefined && delete filters[key]);
 
     res.json({
-      schools,
+      schools: paginatedSchools,
       filters: Object.keys(filters).length > 0 ? filters : null,
-      count: schools.length
+      count: schools.length,
+      page: validPage,
+      limit: validLimit,
+      totalPages: Math.ceil(schools.length / validLimit)
     });
   } catch (err) {
     console.error('Error searching government residential schools:', err);
-    res.status(500).json({ 
-      message: 'Unable to search government residential schools. Please try again.' 
+    res.status(500).json({
+      message: 'Unable to search government residential schools. Please try again.'
     });
   }
 };
@@ -134,10 +149,10 @@ exports.getDistrictsByState = async (req, res) => {
 exports.getFilterOptions = async (req, res) => {
   try {
     const schools = GovtResidentialSchool.findAll();
-    
+
     const states = GovtResidentialSchool.getStates();
     const districts = [...new Set(schools.map(s => s.district))].sort();
-    
+
     const categories = [
       'Jawahar Navodaya Vidyalaya',
       'Sainik School',
@@ -148,18 +163,22 @@ exports.getFilterOptions = async (req, res) => {
 
     const genders = [...new Set(schools.map(s => s.gender))].sort();
     const entranceExams = [...new Set(schools.map(s => s.entranceExam))].sort();
+    const classesOffered = GovtResidentialSchool.getClassesOffered();
+    const governingOrganizations = GovtResidentialSchool.getGoverningOrganizations();
 
     res.json({
       states,
       districts,
       categories,
       genders,
-      entranceExams
+      entranceExams,
+      classesOffered,
+      governingOrganizations
     });
   } catch (err) {
     console.error('Error getting filter options:', err);
-    res.status(500).json({ 
-      message: 'Unable to get filter options. Please try again.' 
+    res.status(500).json({
+      message: 'Unable to get filter options. Please try again.'
     });
   }
 };

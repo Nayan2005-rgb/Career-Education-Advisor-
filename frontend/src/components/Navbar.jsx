@@ -34,8 +34,13 @@ export default function Navbar({ isAuthenticated, onLogout }) {
         <Link to="/course-finder" onClick={closeMobileMenu}>Course Finder</Link>
         <Link to="/entrance-exam-finder" onClick={closeMobileMenu}>Entrance Exams</Link>
         <Link to="/scholarship-finder" onClick={closeMobileMenu}>Scholarships</Link>
+        <Link to="/opportunity-finder" onClick={closeMobileMenu}>Job Finder</Link>
         {isAuthenticated ? (
           <>
+            <Link to="/resume-dashboard" onClick={closeMobileMenu}>Resume Builder</Link>
+            <Link to="/opportunity-recommendations" onClick={closeMobileMenu}>Job Recommendations</Link>
+            <Link to="/saved-opportunities" onClick={closeMobileMenu}>Saved Jobs</Link>
+            <Link to="/application-tracker" onClick={closeMobileMenu}>Application Tracker</Link>
             <Link to="/dashboard" onClick={closeMobileMenu}>Dashboard</Link>
             <Link to="/profile" onClick={closeMobileMenu}>Profile</Link>
             <button className="link-btn" onClick={handleLogout}>Logout</button>

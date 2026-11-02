@@ -6,6 +6,9 @@ export default function GovtResidentialSchoolFinder() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [selectedSchool, setSelectedSchool] = useState(null);
+  const [totalCount, setTotalCount] = useState(0);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(1);
   
   // Filter states
   const [filters, setFilters] = useState({
@@ -15,7 +18,9 @@ export default function GovtResidentialSchoolFinder() {
     district: '',
     gender: '',
     entranceExam: '',
-    hostelAvailable: ''
+    hostelAvailable: '',
+    classesOffered: '',
+    governingOrganization: ''
   });
   
   // Available options
@@ -24,7 +29,9 @@ export default function GovtResidentialSchoolFinder() {
     districts: [],
     categories: [],
     genders: [],
-    entranceExams: []
+    entranceExams: [],
+    classesOffered: [],
+    governingOrganizations: []
   });
 
   const [activeCategory, setActiveCategory] = useState('');
@@ -50,11 +57,14 @@ export default function GovtResidentialSchoolFinder() {
     }
   };
 
-  const loadAllSchools = async () => {
+  const loadAllSchools = async (page = 1) => {
     setLoading(true);
     try {
-      const { data } = await govtResidentialSchoolAPI.searchSchools({});
+      const { data } = await govtResidentialSchoolAPI.searchSchools({ page, limit: 20 });
       setSchools(data.schools || []);
+      setTotalCount(data.count || 0);
+      setTotalPages(data.totalPages || 1);
+      setCurrentPage(data.page || 1);
     } catch (err) {
       setError('Unable to load schools. Please try again.');
     } finally {
@@ -67,17 +77,21 @@ export default function GovtResidentialSchoolFinder() {
       const { data } = await govtResidentialSchoolAPI.getDistrictsByState(state);
       setFilterOptions(prev => ({ ...prev, districts: data.districts || [] }));
       setFilters(prev => ({ ...prev, district: '' }));
+      setCurrentPage(1);
     } catch (err) {
       console.error('Error loading districts:', err);
     }
   };
 
-  const handleSearch = async () => {
+  const handleSearch = async (page = 1) => {
     setLoading(true);
     setError('');
     try {
-      const { data } = await govtResidentialSchoolAPI.searchSchools(filters);
+      const { data } = await govtResidentialSchoolAPI.searchSchools({ ...filters, page, limit: 20 });
       setSchools(data.schools || []);
+      setTotalCount(data.count || 0);
+      setTotalPages(data.totalPages || 1);
+      setCurrentPage(data.page || 1);
       setActiveCategory('');
     } catch (err) {
       setError('Unable to search schools. Please try again.');
@@ -93,6 +107,7 @@ export default function GovtResidentialSchoolFinder() {
     try {
       const { data } = await govtResidentialSchoolAPI.getSchoolsByCategory(category);
       setSchools(data.schools || []);
+      setTotalCount(data.count || 0);
       // Reset filters when using category
       setFilters({
         search: '',
@@ -101,8 +116,12 @@ export default function GovtResidentialSchoolFinder() {
         district: '',
         gender: '',
         entranceExam: '',
-        hostelAvailable: ''
+        hostelAvailable: '',
+        classesOffered: '',
+        governingOrganization: ''
       });
+      setCurrentPage(1);
+      setTotalPages(1);
     } catch (err) {
       setError('Unable to load schools for this category. Please try again.');
     } finally {
@@ -113,6 +132,8 @@ export default function GovtResidentialSchoolFinder() {
   const handleFilterChange = (e) => {
     const { name, value } = e.target;
     setFilters(prev => ({ ...prev, [name]: value }));
+    // Reset pagination when filters change
+    setCurrentPage(1);
   };
 
   const handleClearFilters = () => {
@@ -123,10 +144,13 @@ export default function GovtResidentialSchoolFinder() {
       district: '',
       gender: '',
       entranceExam: '',
-      hostelAvailable: ''
+      hostelAvailable: '',
+      classesOffered: '',
+      governingOrganization: ''
     });
     setActiveCategory('');
-    loadAllSchools();
+    setCurrentPage(1);
+    loadAllSchools(1);
   };
 
   const handleSchoolClick = async (schoolId) => {
@@ -199,10 +223,12 @@ export default function GovtResidentialSchoolFinder() {
             name="search"
             placeholder="Search schools by name, location, or district..."
             value={filters.search}
-            onChange={handleFilterChange}
+            onChange={(e) => {
+              handleFilterChange(e);
+            }}
             className="search-input"
           />
-          <button onClick={handleSearch} className="btn-primary search-button">
+          <button onClick={() => handleSearch(1)} className="btn-primary search-button">
             Search
           </button>
         </div>
@@ -222,7 +248,10 @@ export default function GovtResidentialSchoolFinder() {
                 <select
                   name="category"
                   value={filters.category}
-                  onChange={handleFilterChange}
+                  onChange={(e) => {
+                    handleFilterChange(e);
+                    handleSearch(1);
+                  }}
                   className="filter-select"
                 >
                   <option value="">All Categories</option>
@@ -237,7 +266,10 @@ export default function GovtResidentialSchoolFinder() {
                 <select
                   name="state"
                   value={filters.state}
-                  onChange={handleFilterChange}
+                  onChange={(e) => {
+                    handleFilterChange(e);
+                    handleSearch(1);
+                  }}
                   className="filter-select"
                 >
                   <option value="">All States</option>
@@ -252,7 +284,10 @@ export default function GovtResidentialSchoolFinder() {
                 <select
                   name="district"
                   value={filters.district}
-                  onChange={handleFilterChange}
+                  onChange={(e) => {
+                    handleFilterChange(e);
+                    handleSearch(1);
+                  }}
                   className="filter-select"
                   disabled={!filters.state}
                 >
@@ -270,7 +305,10 @@ export default function GovtResidentialSchoolFinder() {
                 <select
                   name="gender"
                   value={filters.gender}
-                  onChange={handleFilterChange}
+                  onChange={(e) => {
+                    handleFilterChange(e);
+                    handleSearch(1);
+                  }}
                   className="filter-select"
                 >
                   <option value="">All</option>
@@ -285,7 +323,10 @@ export default function GovtResidentialSchoolFinder() {
                 <select
                   name="entranceExam"
                   value={filters.entranceExam}
-                  onChange={handleFilterChange}
+                  onChange={(e) => {
+                    handleFilterChange(e);
+                    handleSearch(1);
+                  }}
                   className="filter-select"
                 >
                   <option value="">All Exams</option>
@@ -300,12 +341,53 @@ export default function GovtResidentialSchoolFinder() {
                 <select
                   name="hostelAvailable"
                   value={filters.hostelAvailable}
-                  onChange={handleFilterChange}
+                  onChange={(e) => {
+                    handleFilterChange(e);
+                    handleSearch(1);
+                  }}
                   className="filter-select"
                 >
                   <option value="">Any</option>
                   <option value="true">Available</option>
                   <option value="false">Not Available</option>
+                </select>
+              </div>
+            </div>
+
+            <div className="filter-row">
+              <div className="filter-group">
+                <label>Classes Offered</label>
+                <select
+                  name="classesOffered"
+                  value={filters.classesOffered}
+                  onChange={(e) => {
+                    handleFilterChange(e);
+                    handleSearch(1);
+                  }}
+                  className="filter-select"
+                >
+                  <option value="">All Classes</option>
+                  {filterOptions.classesOffered.map(classes => (
+                    <option key={classes} value={classes}>{classes}</option>
+                  ))}
+                </select>
+              </div>
+
+              <div className="filter-group">
+                <label>Governing Organization</label>
+                <select
+                  name="governingOrganization"
+                  value={filters.governingOrganization}
+                  onChange={(e) => {
+                    handleFilterChange(e);
+                    handleSearch(1);
+                  }}
+                  className="filter-select"
+                >
+                  <option value="">All Organizations</option>
+                  {filterOptions.governingOrganizations.map(org => (
+                    <option key={org} value={org}>{org}</option>
+                  ))}
                 </select>
               </div>
             </div>
@@ -442,7 +524,7 @@ export default function GovtResidentialSchoolFinder() {
         <div className="schools-header">
           <h3>
             {activeCategory ? `${activeCategory}s` : 'All Government Residential Schools'}
-            <span className="results-count">({schools.length} results)</span>
+            <span className="results-count">({totalCount} results)</span>
           </h3>
         </div>
 
@@ -454,59 +536,84 @@ export default function GovtResidentialSchoolFinder() {
             </button>
           </div>
         ) : (
-          <div className="schools-grid">
-            {schools.map(school => (
-              <div key={school.id} className="school-card">
-                <div className="school-card-header">
-                  <h4>{school.name}</h4>
-                  <div className="school-badges">
-                    <span 
-                      className="category-badge"
-                      style={{ backgroundColor: getCategoryColor(school.category) }}
+          <>
+            <div className="schools-grid">
+              {schools.map(school => (
+                <div key={school.id} className="school-card">
+                  <div className="school-card-header">
+                    <h4>{school.name}</h4>
+                    <div className="school-badges">
+                      <span
+                        className="category-badge"
+                        style={{ backgroundColor: getCategoryColor(school.category) }}
+                      >
+                        {school.category}
+                      </span>
+                      <span
+                        className="gender-badge"
+                        style={{ backgroundColor: getGenderColor(school.gender) }}
+                      >
+                        {school.gender}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="school-location">
+                    <span>📍 {school.location}</span>
+                  </div>
+
+                  <div className="school-info">
+                    <div className="info-item">
+                      <span className="info-label">Entrance Exam:</span>
+                      <span className="info-value">{school.entranceExam}</span>
+                    </div>
+                    <div className="info-item">
+                      <span className="info-label">Hostel:</span>
+                      <span className="info-value">
+                        {school.hostelAvailable ? '✓ Available' : '✗ Not Available'}
+                      </span>
+                    </div>
+                    <div className="info-item">
+                      <span className="info-label">Fees:</span>
+                      <span className="info-value">{school.fees}</span>
+                    </div>
+                  </div>
+
+                  <div className="school-card-actions">
+                    <button
+                      onClick={() => handleSchoolClick(school.id)}
+                      className="btn-primary view-details"
                     >
-                      {school.category}
-                    </span>
-                    <span 
-                      className="gender-badge"
-                      style={{ backgroundColor: getGenderColor(school.gender) }}
-                    >
-                      {school.gender}
-                    </span>
+                      View Details
+                    </button>
                   </div>
                 </div>
+              ))}
+            </div>
 
-                <div className="school-location">
-                  <span>📍 {school.location}</span>
-                </div>
-
-                <div className="school-info">
-                  <div className="info-item">
-                    <span className="info-label">Entrance Exam:</span>
-                    <span className="info-value">{school.entranceExam}</span>
-                  </div>
-                  <div className="info-item">
-                    <span className="info-label">Hostel:</span>
-                    <span className="info-value">
-                      {school.hostelAvailable ? '✓ Available' : '✗ Not Available'}
-                    </span>
-                  </div>
-                  <div className="info-item">
-                    <span className="info-label">Fees:</span>
-                    <span className="info-value">{school.fees}</span>
-                  </div>
-                </div>
-
-                <div className="school-card-actions">
-                  <button 
-                    onClick={() => handleSchoolClick(school.id)}
-                    className="btn-primary view-details"
-                  >
-                    View Details
-                  </button>
-                </div>
+            {/* Pagination */}
+            {totalPages > 1 && (
+              <div className="pagination">
+                <button
+                  onClick={() => handleSearch(currentPage - 1)}
+                  disabled={currentPage === 1}
+                  className="btn-secondary"
+                >
+                  Previous
+                </button>
+                <span className="page-info">
+                  Page {currentPage} of {totalPages}
+                </span>
+                <button
+                  onClick={() => handleSearch(currentPage + 1)}
+                  disabled={currentPage === totalPages}
+                  className="btn-secondary"
+                >
+                  Next
+                </button>
               </div>
-            ))}
-          </div>
+            )}
+          </>
         )}
       </div>
     </div>

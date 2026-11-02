@@ -1,0 +1,77 @@
+[
+  {
+    "id": "mvqgv73juvf0s4f2thg",
+    "userId": "mvqgc4et8lomokg1zko",
+    "name": "Nayan",
+    "template": "technical",
+    "personalInfo": {
+      "name": "Nayan Bhandari",
+      "email": "bhandarinayan22@gmail.com",
+      "phone": "+917709476311",
+      "address": "Pravaranagar"
+    },
+    "summary": "I am My Nayan Bhandari . i am insterest in software engineering",
+    "education": [
+      {
+        "institution": "Walchand institute of technology",
+        "degree": "electronic and telecommunication",
+        "field": "software ",
+        "startYear": "2023",
+        "endYear": "2027",
+        "grade": "8.55"
+      }
+    ],
+    "technicalSkills": [],
+    "softSkills": [],
+    "projects": [],
+    "experience": [],
+    "certifications": [],
+    "achievements": [],
+    "courses": [],
+    "socialLinks": {},
+    "createdAt": "2026-10-27T09:11:52.495Z",
+    "updatedAt": "2026-10-27T09:14:43.459Z"
+  },
+  {
+    "id": "mvrybacfi4t4kmex8to",
+    "userId": "mvryba898kguugm7f9j",
+    "name": "User 1 Resume",
+    "template": "modern",
+    "personalInfo": {
+      "name": "User 1"
+    },
+    "summary": "",
+    "education": [],
+    "technicalSkills": [],
+    "softSkills": [],
+    "projects": [],
+    "experience": [],
+    "certifications": [],
+    "achievements": [],
+    "courses": [],
+    "socialLinks": {},
+    "createdAt": "2026-10-28T10:08:02.847Z",
+    "updatedAt": "2026-10-28T10:08:02.847Z"
+  },
+  {
+    "id": "mvrybvot37rej6x4m8j",
+    "userId": "mvrybvl8qixsaxriqj",
+    "name": "User 1 Resume",
+    "template": "modern",
+    "personalInfo": {
+      "name": "User 1"
+    },
+    "summary": "",
+    "education": [],
+    "technicalSkills": [],
+    "softSkills": [],
+    "projects": [],
+    "experience": [],
+    "certifications": [],
+    "achievements": [],
+    "courses": [],
+    "socialLinks": {},
+    "createdAt": "2026-10-28T10:08:30.509Z",
+    "updatedAt": "2026-10-28T10:08:30.509Z"
+  }
+]

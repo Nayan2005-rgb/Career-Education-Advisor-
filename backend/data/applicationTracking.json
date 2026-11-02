@@ -1,0 +1,24 @@
+[
+  {
+    "id": "mvqjfbl7p6inf262a1m",
+    "userId": "mvqjdclrmmfd72ac94",
+    "opportunityId": "demo-003",
+    "status": "Offer Received",
+    "applicationDate": null,
+    "notes": "",
+    "interviewDate": null,
+    "createdAt": "2026-10-27T10:23:30.667Z",
+    "updatedAt": "2026-10-27T10:23:30.667Z"
+  },
+  {
+    "id": "mvrybvqdphkz8t5olqf",
+    "userId": "mvrybvl8qixsaxriqj",
+    "opportunityId": "demo-002",
+    "status": "Applied",
+    "applicationDate": "2026-10-28T10:08:30.564Z",
+    "notes": "",
+    "interviewDate": null,
+    "createdAt": "2026-10-28T10:08:30.565Z",
+    "updatedAt": "2026-10-28T10:08:30.565Z"
+  }
+]

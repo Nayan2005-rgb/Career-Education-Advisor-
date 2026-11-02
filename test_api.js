@@ -5,12 +5,16 @@ const API_URL = 'http://localhost:5000/api';
 async function testAPI() {
   console.log('Testing API...\n');
 
+  // Generate unique email for testing
+  const timestamp = Date.now();
+  const testEmail = `test${timestamp}@example.com`;
+
   try {
     // Test 1: Register
     console.log('1. Testing Register...');
     const registerResponse = await axios.post(`${API_URL}/auth/register`, {
       name: 'Test User',
-      email: 'test@example.com',
+      email: testEmail,
       password: 'test12345',
       grade: '12th'
     });
@@ -22,7 +26,7 @@ async function testAPI() {
     // Test 2: Login
     console.log('2. Testing Login...');
     const loginResponse = await axios.post(`${API_URL}/auth/login`, {
-      email: 'test@example.com',
+      email: testEmail,
       password: 'test12345'
     });
     console.log('✓ Login successful');
@@ -80,7 +84,7 @@ async function testAPI() {
     console.log('7. Testing Invalid Login...');
     try {
       await axios.post(`${API_URL}/auth/login`, {
-        email: 'test@example.com',
+        email: testEmail,
         password: 'wrongpassword'
       });
       console.log('✗ Invalid login should have failed\n');

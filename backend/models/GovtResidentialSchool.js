@@ -28,7 +28,7 @@ const GovtResidentialSchool = {
     return schools.filter(school => {
       // Text search
       if (filters.search) {
-        const searchTerm = filters.search.toLowerCase();
+        const searchTerm = filters.search.trim().toLowerCase();
         const matchesSearch = 
           school.name.toLowerCase().includes(searchTerm) ||
           school.location.toLowerCase().includes(searchTerm) ||
@@ -54,6 +54,16 @@ const GovtResidentialSchool = {
 
       // Hostel filter
       if (filters.hostelAvailable !== undefined && school.hostelAvailable !== filters.hostelAvailable) return false;
+
+      // Classes offered filter
+      if (filters.classesOffered) {
+        if (!school.classesOffered || school.classesOffered !== filters.classesOffered) return false;
+      }
+
+      // Governing organization filter (exact match)
+      if (filters.governingOrganization) {
+        if (!school.governingOrganization || school.governingOrganization !== filters.governingOrganization) return false;
+      }
 
       return true;
     });
@@ -90,6 +100,18 @@ const GovtResidentialSchool = {
         .map(school => school.district)
     )].sort();
     return districts;
+  },
+
+  // Get all available classes offered
+  getClassesOffered: () => {
+    const schools = govtResidentialSchoolDb.findAll();
+    return [...new Set(schools.map(school => school.classesOffered).filter(Boolean))].sort();
+  },
+
+  // Get all governing organizations
+  getGoverningOrganizations: () => {
+    const schools = govtResidentialSchoolDb.findAll();
+    return [...new Set(schools.map(school => school.governingOrganization).filter(Boolean))].sort();
   }
 };
 

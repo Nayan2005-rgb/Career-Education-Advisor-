@@ -144,4 +144,27 @@ export const aisheAPI = {
   },
 };
 
+export const resumeAPI = {
+  createResume: (data) => api.post('/resume', data),
+  getUserResumes: () => api.get('/resume'),
+  getResumeById: (id) => api.get(`/resume/${id}`),
+  updateResume: (id, data) => api.put(`/resume/${id}`, data),
+  deleteResume: (id) => api.delete(`/resume/${id}`),
+  getUserProfileData: () => api.get('/resume/profile-data'),
+};
+
+export const opportunityAPI = {
+  searchOpportunities: (filters) => api.get('/opportunity/search', { params: filters }),
+  getOpportunityDetails: (id) => api.get(`/opportunity/details/${id}`),
+  getPersonalizedRecommendations: () => api.get('/opportunity/recommendations'),
+  saveOpportunity: (opportunityId) => api.post(`/opportunity/save/${opportunityId}`),
+  getSavedOpportunities: () => api.get('/opportunity/saved'),
+  removeSavedOpportunity: (opportunityId) => api.delete(`/opportunity/saved/${opportunityId}`),
+  createApplicationTracking: (opportunityId, data) => api.post(`/opportunity/track/${opportunityId}`, data),
+  getUserApplications: (status) => api.get('/opportunity/applications', { params: { status } }),
+  updateApplicationTracking: (id, data) => api.put(`/opportunity/applications/${id}`, data),
+  deleteApplicationTracking: (id) => api.delete(`/opportunity/applications/${id}`),
+  getFilterOptions: () => api.get('/opportunity/filters'),
+};
+
 export default api;
